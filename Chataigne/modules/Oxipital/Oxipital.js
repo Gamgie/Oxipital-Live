@@ -474,7 +474,8 @@ function setupMacrosToItem(item) {
 				if (paramProp.noMacro == true) continue;
 				if (paramProp.type == "float" || paramProp.type == "int" && (paramProp.min != null && paramProp.min != null)) {
 					for (var k = 0; k < numMacrosParam.get(); k++) {
-						paramContainer.addFloatParameter("Macro Weight " + (k + 1), "Macro influence for this parameter, relative to the parameters range if it has any", 0, -1, 1);
+						var p = paramContainer.addFloatParameter("Macro Weight " + (k + 1), "Macro influence for this parameter, relative to the parameters range if it has any", 0, -1, 1);
+						p.set(0);
 					}
 				}
 			}
