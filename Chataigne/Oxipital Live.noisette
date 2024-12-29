@@ -37,7 +37,7 @@
   "dashboardManager": {
     "parameters": [
       {
-        "value": false,
+        "value": true,
         "controlAddress": "/editMode"
       },
       {
@@ -10071,6 +10071,180 @@
                 {
                   "value": [
                     -330.0,
+                    -50.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    670.0,
+                    20.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/modules/oxipital/parameters/macros/macro1",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": [
+                    0.7058823704719543,
+                    0.196078434586525,
+                    0.1294117718935013,
+                    1.0
+                  ],
+                  "controlAddress": "/foregroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "Default",
+                  "controlAddress": "/style"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/toggleImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 193",
+              "hideInEditor": true,
+              "type": "DashboardParameterItem",
+              "ghostAddress": "/modules/oxipital/parameters/macros/macro1",
+              "controllable": "/modules/oxipital/parameters/macros/macro1"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -330.0,
+                    -30.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    670.0,
+                    20.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/modules/oxipital/parameters/macros/macro2",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Default",
+                  "controlAddress": "/style"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/toggleImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 194",
+              "hideInEditor": true,
+              "type": "DashboardParameterItem",
+              "ghostAddress": "/modules/oxipital/parameters/macros/macro2",
+              "controllable": "/modules/oxipital/parameters/macros/macro2"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -330.0,
+                    -10.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    670.0,
+                    20.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/modules/oxipital/parameters/macros/macro3",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": [
+                    0.1954745054244995,
+                    0.4758705794811249,
+                    0.7058823704719543,
+                    1.0
+                  ],
+                  "controlAddress": "/foregroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "Default",
+                  "controlAddress": "/style"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/toggleImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 195",
+              "hideInEditor": true,
+              "type": "DashboardParameterItem",
+              "ghostAddress": "/modules/oxipital/parameters/macros/macro3",
+              "controllable": "/modules/oxipital/parameters/macros/macro3"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -330.0,
+                    10.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    670.0,
+                    20.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/modules/oxipital/parameters/macros/macro4",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": [
+                    0.4696588218212128,
+                    0.1384627372026443,
+                    0.7058823704719543,
+                    1.0
+                  ],
+                  "controlAddress": "/foregroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "Default",
+                  "controlAddress": "/style"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/toggleImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 196",
+              "hideInEditor": true,
+              "type": "DashboardParameterItem",
+              "ghostAddress": "/modules/oxipital/parameters/macros/macro4",
+              "controllable": "/modules/oxipital/parameters/macros/macro4"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -330.0,
                     -30.0
                   ],
                   "controlAddress": "/viewUIPosition"
@@ -12097,7 +12271,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/orbGroups/orbGroup1/appearance/particleSize/macroWeight1",
+                  "value": "/modules/oxipital/parameters/orbGroups/orbGroup1/appearance/particleSize/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -12137,7 +12311,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/orbGroups/orbGroup1/appearance/particleSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/orbGroups/orbGroup1/appearance/particleSize/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/orbGroups/orbGroup1/appearance/particleSize/macroWeight3"
             },
             {
               "parameters": [
@@ -12156,7 +12330,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/orbGroups/orbGroup1/appearance/particleSize/macroWeight1",
+                  "value": "/modules/oxipital/parameters/orbGroups/orbGroup1/appearance/particleSize/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -12186,7 +12360,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/orbGroups/orbGroup1/appearance/particleSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/orbGroups/orbGroup1/appearance/particleSize/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/orbGroups/orbGroup1/appearance/particleSize/macroWeight2"
             },
             {
               "parameters": [
@@ -12264,7 +12438,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/orbGroups/orbGroup1/appearance/particleSize/macroWeight1",
+                  "value": "/modules/oxipital/parameters/orbGroups/orbGroup1/appearance/particleSize/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -12304,7 +12478,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/orbGroups/orbGroup1/appearance/particleSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/orbGroups/orbGroup1/appearance/particleSize/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/orbGroups/orbGroup1/appearance/particleSize/macroWeight4"
             },
             {
               "parameters": [
@@ -18575,8 +18749,8 @@
               "parameters": [
                 {
                   "value": [
-                    -340.0,
-                    -340.0
+                    -330.0,
+                    -380.0
                   ],
                   "controlAddress": "/viewUIPosition"
                 },
@@ -18631,576 +18805,6 @@
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/setup/presets/presetName",
               "controllable": "/modules/oxipital/parameters/setup/presets/presetName"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    -340.0,
-                    0.0
-                  ],
-                  "controlAddress": "/viewUIPosition"
-                },
-                {
-                  "value": [
-                    130.0,
-                    40.0
-                  ],
-                  "controlAddress": "/viewUISize"
-                },
-                {
-                  "value": "/states/douchbagDuo/processors/m1BeatProgression/enabled",
-                  "controlAddress": "/target"
-                },
-                {
-                  "value": "M1 Beat Progression",
-                  "controlAddress": "/customText",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.273078441619873,
-                    0.07585882395505905,
-                    0.05003137513995171,
-                    1.0
-                  ],
-                  "controlAddress": "/backgroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.7058823704719543,
-                    0.196078434586525,
-                    0.1294117718935013,
-                    1.0
-                  ],
-                  "controlAddress": "/foregroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": "Toggle Button",
-                  "controlAddress": "/style"
-                },
-                {
-                  "value": "",
-                  "controlAddress": "/toggleImage",
-                  "enabled": false
-                }
-              ],
-              "niceName": "Item 140",
-              "hideInEditor": true,
-              "type": "DashboardParameterItem",
-              "ghostAddress": "/states/douchbagDuo/processors/m1BeatProgression/enabled",
-              "controllable": "/states/douchbagDuo/processors/m1BeatProgression/enabled"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    -210.0,
-                    0.0
-                  ],
-                  "controlAddress": "/viewUIPosition"
-                },
-                {
-                  "value": [
-                    130.0,
-                    40.0
-                  ],
-                  "controlAddress": "/viewUISize"
-                },
-                {
-                  "value": "/states/douchbagDuo/processors/m2FirstLoopProgression/enabled",
-                  "controlAddress": "/target"
-                },
-                {
-                  "value": "M2 First Loop Progression",
-                  "controlAddress": "/customText",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.1392156928777695,
-                    0.253847062587738,
-                    0.169905886054039,
-                    1.0
-                  ],
-                  "controlAddress": "/backgroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.3733254969120026,
-                    0.680768609046936,
-                    0.4556666612625122,
-                    1.0
-                  ],
-                  "controlAddress": "/foregroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": "Toggle Button",
-                  "controlAddress": "/style"
-                },
-                {
-                  "value": "",
-                  "controlAddress": "/toggleImage",
-                  "enabled": false
-                }
-              ],
-              "niceName": "Item 143",
-              "hideInEditor": true,
-              "type": "DashboardParameterItem",
-              "ghostAddress": "/states/douchbagDuo/processors/m1BeatProgression/enabled",
-              "controllable": "/states/douchbagDuo/processors/m2FirstLoopProgression/enabled"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    -80.0,
-                    0.0
-                  ],
-                  "controlAddress": "/viewUIPosition"
-                },
-                {
-                  "value": [
-                    130.0,
-                    40.0
-                  ],
-                  "controlAddress": "/viewUISize"
-                },
-                {
-                  "value": "/states/douchbagDuo/processors/m3KeyboardLoop/enabled",
-                  "controlAddress": "/target"
-                },
-                {
-                  "value": "M3 Keyboard Loop",
-                  "controlAddress": "/customText",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.3538470566272736,
-                    0.3098823428153992,
-                    0.06122353300452232,
-                    1.0
-                  ],
-                  "controlAddress": "/backgroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.692305862903595,
-                    0.6063097715377808,
-                    0.1198235303163528,
-                    1.0
-                  ],
-                  "controlAddress": "/foregroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": "Toggle Button",
-                  "controlAddress": "/style"
-                },
-                {
-                  "value": "",
-                  "controlAddress": "/toggleImage",
-                  "enabled": false
-                }
-              ],
-              "niceName": "Item 146",
-              "hideInEditor": true,
-              "type": "DashboardParameterItem",
-              "ghostAddress": "/states/douchbagDuo/processors/m2FirstLoopProgression/enabled",
-              "controllable": "/states/douchbagDuo/processors/m3KeyboardLoop/enabled"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    -80.0,
-                    40.0
-                  ],
-                  "controlAddress": "/viewUIPosition"
-                },
-                {
-                  "value": [
-                    130.0,
-                    40.0
-                  ],
-                  "controlAddress": "/viewUISize"
-                },
-                {
-                  "value": "/states/douchbagDuo/processors/m3Clarinet/enabled",
-                  "controlAddress": "/target"
-                },
-                {
-                  "value": "M3 Clarinet",
-                  "controlAddress": "/customText",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.3538470566272736,
-                    0.3098823428153992,
-                    0.06122353300452232,
-                    1.0
-                  ],
-                  "controlAddress": "/backgroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.692305862903595,
-                    0.6063097715377808,
-                    0.1198235303163528,
-                    1.0
-                  ],
-                  "controlAddress": "/foregroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": "Toggle Button",
-                  "controlAddress": "/style"
-                },
-                {
-                  "value": "",
-                  "controlAddress": "/toggleImage",
-                  "enabled": false
-                }
-              ],
-              "niceName": "Item 147",
-              "hideInEditor": true,
-              "type": "DashboardParameterItem",
-              "ghostAddress": "/states/douchbagDuo/processors/m3KeyboardLoop/enabled",
-              "controllable": "/states/douchbagDuo/processors/m3Clarinet/enabled"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    -210.0,
-                    40.0
-                  ],
-                  "controlAddress": "/viewUIPosition"
-                },
-                {
-                  "value": [
-                    130.0,
-                    40.0
-                  ],
-                  "controlAddress": "/viewUISize"
-                },
-                {
-                  "value": "/states/douchbagDuo/processors/m2KeyboardNote/enabled",
-                  "controlAddress": "/target"
-                },
-                {
-                  "value": "M2 Keyboard Note",
-                  "controlAddress": "/customText",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.1392156928777695,
-                    0.253847062587738,
-                    0.169905886054039,
-                    1.0
-                  ],
-                  "controlAddress": "/backgroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.3733254969120026,
-                    0.680768609046936,
-                    0.4556666612625122,
-                    1.0
-                  ],
-                  "controlAddress": "/foregroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": "Toggle Button",
-                  "controlAddress": "/style"
-                },
-                {
-                  "value": "",
-                  "controlAddress": "/toggleImage",
-                  "enabled": false
-                }
-              ],
-              "niceName": "Item 144",
-              "hideInEditor": true,
-              "type": "DashboardParameterItem",
-              "ghostAddress": "/states/douchbagDuo/processors/m2FirstLoopProgression/enabled",
-              "controllable": "/states/douchbagDuo/processors/m2KeyboardNote/enabled"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    -210.0,
-                    80.0
-                  ],
-                  "controlAddress": "/viewUIPosition"
-                },
-                {
-                  "value": [
-                    130.0,
-                    40.0
-                  ],
-                  "controlAddress": "/viewUISize"
-                },
-                {
-                  "value": "/states/douchbagDuo/processors/m2ClarinetFrequencyFloat/enabled",
-                  "controlAddress": "/target"
-                },
-                {
-                  "value": "M2 Clarinet Frequency float",
-                  "controlAddress": "/customText",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.1392156928777695,
-                    0.253847062587738,
-                    0.169905886054039,
-                    1.0
-                  ],
-                  "controlAddress": "/backgroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.3733254969120026,
-                    0.680768609046936,
-                    0.4556666612625122,
-                    1.0
-                  ],
-                  "controlAddress": "/foregroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": "Toggle Button",
-                  "controlAddress": "/style"
-                },
-                {
-                  "value": "",
-                  "controlAddress": "/toggleImage",
-                  "enabled": false
-                }
-              ],
-              "niceName": "Item 145",
-              "hideInEditor": true,
-              "type": "DashboardParameterItem",
-              "ghostAddress": "/states/douchbagDuo/processors/m2FirstLoopProgression/enabled",
-              "controllable": "/states/douchbagDuo/processors/m2ClarinetFrequencyFloat/enabled"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    -340.0,
-                    40.0
-                  ],
-                  "controlAddress": "/viewUIPosition"
-                },
-                {
-                  "value": [
-                    130.0,
-                    40.0
-                  ],
-                  "controlAddress": "/viewUISize"
-                },
-                {
-                  "value": "/states/douchbagDuo/processors/m1DrumBass/enabled",
-                  "controlAddress": "/target"
-                },
-                {
-                  "value": "M1 Drum Bass",
-                  "controlAddress": "/customText",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.273078441619873,
-                    0.07585882395505905,
-                    0.05003137513995171,
-                    1.0
-                  ],
-                  "controlAddress": "/backgroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.7058823704719543,
-                    0.196078434586525,
-                    0.1294117718935013,
-                    1.0
-                  ],
-                  "controlAddress": "/foregroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": "Toggle Button",
-                  "controlAddress": "/style"
-                },
-                {
-                  "value": "",
-                  "controlAddress": "/toggleImage",
-                  "enabled": false
-                }
-              ],
-              "niceName": "Item 141",
-              "hideInEditor": true,
-              "type": "DashboardParameterItem",
-              "ghostAddress": "/states/douchbagDuo/processors/m1BeatProgression/enabled",
-              "controllable": "/states/douchbagDuo/processors/m1DrumBass/enabled"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    -340.0,
-                    80.0
-                  ],
-                  "controlAddress": "/viewUIPosition"
-                },
-                {
-                  "value": [
-                    130.0,
-                    40.0
-                  ],
-                  "controlAddress": "/viewUISize"
-                },
-                {
-                  "value": "/states/douchbagDuo/processors/m1DrumHigh/enabled",
-                  "controlAddress": "/target"
-                },
-                {
-                  "value": "M1 Drum High",
-                  "controlAddress": "/customText",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.273078441619873,
-                    0.07585882395505905,
-                    0.05003137513995171,
-                    1.0
-                  ],
-                  "controlAddress": "/backgroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": [
-                    0.7058823704719543,
-                    0.196078434586525,
-                    0.1294117718935013,
-                    1.0
-                  ],
-                  "controlAddress": "/foregroundColor",
-                  "enabled": true
-                },
-                {
-                  "value": "Toggle Button",
-                  "controlAddress": "/style"
-                },
-                {
-                  "value": "",
-                  "controlAddress": "/toggleImage",
-                  "enabled": false
-                }
-              ],
-              "niceName": "Item 142",
-              "hideInEditor": true,
-              "type": "DashboardParameterItem",
-              "ghostAddress": "/states/douchbagDuo/processors/m1DrumBass/enabled",
-              "controllable": "/states/douchbagDuo/processors/m1DrumHigh/enabled"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    50.0,
-                    0.0
-                  ],
-                  "controlAddress": "/viewUIPosition"
-                },
-                {
-                  "value": [
-                    200.0,
-                    40.0
-                  ],
-                  "controlAddress": "/viewUISize"
-                },
-                {
-                  "value": "/states/douchbagDuo/processors/clarinetFrequencyColor1/enabled",
-                  "controlAddress": "/target"
-                },
-                {
-                  "value": "Clarinet Color 1",
-                  "controlAddress": "/customText",
-                  "enabled": true
-                },
-                {
-                  "value": "Toggle Button",
-                  "controlAddress": "/style"
-                },
-                {
-                  "value": "",
-                  "controlAddress": "/toggleImage",
-                  "enabled": false
-                }
-              ],
-              "niceName": "Item 148",
-              "hideInEditor": true,
-              "type": "DashboardParameterItem",
-              "ghostAddress": "/states/douchbagDuo/processors/clarinetFrequencyColor1/enabled",
-              "controllable": "/states/douchbagDuo/processors/clarinetFrequencyColor1/enabled"
-            },
-            {
-              "parameters": [
-                {
-                  "value": [
-                    50.0,
-                    40.0
-                  ],
-                  "controlAddress": "/viewUIPosition"
-                },
-                {
-                  "value": [
-                    200.0,
-                    40.0
-                  ],
-                  "controlAddress": "/viewUISize"
-                },
-                {
-                  "value": "/states/douchbagDuo/processors/clarinetFrequencyColor2/enabled",
-                  "controlAddress": "/target"
-                },
-                {
-                  "value": "Clarinet Color 2",
-                  "controlAddress": "/customText",
-                  "enabled": true
-                },
-                {
-                  "value": "Toggle Button",
-                  "controlAddress": "/style"
-                },
-                {
-                  "value": "",
-                  "controlAddress": "/toggleImage",
-                  "enabled": false
-                }
-              ],
-              "niceName": "Item 149",
-              "hideInEditor": true,
-              "type": "DashboardParameterItem",
-              "ghostAddress": "/states/douchbagDuo/processors/clarinetFrequencyColor1/enabled",
-              "controllable": "/states/douchbagDuo/processors/clarinetFrequencyColor2/enabled"
             },
             {
               "parameters": [
@@ -19495,14 +19099,189 @@
               "type": "DashboardTriggerItem",
               "ghostAddress": "/modules/oxipital/parameters/setup/presets/refresh",
               "controllable": "/modules/oxipital/parameters/setup/presets/refresh"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -330.0,
+                    -50.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    670.0,
+                    20.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/modules/oxipital/parameters/macros/macro1",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": [
+                    0.7058823704719543,
+                    0.196078434586525,
+                    0.1294117718935013,
+                    1.0
+                  ],
+                  "controlAddress": "/foregroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "Default",
+                  "controlAddress": "/style"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/toggleImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 188",
+              "hideInEditor": true,
+              "type": "DashboardParameterItem",
+              "ghostAddress": "/modules/oxipital/parameters/macros/macro1",
+              "controllable": "/modules/oxipital/parameters/macros/macro1"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -330.0,
+                    -30.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    670.0,
+                    20.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/modules/oxipital/parameters/macros/macro2",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Default",
+                  "controlAddress": "/style"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/toggleImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 189",
+              "hideInEditor": true,
+              "type": "DashboardParameterItem",
+              "ghostAddress": "/modules/oxipital/parameters/macros/macro2",
+              "controllable": "/modules/oxipital/parameters/macros/macro2"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -330.0,
+                    -10.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    670.0,
+                    20.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/modules/oxipital/parameters/macros/macro3",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": [
+                    0.1954745054244995,
+                    0.4758705794811249,
+                    0.7058823704719543,
+                    1.0
+                  ],
+                  "controlAddress": "/foregroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "Default",
+                  "controlAddress": "/style"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/toggleImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 190",
+              "hideInEditor": true,
+              "type": "DashboardParameterItem",
+              "ghostAddress": "/modules/oxipital/parameters/macros/macro3",
+              "controllable": "/modules/oxipital/parameters/macros/macro3"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -330.0,
+                    10.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    670.0,
+                    20.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/modules/oxipital/parameters/macros/macro4",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": [
+                    0.4696588218212128,
+                    0.1384627372026443,
+                    0.7058823704719543,
+                    1.0
+                  ],
+                  "controlAddress": "/foregroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "Default",
+                  "controlAddress": "/style"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/toggleImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 191",
+              "hideInEditor": true,
+              "type": "DashboardParameterItem",
+              "ghostAddress": "/modules/oxipital/parameters/macros/macro4",
+              "controllable": "/modules/oxipital/parameters/macros/macro4"
             }
           ],
           "viewOffset": [
-            0,
-            0
+            223,
+            254
           ],
           "viewZoom": 0.9765625
-        }
+        },
+        "editing": true
       },
       {
         "niceName": "Orbs 2",
@@ -23251,8 +23030,7 @@
             0
           ],
           "viewZoom": 1.012109398841858
-        },
-        "editing": true
+        }
       },
       {
         "niceName": "Post Process",
@@ -26713,9 +26491,9 @@
                 },
                 {
                   "type": 0,
-                  "width": 1173,
+                  "width": 824,
                   "height": 570,
-                  "currentContent": "State Machine",
+                  "currentContent": "Dashboard",
                   "tabs": [
                     {
                       "name": "State Machine"
@@ -26733,7 +26511,7 @@
                 },
                 {
                   "type": 0,
-                  "width": 428,
+                  "width": 777,
                   "height": 570,
                   "currentContent": "Inspector",
                   "tabs": [
@@ -30535,25 +30313,32 @@
             "macros": {
               "parameters": [
                 {
-                  "value": 0.0,
+                  "value": 0.4879127740859985,
                   "minValue": 0.0,
                   "maxValue": 1.0,
                   "default": 0.0,
                   "controlAddress": "/macro1"
                 },
                 {
-                  "value": 0.0,
+                  "value": 0.1724400371313095,
                   "minValue": 0.0,
                   "maxValue": 1.0,
                   "default": 0.0,
                   "controlAddress": "/macro2"
                 },
                 {
-                  "value": 0.0,
+                  "value": 0.4553817212581635,
                   "minValue": 0.0,
                   "maxValue": 1.0,
                   "default": 0.0,
                   "controlAddress": "/macro3"
+                },
+                {
+                  "value": 0.6408298015594482,
+                  "minValue": 0.0,
+                  "maxValue": 1.0,
+                  "default": 0.0,
+                  "controlAddress": "/macro4"
                 }
               ]
             },
@@ -31052,11 +30837,18 @@
                         "particleSize": {
                           "parameters": [
                             {
-                              "value": 0.03937007859349251,
+                              "value": 0.03149606287479401,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
                               "controlAddress": "/baseValue"
+                            },
+                            {
+                              "value": 0.06666672229766846,
+                              "minValue": -1.0,
+                              "maxValue": 1.0,
+                              "default": 0.0,
+                              "controlAddress": "/macroWeight1"
                             }
                           ],
                           "owned": true,
@@ -31529,7 +31321,7 @@
                         "dancerSize": {
                           "parameters": [
                             {
-                              "value": 0.0,
+                              "value": 2.519685029983521,
                               "minValue": 0.0,
                               "maxValue": 20.0,
                               "default": 1.0,
@@ -31554,7 +31346,7 @@
                         "dancerIntensity": {
                           "parameters": [
                             {
-                              "value": 0.1417322903871536,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 1.0,
@@ -32487,7 +32279,7 @@
                           "controlAddress": "/listen"
                         },
                         {
-                          "value": 46.81881713867188,
+                          "value": 34.81889724731445,
                           "controlAddress": "/fov"
                         },
                         {
@@ -33067,7 +32859,7 @@
                       "controlAddress": "/listen"
                     },
                     {
-                      "value": 128402.0,
+                      "value": 128284.0,
                       "controlAddress": "/totalParticles"
                     }
                   ],
@@ -33184,7 +32976,7 @@
                               "controlAddress": "/textureOpacity"
                             },
                             {
-                              "value": 0.03937007859349251,
+                              "value": 0.06402360829027032,
                               "controlAddress": "/particleSize"
                             },
                             {
@@ -33624,7 +33416,7 @@
                               "controlAddress": "/patternSpeedRandom"
                             },
                             {
-                              "value": 0.0,
+                              "value": 2.519685029983521,
                               "controlAddress": "/dancerSize"
                             },
                             {
@@ -33632,7 +33424,7 @@
                               "controlAddress": "/dancerSizeSpread"
                             },
                             {
-                              "value": 0.1417322903871536,
+                              "value": 0.0,
                               "controlAddress": "/dancerIntensity"
                             },
                             {
@@ -40403,7 +40195,7 @@
                 "FB_Over": {
                   "parameters": [
                     {
-                      "value": false,
+                      "value": true,
                       "controlAddress": "/Activateblur"
                     },
                     {
@@ -40438,7 +40230,7 @@
                 "Light_Tunnel": {
                   "parameters": [
                     {
-                      "value": 0.3400000035762787,
+                      "value": 0.99,
                       "controlAddress": "/Radius"
                     },
                     {
@@ -40471,7 +40263,7 @@
                 "RGB_Delay": {
                   "parameters": [
                     {
-                      "value": 1.0,
+                      "value": 0.0,
                       "controlAddress": "/Delayintensity"
                     },
                     {
@@ -40536,7 +40328,7 @@
                 "Color": {
                   "parameters": [
                     {
-                      "value": 0.0,
+                      "value": 1.0,
                       "controlAddress": "/Index"
                     }
                   ],
@@ -40547,6 +40339,39 @@
               },
               "owned": true,
               "niceName": "post_process"
+            },
+            "Audio_Analysis": {
+              "editorIsCollapsed": true,
+              "containers": {
+                "Custom": {
+                  "parameters": [
+                    {
+                      "value": true,
+                      "controlAddress": "/listen"
+                    },
+                    {
+                      "value": 0.0,
+                      "controlAddress": "/Kick"
+                    },
+                    {
+                      "value": 0.06046029552817345,
+                      "controlAddress": "/Low"
+                    },
+                    {
+                      "value": 0.3412503004074097,
+                      "controlAddress": "/Mid"
+                    },
+                    {
+                      "value": 0.287193775177002,
+                      "controlAddress": "/High"
+                    }
+                  ],
+                  "owned": true,
+                  "niceName": "Custom"
+                }
+              },
+              "owned": true,
+              "niceName": "Audio_Analysis"
             }
           }
         },
@@ -40607,7 +40432,7 @@
                       "DESCRIPTION": "Opacity",
                       "FULL_PATH": "/post_process/FB_Over/Opacity",
                       "VALUE": [
-                        0.5062990000000001
+                        0.0
                       ],
                       "RANGE": [
                         {
@@ -40853,7 +40678,7 @@
                       "DESCRIPTION": "Delayintensity",
                       "FULL_PATH": "/post_process/RGB_Delay/Delayintensity",
                       "VALUE": [
-                        0.0166667
+                        0.0
                       ],
                       "RANGE": [
                         {
@@ -40868,7 +40693,7 @@
                       "DESCRIPTION": "Rgbdelaydrywet",
                       "FULL_PATH": "/post_process/RGB_Delay/Rgbdelaydrywet",
                       "VALUE": [
-                        1.0
+                        0.0
                       ],
                       "RANGE": [
                         {
@@ -40925,7 +40750,7 @@
                       "DESCRIPTION": "Drywetvignette",
                       "FULL_PATH": "/post_process/Vignette/Drywetvignette",
                       "VALUE": [
-                        0.0
+                        1.0
                       ],
                       "RANGE": [
                         {
@@ -40959,7 +40784,7 @@
                       "DESCRIPTION": "Psdrywet",
                       "FULL_PATH": "/post_process/Pixel Sorting/Psdrywet",
                       "VALUE": [
-                        0.9
+                        0.0
                       ],
                       "RANGE": [
                         {
@@ -41064,7 +40889,7 @@
                       "DESCRIPTION": "Notodrywet",
                       "FULL_PATH": "/post_process/Pixel Sorting/Notodrywet",
                       "VALUE": [
-                        0.00833333
+                        0.0
                       ],
                       "RANGE": [
                         {
@@ -41090,11 +40915,11 @@
                       "ACCESS": 3
                     },
                     "Notodirection": {
-                      "TYPE": "T",
+                      "TYPE": "F",
                       "DESCRIPTION": "Notodirection",
                       "FULL_PATH": "/post_process/Pixel Sorting/Notodirection",
                       "VALUE": [
-                        true
+                        false
                       ],
                       "RANGE": [
                         {
@@ -41148,6 +40973,74 @@
                       "RANGE": [
                         {
                           "MAX": 10.0,
+                          "MIN": 0.0
+                        }
+                      ],
+                      "ACCESS": 3
+                    }
+                  }
+                }
+              }
+            },
+            "Audio_Analysis": {
+              "CONTENTS": {
+                "Custom": {
+                  "CONTENTS": {
+                    "Kick": {
+                      "TYPE": "f",
+                      "DESCRIPTION": "Kick",
+                      "FULL_PATH": "/Audio_Analysis/Custom/Kick",
+                      "VALUE": [
+                        0.0
+                      ],
+                      "RANGE": [
+                        {
+                          "MAX": 1.0,
+                          "MIN": 0.0
+                        }
+                      ],
+                      "ACCESS": 3
+                    },
+                    "Low": {
+                      "TYPE": "f",
+                      "DESCRIPTION": "Low",
+                      "FULL_PATH": "/Audio_Analysis/Custom/Low",
+                      "VALUE": [
+                        0.04019111022353172
+                      ],
+                      "RANGE": [
+                        {
+                          "MAX": 1.0,
+                          "MIN": 0.0
+                        }
+                      ],
+                      "ACCESS": 3
+                    },
+                    "Mid": {
+                      "TYPE": "f",
+                      "DESCRIPTION": "Mid",
+                      "FULL_PATH": "/Audio_Analysis/Custom/Mid",
+                      "VALUE": [
+                        0.2230702638626099
+                      ],
+                      "RANGE": [
+                        {
+                          "MAX": 1.0,
+                          "MIN": 0.0
+                        }
+                      ],
+                      "ACCESS": 3
+                    },
+                    "High": {
+                      "TYPE": "f",
+                      "DESCRIPTION": "High",
+                      "FULL_PATH": "/Audio_Analysis/Custom/High",
+                      "VALUE": [
+                        0.04591027274727821
+                      ],
+                      "RANGE": [
+                        {
+                          "MAX": 1.0,
                           "MIN": 0.0
                         }
                       ],
@@ -41341,7 +41234,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 126,
+              "value": 127,
               "alwaysNotify": true,
               "minValue": 0,
               "maxValue": 127,
@@ -42043,12 +41936,12 @@
                   "controlAddress": "/lastChannel"
                 },
                 {
-                  "value": 40,
+                  "value": 38,
                   "hexMode": false,
                   "controlAddress": "/lastPitch"
                 },
                 {
-                  "value": 67,
+                  "value": 76,
                   "hexMode": false,
                   "controlAddress": "/lastVelocity"
                 }
@@ -42473,7 +42366,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 5,
+              "value": 4,
               "alwaysNotify": true,
               "minValue": 0,
               "maxValue": 127,
@@ -43466,7 +43359,7 @@
         "values": {
           "parameters": [
             {
-              "value": 18,
+              "value": 0,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -43484,7 +43377,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 32,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -46196,7 +46089,7 @@
             {
               "parameters": [
                 {
-                  "value": 46.81881713867188,
+                  "value": 34.81881713867188,
                   "minValue": 0,
                   "maxValue": 180,
                   "default": 0,
@@ -47327,7 +47220,7 @@
             {
               "parameters": [
                 {
-                  "value": 4,
+                  "value": 2,
                   "hexMode": false,
                   "controlAddress": "/dashboardIndex",
                   "feedbackOnly": false,
@@ -47656,7 +47549,7 @@
                   "controlAddress": "/enabled"
                 },
                 {
-                  "value": 162.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -47715,7 +47608,7 @@
                           "controlAddress": "/#4"
                         },
                         {
-                          "value": 0.03937007859349251,
+                          "value": 0.03149606287479401,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -49701,7 +49594,7 @@
                   "controlAddress": "/enabled"
                 },
                 {
-                  "value": 162.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -50290,7 +50183,7 @@
                   "controlAddress": "/enabled"
                 },
                 {
-                  "value": 162.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -50989,7 +50882,7 @@
                   "controlAddress": "/enabled"
                 },
                 {
-                  "value": 84.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -51226,7 +51119,7 @@
                   "controlAddress": "/enabled"
                 },
                 {
-                  "value": 162.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -51255,14 +51148,14 @@
                           "controlAddress": "/#1"
                         },
                         {
-                          "value": 0.1417322903871536,
+                          "value": 0.0,
                           "minValue": 0.0,
                           "maxValue": 1.0,
                           "default": 0.0,
                           "controlAddress": "/#2"
                         },
                         {
-                          "value": 0.0,
+                          "value": 2.519685029983521,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
@@ -61900,7 +61793,7 @@
             {
               "parameters": [
                 {
-                  "value": 162.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -63659,7 +63552,7 @@
             {
               "parameters": [
                 {
-                  "value": 110.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -64439,7 +64332,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 110.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -65536,7 +65429,7 @@
             {
               "parameters": [
                 {
-                  "value": 110.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -66411,7 +66304,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 110.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -67214,7 +67107,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 110.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -67934,7 +67827,7 @@
             {
               "parameters": [
                 {
-                  "value": 110.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -69195,7 +69088,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 110.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -70221,7 +70114,7 @@
             {
               "parameters": [
                 {
-                  "value": 110.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -70791,7 +70684,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 214.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -72130,7 +72023,7 @@
             {
               "parameters": [
                 {
-                  "value": false,
+                  "value": true,
                   "controlAddress": "/enabled"
                 }
               ],
@@ -73088,7 +72981,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 214.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -77499,8 +77392,8 @@
         "parameters": [
           {
             "value": [
-              -367.9999389648438,
-              953.0
+              -577.0,
+              958.0
             ],
             "controlAddress": "/viewUIPosition"
           },
@@ -79358,11 +79251,490 @@
           ],
           "viewZoom": 1.0
         }
+      },
+      {
+        "parameters": [
+          {
+            "value": [
+              -195.0,
+              958.0
+            ],
+            "controlAddress": "/viewUIPosition"
+          },
+          {
+            "value": [
+              355.0,
+              364.0
+            ],
+            "controlAddress": "/viewUISize"
+          },
+          {
+            "value": true,
+            "controlAddress": "/active"
+          }
+        ],
+        "niceName": "Spotify",
+        "type": "State",
+        "processors": {
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    0.4862745106220245,
+                    0.1215686276555061,
+                    0.1215686276555061,
+                    1.0
+                  ],
+                  "controlAddress": "/color"
+                }
+              ],
+              "niceName": "M1 Kick",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "im": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/modules/touchDesigner/values/Audio_Analysis/Custom/Kick",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "Input Value",
+                    "type": "Input Value"
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "params": {
+                "parameters": [
+                  {
+                    "value": 50,
+                    "hexMode": false,
+                    "controlAddress": "/updateRate"
+                  }
+                ],
+                "editorIsCollapsed": true
+              },
+              "filters": {
+                "items": [
+                  {
+                    "niceName": "Smooth",
+                    "type": "Smooth",
+                    "filterParams": {
+                      "parameters": [
+                        {
+                          "value": true,
+                          "controlAddress": "/asynchronous"
+                        },
+                        {
+                          "value": 0.0,
+                          "controlAddress": "/smoothing"
+                        },
+                        {
+                          "value": 0.8357676267623901,
+                          "controlAddress": "/fallSmoothing"
+                        }
+                      ],
+                      "paramLinks": {
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "generic",
+                    "commandPath": "",
+                    "commandType": "Set Parameter Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/modules/oxipital/parameters/macros/macro1",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        }
+                      ],
+                      "paramLinks": {
+                        "value": {
+                          "linkType": 1,
+                          "mappingValueIndex": 0
+                        }
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    0.2732784152030945,
+                    0.1440117657184601,
+                    0.4862745106220245,
+                    1.0
+                  ],
+                  "controlAddress": "/color"
+                }
+              ],
+              "niceName": "M2 Low",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "im": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/modules/touchDesigner/values/Audio_Analysis/Custom/Low",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "Input Value",
+                    "type": "Input Value"
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "params": {
+                "parameters": [
+                  {
+                    "value": 50,
+                    "hexMode": false,
+                    "controlAddress": "/updateRate"
+                  }
+                ],
+                "editorIsCollapsed": true
+              },
+              "filters": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": true,
+                        "controlAddress": "/enabled"
+                      }
+                    ],
+                    "niceName": "One Euro",
+                    "type": "One Euro",
+                    "filterParams": {
+                      "paramLinks": {
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "generic",
+                    "commandPath": "",
+                    "commandType": "Set Parameter Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/modules/oxipital/parameters/macros/macro2",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        }
+                      ],
+                      "paramLinks": {
+                        "value": {
+                          "linkType": 1,
+                          "mappingValueIndex": 0
+                        }
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    0.2666666805744171,
+                    0.4862745106220245,
+                    0.3254902064800262,
+                    1.0
+                  ],
+                  "controlAddress": "/color"
+                }
+              ],
+              "niceName": "M3 Mid",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "im": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/modules/touchDesigner/values/Audio_Analysis/Custom/Mid",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "Input Value 1",
+                    "type": "Input Value"
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "params": {
+                "parameters": [
+                  {
+                    "value": 50,
+                    "hexMode": false,
+                    "controlAddress": "/updateRate"
+                  }
+                ],
+                "editorIsCollapsed": true
+              },
+              "filters": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": 0.1000000089406967,
+                        "controlAddress": "/minCutoff"
+                      },
+                      {
+                        "value": 0.02300001680850983,
+                        "controlAddress": "/beta"
+                      }
+                    ],
+                    "niceName": "One Euro",
+                    "type": "One Euro",
+                    "filterParams": {
+                      "paramLinks": {
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "generic",
+                    "commandPath": "",
+                    "commandType": "Set Parameter Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/modules/oxipital/parameters/macros/macro3",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        }
+                      ],
+                      "paramLinks": {
+                        "value": {
+                          "linkType": 1,
+                          "mappingValueIndex": 0
+                        }
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlAddress": "/enabled"
+                },
+                {
+                  "value": [
+                    0.4862745106220245,
+                    0.4578431248664856,
+                    0.1982509791851044,
+                    1.0
+                  ],
+                  "controlAddress": "/color"
+                }
+              ],
+              "niceName": "M4 High",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "im": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/modules/touchDesigner/values/Audio_Analysis/Custom/High",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "Input Value",
+                    "type": "Input Value"
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "params": {
+                "parameters": [
+                  {
+                    "value": 50,
+                    "hexMode": false,
+                    "controlAddress": "/updateRate"
+                  }
+                ],
+                "editorIsCollapsed": true
+              },
+              "filters": {
+                "items": [
+                  {
+                    "niceName": "One Euro",
+                    "type": "One Euro",
+                    "filterParams": {
+                      "paramLinks": {
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "generic",
+                    "commandPath": "",
+                    "commandType": "Set Parameter Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/modules/oxipital/parameters/macros/macro4",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        }
+                      ],
+                      "paramLinks": {
+                        "value": {
+                          "linkType": 1,
+                          "mappingValueIndex": 0
+                        }
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            }
+          ],
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        }
       }
     ],
     "viewOffset": [
       161,
-      1436
+      -1135
     ],
     "viewZoom": 1.0,
     "transitions": {
@@ -79377,7 +79749,7 @@
       "hideInEditor": true,
       "viewOffset": [
         161,
-        1436
+        -1135
       ],
       "viewZoom": 1.0
     }
