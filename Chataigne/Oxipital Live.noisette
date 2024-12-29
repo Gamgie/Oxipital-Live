@@ -3350,7 +3350,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/dancer/dancerSize/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/dancer/dancerSize/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -3377,7 +3377,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/dancer/dancerSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/dancer/dancerSize/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/dancer/dancerSize/macroWeight3"
             },
             {
               "parameters": [
@@ -3396,7 +3396,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/dancer/dancerSize/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/dancer/dancerSize/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -3423,7 +3423,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/dancer/dancerSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/dancer/dancerSize/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/dancer/dancerSize/macroWeight4"
             },
             {
               "parameters": [
@@ -3442,7 +3442,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/dancer/dancerSize/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/dancer/dancerSize/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -3459,7 +3459,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/dancer/dancerSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/dancer/dancerSize/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/dancer/dancerSize/macroWeight2"
             },
             {
               "parameters": [
@@ -3524,7 +3524,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/orthoradial/orthoIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/orthoradial/orthoIntensity/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -3551,7 +3551,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/orthoradial/orthoIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/orthoradial/orthoIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/orthoradial/orthoIntensity/macroWeight3"
             },
             {
               "parameters": [
@@ -3570,7 +3570,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/orthoradial/orthoIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/orthoradial/orthoIntensity/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -3597,7 +3597,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/orthoradial/orthoIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/orthoradial/orthoIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/orthoradial/orthoIntensity/macroWeight4"
             },
             {
               "parameters": [
@@ -3616,7 +3616,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/orthoradial/orthoIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/orthoradial/orthoIntensity/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -3633,7 +3633,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/orthoradial/orthoIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/orthoradial/orthoIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/orthoradial/orthoIntensity/macroWeight2"
             },
             {
               "parameters": [
@@ -3752,7 +3752,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/patternSize/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/patternSize/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -3779,7 +3779,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/patternSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/patternSize/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/patternSize/macroWeight3"
             },
             {
               "parameters": [
@@ -3798,7 +3798,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/patternSize/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/patternSize/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -3825,7 +3825,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/patternSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/patternSize/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/patternSize/macroWeight4"
             },
             {
               "parameters": [
@@ -3844,7 +3844,11 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/patternSize/macroWeight1",
+                  "value": true,
+                  "controlAddress": "/isVisible"
+                },
+                {
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/patternSize/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -3861,7 +3865,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/patternSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/patternSize/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/patternSize/macroWeight2"
             },
             {
               "parameters": [
@@ -3926,7 +3930,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/perlin/perlinIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/perlin/perlinIntensity/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -3953,7 +3957,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/perlin/perlinIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/perlin/perlinIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/perlin/perlinIntensity/macroWeight3"
             },
             {
               "parameters": [
@@ -3972,7 +3976,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/perlin/perlinIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/perlin/perlinIntensity/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -3999,7 +4003,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/perlin/perlinIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/perlin/perlinIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/perlin/perlinIntensity/macroWeight4"
             },
             {
               "parameters": [
@@ -4018,7 +4022,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/perlin/perlinIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/perlin/perlinIntensity/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -4035,7 +4039,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/perlin/perlinIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/perlin/perlinIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/perlin/perlinIntensity/macroWeight2"
             },
             {
               "parameters": [
@@ -4100,7 +4104,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -4127,7 +4131,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight3"
             },
             {
               "parameters": [
@@ -4146,7 +4150,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -4173,7 +4177,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight4"
             },
             {
               "parameters": [
@@ -4192,7 +4196,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -4209,7 +4213,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight2"
             },
             {
               "parameters": [
@@ -4274,7 +4278,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -4301,7 +4305,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight3"
             },
             {
               "parameters": [
@@ -4320,7 +4324,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -4347,7 +4351,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight4"
             },
             {
               "parameters": [
@@ -4366,7 +4370,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -4383,7 +4387,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/turbulenceCurl/curlIntensity/macroWeight2"
             },
             {
               "parameters": [
@@ -4448,7 +4452,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -4475,7 +4479,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight3"
             },
             {
               "parameters": [
@@ -4494,7 +4498,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -4521,7 +4525,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight4"
             },
             {
               "parameters": [
@@ -4540,7 +4544,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -4557,7 +4561,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight2"
             },
             {
               "parameters": [
@@ -4622,7 +4626,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/linear/linearIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/linear/linearIntensity/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -4649,7 +4653,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/linear/linearIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/linear/linearIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/linear/linearIntensity/macroWeight3"
             },
             {
               "parameters": [
@@ -4668,7 +4672,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/linear/linearIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/linear/linearIntensity/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -4695,7 +4699,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/linear/linearIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/linear/linearIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/linear/linearIntensity/macroWeight4"
             },
             {
               "parameters": [
@@ -4714,7 +4718,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/linear/linearIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/linear/linearIntensity/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -4731,7 +4735,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/linear/linearIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/linear/linearIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/linear/linearIntensity/macroWeight2"
             },
             {
               "parameters": [
@@ -4796,7 +4800,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/animation/patternSpeed/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/animation/patternSpeed/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -4823,7 +4827,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/animation/patternSpeed/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/animation/patternSpeed/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/animation/patternSpeed/macroWeight3"
             },
             {
               "parameters": [
@@ -4842,7 +4846,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/animation/patternSpeed/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/animation/patternSpeed/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -4869,7 +4873,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/animation/patternSpeed/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/animation/patternSpeed/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/animation/patternSpeed/macroWeight4"
             },
             {
               "parameters": [
@@ -4888,7 +4892,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/animation/patternSpeed/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/animation/patternSpeed/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -4905,7 +4909,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/animation/patternSpeed/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/animation/patternSpeed/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/animation/patternSpeed/macroWeight2"
             },
             {
               "parameters": [
@@ -4970,7 +4974,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -4997,7 +5001,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight3"
             },
             {
               "parameters": [
@@ -5016,7 +5020,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -5043,7 +5047,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight4"
             },
             {
               "parameters": [
@@ -5062,7 +5066,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -5079,7 +5083,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup1/axial/axialIntensity/macroWeight2"
             },
             {
               "parameters": [
@@ -8297,7 +8301,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight1",
                   "controlAddress": "/target"
                 },
                 {
@@ -8324,7 +8328,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight1"
             },
             {
               "parameters": [
@@ -8343,7 +8347,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -8370,7 +8374,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight3"
             },
             {
               "parameters": [
@@ -8389,7 +8393,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -8416,7 +8420,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight4"
             },
             {
               "parameters": [
@@ -8435,7 +8439,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -8452,7 +8456,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight2"
             },
             {
               "parameters": [
@@ -8471,7 +8475,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
                   "controlAddress": "/target"
                 },
                 {
@@ -8497,8 +8501,8 @@
               "niceName": "Item 152",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/dancer/dancerSize/macroWeight1"
+              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight2",
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1"
             },
             {
               "parameters": [
@@ -8517,7 +8521,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -8544,7 +8548,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight3"
             },
             {
               "parameters": [
@@ -8563,7 +8567,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -8590,7 +8594,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight4"
             },
             {
               "parameters": [
@@ -8609,7 +8613,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -8626,7 +8630,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight2"
             },
             {
               "parameters": [
@@ -8645,7 +8649,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight1",
                   "controlAddress": "/target"
                 },
                 {
@@ -8671,8 +8675,8 @@
               "niceName": "Item 156",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1"
+              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight2",
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight1"
             },
             {
               "parameters": [
@@ -8691,7 +8695,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -8718,7 +8722,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight3"
             },
             {
               "parameters": [
@@ -8737,7 +8741,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -8764,7 +8768,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight4"
             },
             {
               "parameters": [
@@ -8783,7 +8787,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -8800,7 +8804,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/patternSize/macroWeight2"
             },
             {
               "parameters": [
@@ -8819,7 +8823,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight1",
                   "controlAddress": "/target"
                 },
                 {
@@ -8845,8 +8849,8 @@
               "niceName": "Item 160",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1"
+              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight2",
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight1"
             },
             {
               "parameters": [
@@ -8865,7 +8869,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -8892,7 +8896,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight3"
             },
             {
               "parameters": [
@@ -8911,7 +8915,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -8938,7 +8942,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight4"
             },
             {
               "parameters": [
@@ -8957,7 +8961,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -8974,7 +8978,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/perlin/perlinIntensity/macroWeight2"
             },
             {
               "parameters": [
@@ -8993,7 +8997,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1",
                   "controlAddress": "/target"
                 },
                 {
@@ -9019,8 +9023,8 @@
               "niceName": "Item 164",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1"
+              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight2",
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1"
             },
             {
               "parameters": [
@@ -9039,7 +9043,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -9066,7 +9070,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight3"
             },
             {
               "parameters": [
@@ -9085,7 +9089,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -9112,7 +9116,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight4"
             },
             {
               "parameters": [
@@ -9131,7 +9135,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -9148,7 +9152,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight2"
             },
             {
               "parameters": [
@@ -9167,7 +9171,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/radial/radialIntensity/macroWeight1",
                   "controlAddress": "/target"
                 },
                 {
@@ -9194,7 +9198,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/radial/radialIntensity/macroWeight1"
             },
             {
               "parameters": [
@@ -9213,7 +9217,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/radial/radialIntensity/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -9239,8 +9243,8 @@
               "niceName": "Item 169",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1"
+              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/radial/radialIntensity/macroWeight1",
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/radial/radialIntensity/macroWeight3"
             },
             {
               "parameters": [
@@ -9259,7 +9263,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/radial/radialIntensity/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -9285,8 +9289,8 @@
               "niceName": "Item 170",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1"
+              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/radial/radialIntensity/macroWeight1",
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/radial/radialIntensity/macroWeight4"
             },
             {
               "parameters": [
@@ -9305,7 +9309,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/radial/radialIntensity/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -9321,8 +9325,8 @@
               "niceName": "Item 171",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/turbulenceCurl/curlIntensity/macroWeight1"
+              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/radial/radialIntensity/macroWeight1",
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/radial/radialIntensity/macroWeight2"
             },
             {
               "parameters": [
@@ -9387,7 +9391,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -9413,8 +9417,8 @@
               "niceName": "Item 173",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1"
+              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight2",
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight3"
             },
             {
               "parameters": [
@@ -9433,7 +9437,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -9460,7 +9464,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight4"
             },
             {
               "parameters": [
@@ -9479,7 +9483,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -9496,7 +9500,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight2"
             },
             {
               "parameters": [
@@ -9515,7 +9519,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight1",
                   "controlAddress": "/target"
                 },
                 {
@@ -9541,8 +9545,8 @@
               "niceName": "Item 176",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1"
+              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight2",
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight1"
             },
             {
               "parameters": [
@@ -9561,7 +9565,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -9588,7 +9592,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight3"
             },
             {
               "parameters": [
@@ -9607,7 +9611,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -9634,7 +9638,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight4"
             },
             {
               "parameters": [
@@ -9653,7 +9657,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -9670,7 +9674,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight2"
             },
             {
               "parameters": [
@@ -9689,7 +9693,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight1",
                   "controlAddress": "/target"
                 },
                 {
@@ -9715,8 +9719,8 @@
               "niceName": "Item 180",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/linear/linearIntensity/macroWeight1"
+              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight2",
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight1"
             },
             {
               "parameters": [
@@ -9735,7 +9739,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -9762,7 +9766,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight3"
             },
             {
               "parameters": [
@@ -9781,7 +9785,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -9808,7 +9812,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight4"
             },
             {
               "parameters": [
@@ -9827,7 +9831,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -9844,7 +9848,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/animation/patternSpeed/macroWeight2"
             },
             {
               "parameters": [
@@ -9863,7 +9867,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoaxial/orthoaxialIntensity/macroWeight1",
                   "controlAddress": "/target"
                 },
                 {
@@ -9889,8 +9893,8 @@
               "niceName": "Item 184",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoradial/orthoIntensity/macroWeight1"
+              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoaxial/orthoaxialIntensity/macroWeight4",
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoaxial/orthoaxialIntensity/macroWeight1"
             },
             {
               "parameters": [
@@ -9909,7 +9913,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoaxial/orthoaxialIntensity/macroWeight3",
                   "controlAddress": "/target"
                 },
                 {
@@ -9935,8 +9939,8 @@
               "niceName": "Item 185",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1"
+              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoaxial/orthoaxialIntensity/macroWeight4",
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoaxial/orthoaxialIntensity/macroWeight3"
             },
             {
               "parameters": [
@@ -9955,7 +9959,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoaxial/orthoaxialIntensity/macroWeight4",
                   "controlAddress": "/target"
                 },
                 {
@@ -9982,7 +9986,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1"
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoaxial/orthoaxialIntensity/macroWeight4"
             },
             {
               "parameters": [
@@ -10001,7 +10005,7 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1",
+                  "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoaxial/orthoaxialIntensity/macroWeight2",
                   "controlAddress": "/target"
                 },
                 {
@@ -10017,8 +10021,8 @@
               "niceName": "Item 187",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1",
-              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/axial/axialIntensity/macroWeight1"
+              "ghostAddress": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoaxial/orthoaxialIntensity/macroWeight4",
+              "controllable": "/modules/oxipital/parameters/forceGroups/forceGroup2/orthoaxial/orthoaxialIntensity/macroWeight2"
             },
             {
               "parameters": [
@@ -10402,11 +10406,12 @@
             }
           ],
           "viewOffset": [
-            0,
-            0
+            -484,
+            -121
           ],
           "viewZoom": 0.9632812738418579
-        }
+        },
+        "editing": true
       },
       {
         "niceName": "Forces 2",
@@ -19276,12 +19281,11 @@
             }
           ],
           "viewOffset": [
-            223,
-            254
+            208,
+            113
           ],
           "viewZoom": 0.9765625
-        },
-        "editing": true
+        }
       },
       {
         "niceName": "Orbs 2",
@@ -26491,7 +26495,7 @@
                 },
                 {
                   "type": 0,
-                  "width": 824,
+                  "width": 893,
                   "height": 570,
                   "currentContent": "Dashboard",
                   "tabs": [
@@ -26511,7 +26515,7 @@
                 },
                 {
                   "type": 0,
-                  "width": 777,
+                  "width": 708,
                   "height": 570,
                   "currentContent": "Inspector",
                   "tabs": [
@@ -30313,28 +30317,28 @@
             "macros": {
               "parameters": [
                 {
-                  "value": 0.4879127740859985,
+                  "value": 0.0,
                   "minValue": 0.0,
                   "maxValue": 1.0,
                   "default": 0.0,
                   "controlAddress": "/macro1"
                 },
                 {
-                  "value": 0.1724400371313095,
+                  "value": 0.02251696214079857,
                   "minValue": 0.0,
                   "maxValue": 1.0,
                   "default": 0.0,
                   "controlAddress": "/macro2"
                 },
                 {
-                  "value": 0.4553817212581635,
+                  "value": 0.8804397583007812,
                   "minValue": 0.0,
                   "maxValue": 1.0,
                   "default": 0.0,
                   "controlAddress": "/macro3"
                 },
                 {
-                  "value": 0.6408298015594482,
+                  "value": 0.8234368562698364,
                   "minValue": 0.0,
                   "maxValue": 1.0,
                   "default": 0.0,
@@ -30837,18 +30841,18 @@
                         "particleSize": {
                           "parameters": [
                             {
-                              "value": 0.03149606287479401,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
                               "controlAddress": "/baseValue"
                             },
                             {
-                              "value": 0.06666672229766846,
+                              "value": 0.1333333253860474,
                               "minValue": -1.0,
                               "maxValue": 1.0,
                               "default": 0.0,
-                              "controlAddress": "/macroWeight1"
+                              "controlAddress": "/macroWeight2"
                             }
                           ],
                           "owned": true,
@@ -31321,7 +31325,7 @@
                         "dancerSize": {
                           "parameters": [
                             {
-                              "value": 2.519685029983521,
+                              "value": 0.4724409580230713,
                               "minValue": 0.0,
                               "maxValue": 20.0,
                               "default": 1.0,
@@ -31351,6 +31355,13 @@
                               "maxValue": 1.0,
                               "default": 1.0,
                               "controlAddress": "/baseValue"
+                            },
+                            {
+                              "value": 0.7333333492279053,
+                              "minValue": -1.0,
+                              "maxValue": 1.0,
+                              "default": 0.0,
+                              "controlAddress": "/macroWeight4"
                             }
                           ],
                           "owned": true,
@@ -31535,7 +31546,7 @@
                         "curlIntensity": {
                           "parameters": [
                             {
-                              "value": 1.0,
+                              "value": 0.03937007859349251,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -31587,6 +31598,13 @@
                               "maxValue": 1.0,
                               "default": 0.0,
                               "controlAddress": "/baseValue"
+                            },
+                            {
+                              "value": 0.2000000476837158,
+                              "minValue": -1.0,
+                              "maxValue": 1.0,
+                              "default": 0.0,
+                              "controlAddress": "/macroWeight1"
                             }
                           ],
                           "owned": true,
@@ -32859,7 +32877,7 @@
                       "controlAddress": "/listen"
                     },
                     {
-                      "value": 128284.0,
+                      "value": 128396.0,
                       "controlAddress": "/totalParticles"
                     }
                   ],
@@ -32976,7 +32994,7 @@
                               "controlAddress": "/textureOpacity"
                             },
                             {
-                              "value": 0.06402360829027032,
+                              "value": 0.003002261439824405,
                               "controlAddress": "/particleSize"
                             },
                             {
@@ -33332,7 +33350,7 @@
                               "controlAddress": "/orthoClockwise"
                             },
                             {
-                              "value": 1.0,
+                              "value": 0.03937007859349251,
                               "controlAddress": "/curlIntensity"
                             },
                             {
@@ -33364,7 +33382,7 @@
                               "controlAddress": "/curlTranslation"
                             },
                             {
-                              "value": 0.0,
+                              "value": 2.063026605182965e-6,
                               "controlAddress": "/perlinIntensity"
                             },
                             {
@@ -33416,7 +33434,7 @@
                               "controlAddress": "/patternSpeedRandom"
                             },
                             {
-                              "value": 2.519685029983521,
+                              "value": 0.4724409580230713,
                               "controlAddress": "/dancerSize"
                             },
                             {
@@ -33424,7 +33442,7 @@
                               "controlAddress": "/dancerSizeSpread"
                             },
                             {
-                              "value": 0.0,
+                              "value": 0.6038537076860564,
                               "controlAddress": "/dancerIntensity"
                             },
                             {
@@ -40354,15 +40372,15 @@
                       "controlAddress": "/Kick"
                     },
                     {
-                      "value": 0.06046029552817345,
+                      "value": 0.01160532236099243,
                       "controlAddress": "/Low"
                     },
                     {
-                      "value": 0.3412503004074097,
+                      "value": 0.8246269226074219,
                       "controlAddress": "/Mid"
                     },
                     {
-                      "value": 0.287193775177002,
+                      "value": 0.7831326723098755,
                       "controlAddress": "/High"
                     }
                   ],
@@ -41936,12 +41954,12 @@
                   "controlAddress": "/lastChannel"
                 },
                 {
-                  "value": 38,
+                  "value": 36,
                   "hexMode": false,
                   "controlAddress": "/lastPitch"
                 },
                 {
-                  "value": 76,
+                  "value": 63,
                   "hexMode": false,
                   "controlAddress": "/lastVelocity"
                 }
@@ -42366,7 +42384,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 4,
+              "value": 0,
               "alwaysNotify": true,
               "minValue": 0,
               "maxValue": 127,
@@ -43377,7 +43395,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 32,
+              "value": 6,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -43449,7 +43467,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 127,
+              "value": 5,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -47220,7 +47238,7 @@
             {
               "parameters": [
                 {
-                  "value": 2,
+                  "value": 0,
                   "hexMode": false,
                   "controlAddress": "/dashboardIndex",
                   "feedbackOnly": false,
@@ -47608,7 +47626,7 @@
                           "controlAddress": "/#4"
                         },
                         {
-                          "value": 0.03149606287479401,
+                          "value": 0.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -51155,7 +51173,7 @@
                           "controlAddress": "/#2"
                         },
                         {
-                          "value": 2.519685029983521,
+                          "value": 0.4724409580230713,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
@@ -51271,7 +51289,7 @@
                           "controlAddress": "/#19"
                         },
                         {
-                          "value": 1.0,
+                          "value": 0.03937007859349251,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -72023,7 +72041,7 @@
             {
               "parameters": [
                 {
-                  "value": true,
+                  "value": false,
                   "controlAddress": "/enabled"
                 }
               ],
@@ -74389,7 +74407,7 @@
             {
               "parameters": [
                 {
-                  "value": false,
+                  "value": true,
                   "controlAddress": "/enabled"
                 }
               ],
