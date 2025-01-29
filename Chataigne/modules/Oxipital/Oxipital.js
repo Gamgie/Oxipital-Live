@@ -66,7 +66,8 @@ var forceGroupParameters = {
 	},
 	"Radial": {
 		"Radial Intensity": { "type": "float", "default": 0, "min": 0, "max": 1 },
-		"Radial Frequency": { "type": "float", "default": 0, "min": 0, "max": 1 }
+		"Radial Frequency": { "type": "float", "default": 0, "min": 0, "max": 1 },
+		"Radial InOut": { "type": "float", "default": 0, "min": 0, "max": 1 }
 	},
 	"Axial": {
 		"Axial Intensity": { "type": "float", "default": 0, "min": 0, "max": 1 },
