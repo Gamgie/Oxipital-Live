@@ -37,7 +37,7 @@
   "dashboardManager": {
     "parameters": [
       {
-        "value": false,
+        "value": true,
         "controlAddress": "/editMode"
       },
       {
@@ -10649,15 +10649,70 @@
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/values/Ballet/Force_Groups/Force_Group_1/StandardForceGroup/patternSpeed",
               "controllable": "/modules/oxipital/values/Ballet/Force_Groups/Force_Group_1/StandardForceGroup/patternSpeed"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -220.0,
+                    -420.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    420.0,
+                    30.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/customVariables/chataigneVariable/variables/totalParticle/totalParticle",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": [
+                    0.07845787703990936,
+                    0.3148648738861084,
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/backgroundColor",
+                  "enabled": false
+                },
+                {
+                  "value": [
+                    0.1626175940036774,
+                    0.2235426157712936,
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/foregroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "Default",
+                  "controlAddress": "/style"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/toggleImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 201",
+              "hideInEditor": true,
+              "type": "DashboardParameterItem",
+              "ghostAddress": "/modules/oxipital/values/Ballet/Ballet/totalParticles",
+              "controllable": "/customVariables/chataigneVariable/variables/totalParticle/totalParticle"
             }
           ],
           "viewOffset": [
-            -114,
-            -80
+            100,
+            154
           ],
           "viewZoom": 0.9867187738418579
-        },
-        "editing": true
+        }
       },
       {
         "niceName": "Forces 2",
@@ -13336,8 +13391,28 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/oxipital/values/Ballet/Ballet/totalParticles",
+                  "value": "/customVariables/chataigneVariable/variables/totalParticle/totalParticle",
                   "controlAddress": "/target"
+                },
+                {
+                  "value": [
+                    0.07845787703990936,
+                    0.3148648738861084,
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/backgroundColor",
+                  "enabled": false
+                },
+                {
+                  "value": [
+                    0.1626175940036774,
+                    0.2235426157712936,
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/foregroundColor",
+                  "enabled": true
                 },
                 {
                   "value": "Default",
@@ -13353,7 +13428,7 @@
               "hideInEditor": true,
               "type": "DashboardParameterItem",
               "ghostAddress": "/modules/oxipital/values/Ballet/Ballet/totalParticles",
-              "controllable": "/modules/oxipital/values/Ballet/Ballet/totalParticles"
+              "controllable": "/customVariables/chataigneVariable/variables/totalParticle/totalParticle"
             },
             {
               "parameters": [
@@ -19639,11 +19714,12 @@
             }
           ],
           "viewOffset": [
-            -42,
-            4
+            193,
+            91
           ],
           "viewZoom": 0.96875
-        }
+        },
+        "editing": true
       },
       {
         "niceName": "Orbs 2",
@@ -23425,10 +23501,10 @@
             }
           ],
           "viewOffset": [
-            -43,
-            -60
+            83,
+            -40
           ],
-          "viewZoom": 0.9945312738418579
+          "viewZoom": 0.5257812738418579
         }
       },
       {
@@ -27280,9 +27356,9 @@
                 },
                 {
                   "type": 0,
-                  "width": 1466,
+                  "width": 1536,
                   "height": 750,
-                  "currentContent": "State Machine",
+                  "currentContent": "Dashboard",
                   "tabs": [
                     {
                       "name": "State Machine"
@@ -27300,7 +27376,7 @@
                 },
                 {
                   "type": 0,
-                  "width": 774,
+                  "width": 704,
                   "height": 750,
                   "currentContent": "Inspector",
                   "tabs": [
@@ -31651,7 +31727,7 @@
                         "life": {
                           "parameters": [
                             {
-                              "value": 22.07241249084473,
+                              "value": 22.07242774963379,
                               "minValue": 0.0,
                               "maxValue": 40.0,
                               "default": 20.0,
@@ -32892,7 +32968,7 @@
                         "curlIntensity": {
                           "parameters": [
                             {
-                              "value": 0.0,
+                              "value": 0.220472440123558,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -32905,7 +32981,7 @@
                         "curlFrequency": {
                           "parameters": [
                             {
-                              "value": 1.49999988079071,
+                              "value": 0.8333331346511841,
                               "minValue": 0.0,
                               "maxValue": 5.0,
                               "default": 0.0,
@@ -33291,7 +33367,7 @@
                         "dancerSize": {
                           "parameters": [
                             {
-                              "value": 3.499999523162842,
+                              "value": 2.900000095367432,
                               "minValue": 0.0,
                               "maxValue": 20.0,
                               "default": 1.0,
@@ -33925,7 +34001,7 @@
                           "controlAddress": "/orthographic"
                         },
                         {
-                          "value": 56.94640731811523,
+                          "value": 56.94648742675781,
                           "controlAddress": "/fov"
                         },
                         {
@@ -33933,7 +34009,7 @@
                           "controlAddress": "/orthoSize"
                         },
                         {
-                          "value": 5.0,
+                          "value": 6.800000190734863,
                           "controlAddress": "/followZOffset"
                         },
                         {
@@ -34476,7 +34552,7 @@
                           "value": [
                             0.02499991655349731,
                             1.799000024795532,
-                            -14.90000152587891
+                            -14.50000190734863
                           ],
                           "controlAddress": "/cameraPosition"
                         },
@@ -34586,7 +34662,7 @@
                       "controlAddress": "/listen"
                     },
                     {
-                      "value": 1.764963e6,
+                      "value": 1.764574e6,
                       "controlAddress": "/totalParticles"
                     }
                   ],
@@ -34652,7 +34728,7 @@
                         "OrbGroup": {
                           "parameters": [
                             {
-                              "value": 22.07241249084473,
+                              "value": 22.07242774963379,
                               "controlAddress": "/life"
                             },
                             {
@@ -35191,11 +35267,11 @@
                               "controlAddress": "/orthoClockwise"
                             },
                             {
-                              "value": 0.0,
+                              "value": 0.220472440123558,
                               "controlAddress": "/curlIntensity"
                             },
                             {
-                              "value": 1.49999988079071,
+                              "value": 0.8333331346511841,
                               "controlAddress": "/curlFrequency"
                             },
                             {
@@ -35537,7 +35613,7 @@
                               "controlAddress": "/patternTimeOffset"
                             },
                             {
-                              "value": 3.499999523162842,
+                              "value": 2.900000095367432,
                               "controlAddress": "/dancerSize"
                             },
                             {
@@ -36061,7 +36137,7 @@
                         "fov": {
                           "ACCESS": 3,
                           "VALUE": [
-                            23.19648
+                            56.94649
                           ],
                           "TYPE": "f",
                           "RANGE": [
@@ -36085,7 +36161,7 @@
                         "followZOffset": {
                           "ACCESS": 3,
                           "VALUE": [
-                            5
+                            6.8
                           ],
                           "TYPE": "f",
                           "RANGE": [
@@ -36200,7 +36276,7 @@
                               "VALUE": [
                                 0,
                                 0,
-                                -4
+                                -6.8
                               ],
                               "TYPE": "fff",
                               "RANGE": [
@@ -36361,7 +36437,7 @@
                                   "VALUE": [
                                     -5.26477,
                                     0,
-                                    -5.591283
+                                    -8.391283
                                   ],
                                   "TYPE": "fff",
                                   "RANGE": [
@@ -36419,7 +36495,7 @@
                                   "VALUE": [
                                     0,
                                     0,
-                                    -4
+                                    -6.8
                                   ],
                                   "TYPE": "fff",
                                   "RANGE": [
@@ -36659,7 +36735,7 @@
                               "VALUE": [
                                 0.02499992,
                                 1.799,
-                                -31.5
+                                -14.5
                               ],
                               "TYPE": "fff",
                               "RANGE": [
@@ -36820,7 +36896,7 @@
                                   "VALUE": [
                                     0.02499992,
                                     1.799,
-                                    -26
+                                    -9.000002
                                   ],
                                   "TYPE": "fff",
                                   "RANGE": [
@@ -37120,9 +37196,9 @@
                                 "position": {
                                   "ACCESS": 3,
                                   "VALUE": [
-                                    4.090001,
+                                    -1.41,
                                     0,
-                                    -4.768372e-7
+                                    5.500001
                                   ],
                                   "TYPE": "fff",
                                   "RANGE": [
@@ -37699,7 +37775,7 @@
                           "VALUE": [
                             0.02499992,
                             1.799,
-                            -31.5
+                            -14.5
                           ],
                           "TYPE": "fff",
                           "RANGE": [
@@ -37744,7 +37820,7 @@
                           "VALUE": [
                             0.02499992,
                             1.799,
-                            -31.5
+                            -14.5
                           ],
                           "TYPE": "fff",
                           "RANGE": [
@@ -38063,7 +38139,7 @@
                     "totalParticles": {
                       "ACCESS": 3,
                       "VALUE": [
-                        32667
+                        1764005
                       ],
                       "TYPE": "f",
                       "RANGE": [
@@ -38184,7 +38260,7 @@
                             "life": {
                               "ACCESS": 3,
                               "VALUE": [
-                                7.072441
+                                22.07243
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38313,7 +38389,7 @@
                             "alpha": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.11
+                                0.12
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38373,7 +38449,7 @@
                             "particleSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.1002362
+                                0.06023626
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38403,7 +38479,7 @@
                             "drag": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2440945
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38433,7 +38509,7 @@
                             "noisyDrag": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.496063
+                                0.2
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38448,7 +38524,7 @@
                             "noisyDragFrequency": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2666667
+                                0.2416667
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38490,7 +38566,7 @@
                             "patternSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1.3
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38580,7 +38656,7 @@
                             "dancerSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.35
+                                1.15
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38640,7 +38716,7 @@
                             "dancerIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.57
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38713,7 +38789,7 @@
                             "count": {
                               "ACCESS": 3,
                               "VALUE": [
-                                2
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39351,7 +39427,7 @@
                             "alphaSpeedThreshold": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.225
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39648,7 +39724,7 @@
                             "dancerIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40240,9 +40316,9 @@
                             "rotation": {
                               "ACCESS": 3,
                               "VALUE": [
-                                -5.008956e-6,
-                                180,
-                                180
+                                0,
+                                0,
+                                0
                               ],
                               "TYPE": "fff",
                               "RANGE": [
@@ -40259,7 +40335,7 @@
                             "forceFactorInside": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.9606299
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40274,7 +40350,7 @@
                             "forceFactorOutside": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.1181102
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40392,7 +40468,7 @@
                             "linearIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.7795275
+                                0.1732284
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40467,7 +40543,7 @@
                             "curlIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.3228346
+                                0.2204724
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40482,7 +40558,7 @@
                             "curlFrequency": {
                               "ACCESS": 3,
                               "VALUE": [
-                                2.791667
+                                0.8333331
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40524,7 +40600,7 @@
                             "curlLacunarity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2
+                                0.5716276
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40554,7 +40630,7 @@
                             "curlTranslation": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.1
+                                0.125
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40569,7 +40645,7 @@
                             "perlinIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40584,7 +40660,7 @@
                             "perlinFrequency": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1
+                                0.08333325
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40599,7 +40675,7 @@
                             "perlinOctaves": {
                               "ACCESS": 3,
                               "VALUE": [
-                                2
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40614,7 +40690,7 @@
                             "perlinRoughness": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.5
+                                0.25
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40629,7 +40705,7 @@
                             "perlinLacunarity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2
+                                0.2666667
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40644,7 +40720,7 @@
                             "perlinTranslationSpeed": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.1
+                                0.3333333
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40659,7 +40735,7 @@
                             "orthoaxialIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.749
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40674,7 +40750,7 @@
                             "orthoaxialInnerRadius": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.279
+                                0.2176442
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40719,7 +40795,7 @@
                             "patternSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1.2
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40764,7 +40840,7 @@
                             "patternSpeed": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.000598887
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40809,7 +40885,7 @@
                             "dancerSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1
+                                5.354331
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40869,7 +40945,7 @@
                             "dancerIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1
+                                0.07874016
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40899,7 +40975,7 @@
                             "dancerRotation": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0,
+                                -90,
                                 0,
                                 0
                               ],
@@ -40942,7 +41018,7 @@
                             "count": {
                               "ACCESS": 3,
                               "VALUE": [
-                                2.755906
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41212,7 +41288,7 @@
                               "ACCESS": 3,
                               "VALUE": [
                                 0,
-                                7.7,
+                                6.9,
                                 0
                               ],
                               "TYPE": "fff",
@@ -41274,7 +41350,7 @@
                             "radialIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.21
+                                0.9399999999999999
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41422,7 +41498,7 @@
                             "orthoFactor": {
                               "ACCESS": 3,
                               "VALUE": [
-                                2
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41569,7 +41645,7 @@
                             "perlinFrequency": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.625
+                                0.4166666
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41749,7 +41825,7 @@
                             "patternSpeed": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2804491
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41794,7 +41870,7 @@
                             "dancerSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                3.099999
+                                2.9
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41854,7 +41930,7 @@
                             "dancerIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2399999
+                                0.1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -46467,7 +46543,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 28,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -49956,7 +50032,7 @@
                   "controlAddress": "/viewUIPosition"
                 },
                 {
-                  "value": 5.0,
+                  "value": 6.800000190734863,
                   "minValue": 0,
                   "maxValue": 30,
                   "default": 0,
@@ -51144,13 +51220,19 @@
         "niceName": "Chataigne Variable",
         "type": "CVGroup",
         "params": {
+          "parameters": [
+            {
+              "value": "Weights",
+              "controlAddress": "/controlMode"
+            }
+          ]
         },
         "variables": {
           "items": [
             {
               "parameters": [
                 {
-                  "value": 4,
+                  "value": 2,
                   "hexMode": false,
                   "controlAddress": "/dashboardIndex",
                   "feedbackOnly": false,
@@ -51170,8 +51252,8 @@
               "parameters": [
                 {
                   "value": [
-                    0.02859074622392654,
-                    0.3689759969711304,
+                    0.1626175940036774,
+                    0.2235426157712936,
                     0.0,
                     1.0
                   ],
@@ -51188,6 +51270,27 @@
               "niceName": "Particle Count Background Color",
               "editorIsCollapsed": true,
               "type": "Color Parameter"
+            },
+            {
+              "parameters": [
+                {
+                  "value": 1764.573974609375,
+                  "minValue": 0.0,
+                  "maxValue": 7000.0,
+                  "default": 0.0,
+                  "controlAddress": "/totalParticle",
+                  "feedbackOnly": false,
+                  "type": "Float",
+                  "niceName": "Total Particle",
+                  "customizable": true,
+                  "removable": false,
+                  "description": "Custom control of type Float",
+                  "hideInEditor": false
+                }
+              ],
+              "niceName": "Total Particle",
+              "editorIsCollapsed": true,
+              "type": "Float Parameter"
             }
           ],
           "viewOffset": [
@@ -51201,6 +51304,10 @@
             {
               "parameters": [
                 {
+                  "value": 1.0,
+                  "controlAddress": "/weight"
+                },
+                {
                   "value": [
                     1,
                     0.2823529541492462,
@@ -51211,7 +51318,6 @@
                 }
               ],
               "niceName": "No Particle",
-              "editorIsCollapsed": true,
               "type": "MorphTarget",
               "values": {
                 "containers": {
@@ -51244,12 +51350,30 @@
                     ],
                     "owned": true,
                     "niceName": "Particle Count Background Color"
+                  },
+                  "totalParticle": {
+                    "parameters": [
+                      {
+                        "value": 0.0,
+                        "controlAddress": "/totalParticle"
+                      },
+                      {
+                        "value": "None",
+                        "controlAddress": "/mode"
+                      }
+                    ],
+                    "owned": true,
+                    "niceName": "Total Particle"
                   }
                 }
               }
             },
             {
               "parameters": [
+                {
+                  "value": 1.0,
+                  "controlAddress": "/weight"
+                },
                 {
                   "value": [
                     1,
@@ -51261,7 +51385,6 @@
                 }
               ],
               "niceName": "Max Particle",
-              "editorIsCollapsed": true,
               "type": "MorphTarget",
               "values": {
                 "containers": {
@@ -51294,6 +51417,20 @@
                     ],
                     "owned": true,
                     "niceName": "Particle Count Background Color"
+                  },
+                  "totalParticle": {
+                    "parameters": [
+                      {
+                        "value": 0.0,
+                        "controlAddress": "/totalParticle"
+                      },
+                      {
+                        "value": "None",
+                        "controlAddress": "/mode"
+                      }
+                    ],
+                    "owned": true,
+                    "niceName": "Total Particle"
                   }
                 }
               }
@@ -51886,7 +52023,7 @@
                   "controlAddress": "/enabled"
                 },
                 {
-                  "value": 162.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -53837,7 +53974,7 @@
                   "controlAddress": "/enabled"
                 },
                 {
-                  "value": 162.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -54429,7 +54566,7 @@
                   "controlAddress": "/enabled"
                 },
                 {
-                  "value": 162.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -55119,7 +55256,7 @@
                   "controlAddress": "/enabled"
                 },
                 {
-                  "value": 24.0,
+                  "value": 84.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -55440,7 +55577,7 @@
                   "controlAddress": "/enabled"
                 },
                 {
-                  "value": 162.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -55595,14 +55732,14 @@
                           "controlAddress": "/#19"
                         },
                         {
-                          "value": 0.0,
+                          "value": 0.220472440123558,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#20"
                         },
                         {
-                          "value": 1.49999988079071,
+                          "value": 0.8333331346511841,
                           "minValue": 0.0,
                           "maxValue": 5.0,
                           "default": 0.0,
@@ -55805,7 +55942,7 @@
                           "controlAddress": "/#2"
                         },
                         {
-                          "value": 3.499999523162842,
+                          "value": 2.900000095367432,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
@@ -56983,7 +57120,7 @@
                           "controlAddress": "/#41"
                         },
                         {
-                          "value": "/modules/oxipital/parameters/setup/presets/loadedValues/forceGroups/forceGroup1/patterns/nBodyPatternWeight/baseValue",
+                          "value": "/modules/oxipital/parameters/setup/presets/loadedValues/forceGroups/forceGroup1/patterns/manualPatternWeight/baseValue",
                           "controlAddress": "/#42"
                         },
                         {
@@ -57174,7 +57311,7 @@
                           "controlAddress": "/#41"
                         },
                         {
-                          "value": "/modules/oxipital/parameters/setup/presets/loadedValues/forceGroups/forceGroup2/patterns/nBodyPatternWeight/baseValue",
+                          "value": "/modules/oxipital/parameters/setup/presets/loadedValues/forceGroups/forceGroup2/patterns/circlePatternWeight/baseValue",
                           "controlAddress": "/#42"
                         },
                         {
@@ -66580,7 +66717,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 162.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -68888,7 +69025,7 @@
                   "controlAddress": "/enabled"
                 },
                 {
-                  "value": 24.0,
+                  "value": 214.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -70232,7 +70369,7 @@
             {
               "parameters": [
                 {
-                  "value": false,
+                  "value": true,
                   "controlAddress": "/enabled"
                 }
               ],
@@ -71111,7 +71248,7 @@
                   "controlAddress": "/enabled"
                 },
                 {
-                  "value": 24.0,
+                  "value": 214.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -79165,7 +79302,7 @@
             {
               "parameters": [
                 {
-                  "value": 110.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -80180,7 +80317,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 110.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -81641,7 +81778,7 @@
             {
               "parameters": [
                 {
-                  "value": 110.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -82732,7 +82869,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 110.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -83747,7 +83884,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 110.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -84605,7 +84742,7 @@
             {
               "parameters": [
                 {
-                  "value": 110.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -86246,7 +86383,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 110.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -87562,7 +87699,7 @@
             {
               "parameters": [
                 {
-                  "value": 110.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -89939,7 +90076,7 @@
             {
               "parameters": [
                 {
-                  "value": 110.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -90661,7 +90798,7 @@
             {
               "parameters": [
                 {
-                  "value": 84.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -92371,11 +92508,380 @@
           ],
           "viewZoom": 1.0
         }
+      },
+      {
+        "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/enabled"
+          },
+          {
+            "value": false,
+            "controlAddress": "/miniMode"
+          },
+          {
+            "value": [
+              153.0,
+              -1512.0
+            ],
+            "controlAddress": "/viewUIPosition"
+          },
+          {
+            "value": [
+              340.0,
+              197.0
+            ],
+            "controlAddress": "/viewUISize"
+          },
+          {
+            "value": true,
+            "controlAddress": "/active"
+          }
+        ],
+        "niceName": "Dashboard",
+        "type": "State",
+        "processors": {
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlAddress": "/enabled"
+                }
+              ],
+              "niceName": "Total Particle remap",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "im": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/modules/oxipital/values/Ballet/Ballet/totalParticles",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "Input Value",
+                    "type": "Input Value"
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "params": {
+                "parameters": [
+                  {
+                    "value": 50,
+                    "hexMode": false,
+                    "controlAddress": "/updateRate"
+                  }
+                ],
+                "editorIsCollapsed": true
+              },
+              "filters": {
+                "items": [
+                  {
+                    "niceName": "Math",
+                    "type": "Math",
+                    "filterParams": {
+                      "parameters": [
+                        {
+                          "value": "Divide",
+                          "controlAddress": "/operation"
+                        },
+                        {
+                          "value": 1000.0,
+                          "controlAddress": "/value"
+                        }
+                      ],
+                      "paramLinks": {
+                      }
+                    },
+                    "operationValue": {
+                      "value": 1000.0,
+                      "controlAddress": "/states/dashboard/processors/totalParticleRemap/filters/math/filterParams/value"
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "customVariables",
+                    "commandPath": "",
+                    "commandType": "Set Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/chataigneVariable/totalParticle",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        }
+                      ],
+                      "paramLinks": {
+                        "value": {
+                          "linkType": 1,
+                          "mappingValueIndex": 0
+                        }
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlAddress": "/enabled"
+                }
+              ],
+              "niceName": "Particle count to preset",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "im": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/customVariables/customVariables/values/chataigneVariable/totalParticle",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "Input Value",
+                    "type": "Input Value"
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "params": {
+                "parameters": [
+                  {
+                    "value": 50,
+                    "hexMode": false,
+                    "controlAddress": "/updateRate"
+                  }
+                ],
+                "editorIsCollapsed": true
+              },
+              "filters": {
+                "items": [
+                  {
+                    "niceName": "Remap",
+                    "type": "Remap",
+                    "filterParams": {
+                      "parameters": [
+                        {
+                          "value": true,
+                          "controlAddress": "/useCustomInputRange"
+                        },
+                        {
+                          "value": [
+                            0.0,
+                            4000.0
+                          ],
+                          "controlAddress": "/inputMin_Max"
+                        },
+                        {
+                          "value": [
+                            0.0,
+                            1.0
+                          ],
+                          "controlAddress": "/targetMin_Max"
+                        }
+                      ],
+                      "paramLinks": {
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "customVariables",
+                    "commandPath": "",
+                    "commandType": "Interpolate presets",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/chataigneVariable/presets/noParticle",
+                          "controlAddress": "/targetPreset"
+                        },
+                        {
+                          "value": "/chataigneVariable/presets/maxParticle",
+                          "controlAddress": "/targetPreset2"
+                        }
+                      ],
+                      "paramLinks": {
+                        "value": {
+                          "linkType": 1,
+                          "mappingValueIndex": 0
+                        }
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            },
+            {
+              "niceName": "Total Particle color bkgnd",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "im": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/customVariables/customVariables/values/chataigneVariable/particleCountBackgroundColor",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "Input Value",
+                    "type": "Input Value"
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "params": {
+                "parameters": [
+                  {
+                    "value": 50,
+                    "hexMode": false,
+                    "controlAddress": "/updateRate"
+                  }
+                ],
+                "editorIsCollapsed": true
+              },
+              "filters": {
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "generic",
+                    "commandPath": "",
+                    "commandType": "Set Parameter Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/dashboards/forces/dashboard/item201/foregroundColor",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        }
+                      ],
+                      "paramLinks": {
+                        "value": {
+                          "linkType": 1,
+                          "mappingValueIndex": 0
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "niceName": "MappingOutput 1",
+                    "type": "BaseItem",
+                    "commandModule": "generic",
+                    "commandPath": "",
+                    "commandType": "Set Parameter Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/dashboards/orbs1/dashboard/item81/foregroundColor",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        }
+                      ],
+                      "paramLinks": {
+                        "value": {
+                          "linkType": 1,
+                          "mappingValueIndex": 0
+                        }
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            }
+          ],
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        }
       }
     ],
     "viewOffset": [
-      -2,
-      -82
+      127,
+      1319
     ],
     "viewZoom": 1.0,
     "transitions": {
@@ -92420,8 +92926,8 @@
         }
       ],
       "viewOffset": [
-        -2,
-        -82
+        127,
+        1319
       ],
       "viewZoom": 1.0
     }
