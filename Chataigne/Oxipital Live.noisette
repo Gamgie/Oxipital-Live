@@ -10652,11 +10652,12 @@
             }
           ],
           "viewOffset": [
-            -5,
-            -6
+            -114,
+            -80
           ],
           "viewZoom": 0.9867187738418579
-        }
+        },
+        "editing": true
       },
       {
         "niceName": "Forces 2",
@@ -11448,6 +11449,67 @@
               "type": "DashboardParameterItem",
               "ghostAddress": "/states/orb/processors/orbFloats/lists/orb1/#26",
               "controllable": "/states/orb/processors/orbFloats/lists/orb1/#26"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    -500.0,
+                    280.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    100.0,
+                    100.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/isVisible"
+                },
+                {
+                  "value": "/states/orb/processors/orbFloats/lists/orb1/#27",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Manual",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 12,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    0.7058823704719543,
+                    0.1438902020454407,
+                    0.5491019487380981,
+                    1.0
+                  ],
+                  "controlAddress": "/foregroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "Rotary Slider",
+                  "controlAddress": "/style"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/toggleImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 140",
+              "hideInEditor": true,
+              "type": "DashboardParameterItem",
+              "ghostAddress": "/states/orb/processors/orbFloats/lists/orb1/#26",
+              "controllable": "/states/orb/processors/orbFloats/lists/orb1/#27"
             },
             {
               "parameters": [
@@ -15423,6 +15485,57 @@
               "parameters": [
                 {
                   "value": [
+                    390.0,
+                    270.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    100.0,
+                    100.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/orb/processors/orbFloats/lists/orb2/#27",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Manual",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": [
+                    0.7058823704719543,
+                    0.1438902020454407,
+                    0.5491019487380981,
+                    1.0
+                  ],
+                  "controlAddress": "/foregroundColor",
+                  "enabled": true
+                },
+                {
+                  "value": "Rotary Slider",
+                  "controlAddress": "/style"
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/toggleImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 141",
+              "hideInEditor": true,
+              "type": "DashboardParameterItem",
+              "ghostAddress": "/states/orb/processors/orbFloats/lists/orb2/#26",
+              "controllable": "/states/orb/processors/orbFloats/lists/orb2/#27"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
                     810.0,
                     -20.0
                   ],
@@ -15785,8 +15898,8 @@
               "parameters": [
                 {
                   "value": [
-                    380.0,
-                    330.0
+                    510.0,
+                    320.0
                   ],
                   "controlAddress": "/viewUIPosition"
                 },
@@ -15830,8 +15943,8 @@
               "parameters": [
                 {
                   "value": [
-                    380.0,
-                    290.0
+                    510.0,
+                    280.0
                   ],
                   "controlAddress": "/viewUIPosition"
                 },
@@ -15875,8 +15988,8 @@
               "parameters": [
                 {
                   "value": [
-                    380.0,
-                    410.0
+                    510.0,
+                    400.0
                   ],
                   "controlAddress": "/viewUIPosition"
                 },
@@ -15922,8 +16035,8 @@
               "parameters": [
                 {
                   "value": [
-                    560.0,
-                    410.0
+                    690.0,
+                    400.0
                   ],
                   "controlAddress": "/viewUIPosition"
                 },
@@ -16805,8 +16918,8 @@
               "parameters": [
                 {
                   "value": [
-                    380.0,
-                    370.0
+                    510.0,
+                    360.0
                   ],
                   "controlAddress": "/viewUIPosition"
                 },
@@ -19526,12 +19639,11 @@
             }
           ],
           "viewOffset": [
-            -17,
-            -24
+            -42,
+            4
           ],
           "viewZoom": 0.96875
-        },
-        "editing": true
+        }
       },
       {
         "niceName": "Orbs 2",
@@ -23313,8 +23425,8 @@
             }
           ],
           "viewOffset": [
-            58,
-            -32
+            -43,
+            -60
           ],
           "viewZoom": 0.9945312738418579
         }
@@ -27120,27 +27232,131 @@
   "layout": {
     "mainLayout": {
       "type": 1,
-      "width": 1920,
-      "height": 1037,
+      "width": 2559,
+      "height": 1348,
       "direction": 2,
       "shifters": [
         {
-          "type": 0,
-          "width": 1920,
-          "height": 1037,
-          "currentContent": "Dashboard",
-          "tabs": [
+          "type": 1,
+          "width": 2559,
+          "height": 1348,
+          "direction": 2,
+          "shifters": [
             {
-              "name": "Dashboard"
+              "type": 1,
+              "width": 2559,
+              "height": 750,
+              "direction": 1,
+              "shifters": [
+                {
+                  "type": 1,
+                  "width": 307,
+                  "height": 750,
+                  "direction": 2,
+                  "shifters": [
+                    {
+                      "type": 0,
+                      "width": 307,
+                      "height": 382,
+                      "currentContent": "Modules",
+                      "tabs": [
+                        {
+                          "name": "Modules"
+                        }
+                      ]
+                    },
+                    {
+                      "type": 0,
+                      "width": 307,
+                      "height": 362,
+                      "currentContent": "Custom Variables",
+                      "tabs": [
+                        {
+                          "name": "Custom Variables"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 1466,
+                  "height": 750,
+                  "currentContent": "State Machine",
+                  "tabs": [
+                    {
+                      "name": "State Machine"
+                    },
+                    {
+                      "name": "Dashboard"
+                    },
+                    {
+                      "name": "Module Router"
+                    },
+                    {
+                      "name": "Morpher"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 774,
+                  "height": 750,
+                  "currentContent": "Inspector",
+                  "tabs": [
+                    {
+                      "name": "Inspector"
+                    }
+                  ]
+                }
+              ]
             },
             {
-              "name": "Modules"
-            },
-            {
-              "name": "Inspector"
-            },
-            {
-              "name": "State Machine"
+              "type": 1,
+              "width": 2559,
+              "height": 592,
+              "direction": 1,
+              "shifters": [
+                {
+                  "type": 0,
+                  "width": 178,
+                  "height": 592,
+                  "currentContent": "Sequences",
+                  "tabs": [
+                    {
+                      "name": "Sequences"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 1895,
+                  "height": 592,
+                  "currentContent": "Sequence Editor",
+                  "tabs": [
+                    {
+                      "name": "Sequence Editor"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 474,
+                  "height": 592,
+                  "currentContent": "Logger",
+                  "tabs": [
+                    {
+                      "name": "Help"
+                    },
+                    {
+                      "name": "Logger"
+                    },
+                    {
+                      "name": "Warnings"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -27464,16 +27680,11 @@
                                       "owned": true,
                                       "niceName": "Circle Pattern Speed Weight"
                                     },
+                                    "manualPatternWeight": {
+                                      "owned": true,
+                                      "niceName": "Manual Pattern Weight"
+                                    },
                                     "nBodyPatternWeight": {
-                                      "parameters": [
-                                        {
-                                          "value": 0.0,
-                                          "minValue": 0.0,
-                                          "maxValue": 1.0,
-                                          "default": 0.0,
-                                          "controlAddress": "/baseValue"
-                                        }
-                                      ],
                                       "editorIsCollapsed": true,
                                       "owned": true,
                                       "niceName": "NBody Pattern Weight"
@@ -28071,6 +28282,10 @@
                                       "owned": true,
                                       "niceName": "Circle Pattern Speed Weight"
                                     },
+                                    "manualPatternWeight": {
+                                      "owned": true,
+                                      "niceName": "Manual Pattern Weight"
+                                    },
                                     "nBodyPatternWeight": {
                                       "owned": true,
                                       "niceName": "NBody Pattern Weight"
@@ -28537,6 +28752,10 @@
                                       "owned": true,
                                       "niceName": "Circle Pattern Speed Weight"
                                     },
+                                    "manualPatternWeight": {
+                                      "owned": true,
+                                      "niceName": "Manual Pattern Weight"
+                                    },
                                     "nBodyPatternWeight": {
                                       "owned": true,
                                       "niceName": "NBody Pattern Weight"
@@ -28757,6 +28976,10 @@
                                     "circlePatternSpeedWeight": {
                                       "owned": true,
                                       "niceName": "Circle Pattern Speed Weight"
+                                    },
+                                    "manualPatternWeight": {
+                                      "owned": true,
+                                      "niceName": "Manual Pattern Weight"
                                     },
                                     "nBodyPatternWeight": {
                                       "owned": true,
@@ -29070,6 +29293,10 @@
                                       ],
                                       "owned": true,
                                       "niceName": "Circle Pattern Speed Weight"
+                                    },
+                                    "manualPatternWeight": {
+                                      "owned": true,
+                                      "niceName": "Manual Pattern Weight"
                                     },
                                     "nBodyPatternWeight": {
                                       "owned": true,
@@ -29848,6 +30075,10 @@
                                       "owned": true,
                                       "niceName": "Circle Pattern Speed Weight"
                                     },
+                                    "manualPatternWeight": {
+                                      "owned": true,
+                                      "niceName": "Manual Pattern Weight"
+                                    },
                                     "nBodyPatternWeight": {
                                       "owned": true,
                                       "niceName": "NBody Pattern Weight"
@@ -30476,6 +30707,10 @@
                                       "owned": true,
                                       "niceName": "Circle Pattern Speed Weight"
                                     },
+                                    "manualPatternWeight": {
+                                      "owned": true,
+                                      "niceName": "Manual Pattern Weight"
+                                    },
                                     "nBodyPatternWeight": {
                                       "owned": true,
                                       "niceName": "NBody Pattern Weight"
@@ -30779,6 +31014,10 @@
                                       "owned": true,
                                       "niceName": "Circle Pattern Speed Weight"
                                     },
+                                    "manualPatternWeight": {
+                                      "owned": true,
+                                      "niceName": "Manual Pattern Weight"
+                                    },
                                     "nBodyPatternWeight": {
                                       "owned": true,
                                       "niceName": "NBody Pattern Weight"
@@ -31073,7 +31312,6 @@
               "editorIsCollapsed": true
             },
             "orbGroups": {
-              "editorIsCollapsed": true,
               "containers": {
                 "orbGroup1": {
                   "editorIsCollapsed": true,
@@ -31113,12 +31351,11 @@
                       "niceName": "Transform"
                     },
                     "patterns": {
-                      "editorIsCollapsed": true,
                       "containers": {
                         "count": {
                           "parameters": [
                             {
-                              "value": 1.023622035980225,
+                              "value": 1.0,
                               "minValue": 1.0,
                               "maxValue": 10.0,
                               "default": 1.0,
@@ -31212,7 +31449,7 @@
                           "owned": true,
                           "niceName": "Circle Pattern Speed Weight"
                         },
-                        "nBodyPatternWeight": {
+                        "manualPatternWeight": {
                           "parameters": [
                             {
                               "value": 0.0,
@@ -31222,6 +31459,10 @@
                               "controlAddress": "/baseValue"
                             }
                           ],
+                          "owned": true,
+                          "niceName": "Manual Pattern Weight"
+                        },
+                        "nBodyPatternWeight": {
                           "owned": true,
                           "niceName": "NBody Pattern Weight"
                         },
@@ -31293,7 +31534,7 @@
                         "dancerSize": {
                           "parameters": [
                             {
-                              "value": 2.440944910049438,
+                              "value": 1.149999856948853,
                               "minValue": 0.0,
                               "maxValue": 20.0,
                               "default": 1.0,
@@ -31345,7 +31586,7 @@
                         "dancerIntensity": {
                           "parameters": [
                             {
-                              "value": 0.0,
+                              "value": 1.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 1.0,
@@ -31410,7 +31651,7 @@
                         "life": {
                           "parameters": [
                             {
-                              "value": 2.272440910339355,
+                              "value": 22.07241249084473,
                               "minValue": 0.0,
                               "maxValue": 40.0,
                               "default": 20.0,
@@ -31423,7 +31664,7 @@
                         "emitterShape": {
                           "parameters": [
                             {
-                              "value": "Torus",
+                              "value": "Sphere",
                               "controlAddress": "/baseValue"
                             }
                           ],
@@ -31461,7 +31702,7 @@
                         "emitterPositionNoise": {
                           "parameters": [
                             {
-                              "value": 0.0,
+                              "value": 1.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -31509,8 +31750,8 @@
                             {
                               "value": [
                                 1.0,
-                                0.0,
-                                0.0,
+                                1.0,
+                                1.0,
                                 1.0
                               ],
                               "controlAddress": "/baseValue"
@@ -31522,7 +31763,7 @@
                         "alpha": {
                           "parameters": [
                             {
-                              "value": 1.0,
+                              "value": 0.1200000047683716,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.2000000029802322,
@@ -31548,7 +31789,7 @@
                         "alphaSpeedThreshold": {
                           "parameters": [
                             {
-                              "value": 0.1416666805744171,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -31574,7 +31815,7 @@
                         "particleSize": {
                           "parameters": [
                             {
-                              "value": 0.2502362132072449,
+                              "value": 0.06023625656962395,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -31607,7 +31848,7 @@
                         "drag": {
                           "parameters": [
                             {
-                              "value": 0.2440944910049438,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.5,
@@ -31633,7 +31874,7 @@
                         "noisyDrag": {
                           "parameters": [
                             {
-                              "value": 0.4960629940032959,
+                              "value": 0.2000000029802322,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -31646,7 +31887,7 @@
                         "noisyDragFrequency": {
                           "parameters": [
                             {
-                              "value": 0.2666666805744171,
+                              "value": 0.2416666746139526,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -31784,6 +32025,10 @@
                           "owned": true,
                           "niceName": "Circle Pattern Speed Weight"
                         },
+                        "manualPatternWeight": {
+                          "owned": true,
+                          "niceName": "Manual Pattern Weight"
+                        },
                         "nBodyPatternWeight": {
                           "owned": true,
                           "niceName": "NBody Pattern Weight"
@@ -31873,7 +32118,7 @@
                         "dancerIntensity": {
                           "parameters": [
                             {
-                              "value": 1.0,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 1.0,
@@ -32044,7 +32289,7 @@
                         "alphaSpeedThreshold": {
                           "parameters": [
                             {
-                              "value": 0.2249999940395355,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -32162,7 +32407,7 @@
                           "parameters": [
                             {
                               "value": [
-                                90.0,
+                                0.0,
                                 0.0,
                                 0.0
                               ],
@@ -32182,7 +32427,7 @@
                         "count": {
                           "parameters": [
                             {
-                              "value": 2.755905628204346,
+                              "value": 1.0,
                               "minValue": 1.0,
                               "maxValue": 10.0,
                               "default": 1.0,
@@ -32195,7 +32440,7 @@
                         "patternSize": {
                           "parameters": [
                             {
-                              "value": 0.5511810779571533,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 20.0,
                               "default": 1.0,
@@ -32264,6 +32509,10 @@
                         "circlePatternSpeedWeight": {
                           "owned": true,
                           "niceName": "Circle Pattern Speed Weight"
+                        },
+                        "manualPatternWeight": {
+                          "owned": true,
+                          "niceName": "Manual Pattern Weight"
                         },
                         "nBodyPatternWeight": {
                           "owned": true,
@@ -32336,7 +32585,7 @@
                         "dancerSize": {
                           "parameters": [
                             {
-                              "value": 10.0,
+                              "value": 5.354330539703369,
                               "minValue": 0.0,
                               "maxValue": 20.0,
                               "default": 1.0,
@@ -32370,7 +32619,7 @@
                         "dancerIntensity": {
                           "parameters": [
                             {
-                              "value": 0.0,
+                              "value": 0.07874015718698502,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 1.0,
@@ -32383,7 +32632,7 @@
                         "dancerWeightIntensityFactor": {
                           "parameters": [
                             {
-                              "value": 1.0,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -32397,7 +32646,7 @@
                           "parameters": [
                             {
                               "value": [
-                                90.0,
+                                -90.0,
                                 0.0,
                                 0.0
                               ],
@@ -32444,7 +32693,7 @@
                         "forceFactorInside": {
                           "parameters": [
                             {
-                              "value": 0.960629940032959,
+                              "value": 1.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 1.0,
@@ -32457,7 +32706,7 @@
                         "forceFactorOutside": {
                           "parameters": [
                             {
-                              "value": 0.0,
+                              "value": 0.1181102395057678,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -32564,7 +32813,7 @@
                         "linearIntensity": {
                           "parameters": [
                             {
-                              "value": 0.0,
+                              "value": 0.1732283532619476,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -32643,7 +32892,7 @@
                         "curlIntensity": {
                           "parameters": [
                             {
-                              "value": 0.07874015718698502,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -32656,7 +32905,7 @@
                         "curlFrequency": {
                           "parameters": [
                             {
-                              "value": 2.791666746139526,
+                              "value": 1.49999988079071,
                               "minValue": 0.0,
                               "maxValue": 5.0,
                               "default": 0.0,
@@ -32736,7 +32985,7 @@
                         "perlinIntensity": {
                           "parameters": [
                             {
-                              "value": 0.2755905389785767,
+                              "value": 1.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -32749,7 +32998,7 @@
                         "perlinFrequency": {
                           "parameters": [
                             {
-                              "value": 1.291666984558105,
+                              "value": 0.08333325386047363,
                               "minValue": 0.0,
                               "maxValue": 5.0,
                               "default": 0.0,
@@ -32762,7 +33011,7 @@
                         "perlinOctaves": {
                           "parameters": [
                             {
-                              "value": 1.37499988079071,
+                              "value": 1.0,
                               "minValue": 1.0,
                               "maxValue": 8.0,
                               "default": 1.0,
@@ -32801,7 +33050,7 @@
                         "perlinTranslationSpeed": {
                           "parameters": [
                             {
-                              "value": 0.07500000298023224,
+                              "value": 0.3333333134651184,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -32885,7 +33134,7 @@
                         "count": {
                           "parameters": [
                             {
-                              "value": 2.0,
+                              "value": 1.0,
                               "minValue": 1.0,
                               "maxValue": 10.0,
                               "default": 1.0,
@@ -32898,7 +33147,7 @@
                         "patternSize": {
                           "parameters": [
                             {
-                              "value": 1.400000095367432,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 20.0,
                               "default": 1.0,
@@ -32954,7 +33203,7 @@
                         "circlePatternWeight": {
                           "parameters": [
                             {
-                              "value": 0.0,
+                              "value": 1.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 1.0,
@@ -32967,6 +33216,10 @@
                         "circlePatternSpeedWeight": {
                           "owned": true,
                           "niceName": "Circle Pattern Speed Weight"
+                        },
+                        "manualPatternWeight": {
+                          "owned": true,
+                          "niceName": "Manual Pattern Weight"
                         },
                         "nBodyPatternWeight": {
                           "owned": true,
@@ -32986,7 +33239,7 @@
                         "patternSpeed": {
                           "parameters": [
                             {
-                              "value": 0.2799999713897705,
+                              "value": 0.0,
                               "minValue": -1.0,
                               "maxValue": 1.0,
                               "default": 0.1000000014901161,
@@ -33038,7 +33291,7 @@
                         "dancerSize": {
                           "parameters": [
                             {
-                              "value": 0.7603173851966858,
+                              "value": 3.499999523162842,
                               "minValue": 0.0,
                               "maxValue": 20.0,
                               "default": 1.0,
@@ -33076,7 +33329,7 @@
                         "dancerIntensity": {
                           "parameters": [
                             {
-                              "value": 0.07999996840953827,
+                              "value": 0.1000000238418579,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 1.0,
@@ -33104,7 +33357,7 @@
                             {
                               "value": [
                                 0.0,
-                                90.0,
+                                0.0,
                                 0.0
                               ],
                               "controlAddress": "/baseValue"
@@ -33171,7 +33424,7 @@
                         "radialIntensity": {
                           "parameters": [
                             {
-                              "value": 0.1400000154972076,
+                              "value": 0.9399999976158142,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -33197,7 +33450,7 @@
                         "radialInOut": {
                           "parameters": [
                             {
-                              "value": 1.0,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -33266,7 +33519,7 @@
                         "orthoIntensity": {
                           "parameters": [
                             {
-                              "value": 0.0,
+                              "value": 0.3899999856948853,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -33277,10 +33530,28 @@
                           "niceName": "Ortho Intensity"
                         },
                         "orthoInnerRadius": {
+                          "parameters": [
+                            {
+                              "value": 1.0,
+                              "minValue": 0.0,
+                              "maxValue": 1.0,
+                              "default": 0.5,
+                              "controlAddress": "/baseValue"
+                            }
+                          ],
                           "owned": true,
                           "niceName": "Ortho Inner Radius"
                         },
                         "orthoFactor": {
+                          "parameters": [
+                            {
+                              "value": 1.0,
+                              "minValue": 1.0,
+                              "maxValue": 3.0,
+                              "default": 2.0,
+                              "controlAddress": "/baseValue"
+                            }
+                          ],
                           "owned": true,
                           "niceName": "Ortho Factor"
                         },
@@ -33297,7 +33568,7 @@
                         "curlIntensity": {
                           "parameters": [
                             {
-                              "value": 0.4099999964237213,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -33407,7 +33678,7 @@
                         "perlinIntensity": {
                           "parameters": [
                             {
-                              "value": 0.2800000011920929,
+                              "value": 1.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -33420,7 +33691,7 @@
                         "perlinFrequency": {
                           "parameters": [
                             {
-                              "value": 1.083333253860474,
+                              "value": 0.4166666269302368,
                               "minValue": 0.0,
                               "maxValue": 5.0,
                               "default": 0.0,
@@ -33435,10 +33706,28 @@
                           "niceName": "Perlin Octaves"
                         },
                         "perlinRoughness": {
+                          "parameters": [
+                            {
+                              "value": 0.4000000357627869,
+                              "minValue": 0.0,
+                              "maxValue": 1.0,
+                              "default": 0.0,
+                              "controlAddress": "/baseValue"
+                            }
+                          ],
                           "owned": true,
                           "niceName": "Perlin Roughness"
                         },
                         "perlinLacunarity": {
+                          "parameters": [
+                            {
+                              "value": 0.2083333432674408,
+                              "minValue": 0.0,
+                              "maxValue": 1.0,
+                              "default": 0.0,
+                              "controlAddress": "/baseValue"
+                            }
+                          ],
                           "owned": true,
                           "niceName": "Perlin Lacunarity"
                         },
@@ -33571,12 +33860,12 @@
                     "CameraSpoutManager": {
                       "parameters": [
                         {
-                          "value": 1920,
+                          "value": 1080,
                           "hexMode": false,
                           "controlAddress": "/width"
                         },
                         {
-                          "value": 1080,
+                          "value": 1920,
                           "hexMode": false,
                           "controlAddress": "/height"
                         },
@@ -33628,7 +33917,7 @@
                           "controlAddress": "/listen"
                         },
                         {
-                          "value": true,
+                          "value": false,
                           "controlAddress": "/renderMainWindow"
                         },
                         {
@@ -33636,8 +33925,12 @@
                           "controlAddress": "/orthographic"
                         },
                         {
-                          "value": 82.59648895263672,
+                          "value": 56.94640731811523,
                           "controlAddress": "/fov"
+                        },
+                        {
+                          "value": 2.899999618530273,
+                          "controlAddress": "/orthoSize"
                         },
                         {
                           "value": 5.0,
@@ -33648,7 +33941,7 @@
                           "controlAddress": "/resetDuration"
                         },
                         {
-                          "value": "Orbital",
+                          "value": "Spaceship",
                           "controlAddress": "/cameraType"
                         },
                         {
@@ -34176,21 +34469,21 @@
                     "SpaceshipMovement": {
                       "parameters": [
                         {
-                          "value": false,
+                          "value": true,
                           "controlAddress": "/manualControl"
                         },
                         {
                           "value": [
-                            0.0,
-                            0.0,
-                            0.0
+                            0.02499991655349731,
+                            1.799000024795532,
+                            -14.90000152587891
                           ],
                           "controlAddress": "/cameraPosition"
                         },
                         {
                           "value": [
-                            -118.9678649902344,
-                            -11.36354160308838,
+                            0.0,
+                            0.0,
                             0.0
                           ],
                           "controlAddress": "/cameraRotation"
@@ -34269,6 +34562,7 @@
               "niceName": "Cameras"
             },
             "Ballet": {
+              "editorIsCollapsed": true,
               "containers": {
                 "Transform": {
                   "parameters": [
@@ -34292,7 +34586,7 @@
                       "controlAddress": "/listen"
                     },
                     {
-                      "value": 755073.0,
+                      "value": 1.764963e6,
                       "controlAddress": "/totalParticles"
                     }
                   ],
@@ -34358,11 +34652,11 @@
                         "OrbGroup": {
                           "parameters": [
                             {
-                              "value": 2.272440910339355,
+                              "value": 22.07241249084473,
                               "controlAddress": "/life"
                             },
                             {
-                              "value": "Torus",
+                              "value": "Sphere",
                               "controlAddress": "/emitterShape"
                             },
                             {
@@ -34374,7 +34668,7 @@
                               "controlAddress": "/emitterVolumeFactor"
                             },
                             {
-                              "value": 0.0,
+                              "value": 1.0,
                               "controlAddress": "/emitterPositionNoise"
                             },
                             {
@@ -34388,14 +34682,14 @@
                             {
                               "value": [
                                 1.0,
-                                0.0,
-                                0.0,
+                                1.0,
+                                1.0,
                                 1.0
                               ],
                               "controlAddress": "/color"
                             },
                             {
-                              "value": 1.0,
+                              "value": 0.1200000047683716,
                               "controlAddress": "/alpha"
                             },
                             {
@@ -34403,7 +34697,7 @@
                               "controlAddress": "/hdrMultiplier"
                             },
                             {
-                              "value": 0.1416666805744171,
+                              "value": 0.0,
                               "controlAddress": "/alphaSpeedThreshold"
                             },
                             {
@@ -34411,7 +34705,7 @@
                               "controlAddress": "/textureOpacity"
                             },
                             {
-                              "value": 0.2502362132072449,
+                              "value": 0.06023625656962395,
                               "controlAddress": "/particleSize"
                             },
                             {
@@ -34419,7 +34713,7 @@
                               "controlAddress": "/forceWeight"
                             },
                             {
-                              "value": 0.2440944910049438,
+                              "value": 0.0,
                               "controlAddress": "/drag"
                             },
                             {
@@ -34427,11 +34721,11 @@
                               "controlAddress": "/velocityDrag"
                             },
                             {
-                              "value": 0.4960629940032959,
+                              "value": 0.2000000029802322,
                               "controlAddress": "/noisyDrag"
                             },
                             {
-                              "value": 0.2666666805744171,
+                              "value": 0.2416666746139526,
                               "controlAddress": "/noisyDragFrequency"
                             },
                             {
@@ -34459,7 +34753,7 @@
                               "controlAddress": "/patternTimeOffset"
                             },
                             {
-                              "value": 2.440944910049438,
+                              "value": 1.149999856948853,
                               "controlAddress": "/dancerSize"
                             },
                             {
@@ -34475,7 +34769,7 @@
                               "controlAddress": "/dancerWeightSizeFactor"
                             },
                             {
-                              "value": 0.0,
+                              "value": 1.0,
                               "controlAddress": "/dancerIntensity"
                             },
                             {
@@ -34499,7 +34793,7 @@
                               "controlAddress": "/dancerLookAtMode"
                             },
                             {
-                              "value": 1.023622035980225,
+                              "value": 1.0,
                               "controlAddress": "/count"
                             }
                           ],
@@ -34541,6 +34835,37 @@
                           "owned": true,
                           "niceName": "CircleDancePattern"
                         },
+                        "ManualDancePattern": {
+                          "parameters": [
+                            {
+                              "value": [
+                                100.0,
+                                100.0,
+                                100.0
+                              ],
+                              "controlAddress": "/pos1"
+                            },
+                            {
+                              "value": [
+                                100.0,
+                                100.0,
+                                100.0
+                              ],
+                              "controlAddress": "/pos2"
+                            },
+                            {
+                              "value": "Add",
+                              "controlAddress": "/blendMode"
+                            },
+                            {
+                              "value": 1.0,
+                              "controlAddress": "/weight"
+                            }
+                          ],
+                          "editorIsCollapsed": true,
+                          "owned": true,
+                          "niceName": "ManualDancePattern"
+                        },
                         "VFXRenderer": {
                           "editorIsCollapsed": true,
                           "owned": true,
@@ -34550,17 +34875,6 @@
                           "editorIsCollapsed": true,
                           "owned": true,
                           "niceName": "CameraVFXInfo"
-                        },
-                        "ManualDancePattern": {
-                          "parameters": [
-                            {
-                              "value": "Add",
-                              "controlAddress": "/blendMode"
-                            }
-                          ],
-                          "editorIsCollapsed": true,
-                          "owned": true,
-                          "niceName": "ManualDancePattern"
                         }
                       },
                       "owned": true,
@@ -34636,7 +34950,7 @@
                               "controlAddress": "/hdrMultiplier"
                             },
                             {
-                              "value": 0.2249999940395355,
+                              "value": 0.0,
                               "controlAddress": "/alphaSpeedThreshold"
                             },
                             {
@@ -34684,7 +34998,7 @@
                               "controlAddress": "/dancerWeightSizeFactor"
                             },
                             {
-                              "value": 1.0,
+                              "value": 0.0,
                               "controlAddress": "/dancerIntensity"
                             },
                             {
@@ -34734,16 +35048,6 @@
                           "owned": true,
                           "niceName": "CircleDancePattern"
                         },
-                        "VFXRenderer": {
-                          "editorIsCollapsed": true,
-                          "owned": true,
-                          "niceName": "VFXRenderer"
-                        },
-                        "CameraVFXInfo": {
-                          "editorIsCollapsed": true,
-                          "owned": true,
-                          "niceName": "CameraVFXInfo"
-                        },
                         "ManualDancePattern": {
                           "parameters": [
                             {
@@ -34754,6 +35058,16 @@
                           "editorIsCollapsed": true,
                           "owned": true,
                           "niceName": "ManualDancePattern"
+                        },
+                        "VFXRenderer": {
+                          "editorIsCollapsed": true,
+                          "owned": true,
+                          "niceName": "VFXRenderer"
+                        },
+                        "CameraVFXInfo": {
+                          "editorIsCollapsed": true,
+                          "owned": true,
+                          "niceName": "CameraVFXInfo"
                         }
                       },
                       "owned": true,
@@ -34764,6 +35078,7 @@
                   "niceName": "Orb Groups"
                 },
                 "Force_Groups": {
+                  "editorIsCollapsed": true,
                   "containers": {
                     "Transform": {
                       "parameters": [
@@ -34806,7 +35121,7 @@
                             },
                             {
                               "value": [
-                                90.0,
+                                0.0,
                                 0.0,
                                 0.0
                               ],
@@ -34820,11 +35135,11 @@
                         "StandardForceGroup": {
                           "parameters": [
                             {
-                              "value": 0.960629940032959,
+                              "value": 1.0,
                               "controlAddress": "/forceFactorInside"
                             },
                             {
-                              "value": 0.0,
+                              "value": 0.1181102395057678,
                               "controlAddress": "/forceFactorOutside"
                             },
                             {
@@ -34856,7 +35171,7 @@
                               "controlAddress": "/axisMultiplier"
                             },
                             {
-                              "value": 0.0,
+                              "value": 0.1732283532619476,
                               "controlAddress": "/linearIntensity"
                             },
                             {
@@ -34876,11 +35191,11 @@
                               "controlAddress": "/orthoClockwise"
                             },
                             {
-                              "value": 0.07874015718698502,
+                              "value": 0.0,
                               "controlAddress": "/curlIntensity"
                             },
                             {
-                              "value": 2.791666746139526,
+                              "value": 1.49999988079071,
                               "controlAddress": "/curlFrequency"
                             },
                             {
@@ -34904,15 +35219,15 @@
                               "controlAddress": "/curlTranslation"
                             },
                             {
-                              "value": 0.2755905389785767,
+                              "value": 1.0,
                               "controlAddress": "/perlinIntensity"
                             },
                             {
-                              "value": 1.291666984558105,
+                              "value": 0.08333325386047363,
                               "controlAddress": "/perlinFrequency"
                             },
                             {
-                              "value": 1.37499988079071,
+                              "value": 1.0,
                               "controlAddress": "/perlinOctaves"
                             },
                             {
@@ -34924,7 +35239,7 @@
                               "controlAddress": "/perlinLacunarity"
                             },
                             {
-                              "value": 0.07500000298023224,
+                              "value": 0.3333333134651184,
                               "controlAddress": "/perlinTranslationSpeed"
                             },
                             {
@@ -34936,7 +35251,7 @@
                               "controlAddress": "/orthoaxialInnerRadius"
                             },
                             {
-                              "value": 0.5511810779571533,
+                              "value": 0.0,
                               "controlAddress": "/patternSize"
                             },
                             {
@@ -34948,7 +35263,7 @@
                               "controlAddress": "/patternAxisSpread"
                             },
                             {
-                              "value": 0.000072501033940852,
+                              "value": 0.000598887031344475,
                               "controlAddress": "/patternSpeed"
                             },
                             {
@@ -34960,7 +35275,7 @@
                               "controlAddress": "/patternTimeOffset"
                             },
                             {
-                              "value": 10.0,
+                              "value": 5.354330539703369,
                               "controlAddress": "/dancerSize"
                             },
                             {
@@ -34968,16 +35283,16 @@
                               "controlAddress": "/dancerSizeSpread"
                             },
                             {
-                              "value": 0.0,
+                              "value": 0.07874015718698502,
                               "controlAddress": "/dancerIntensity"
                             },
                             {
-                              "value": 1.0,
+                              "value": 0.0,
                               "controlAddress": "/dancerWeightIntensityFactor"
                             },
                             {
                               "value": [
-                                90.0,
+                                -90.0,
                                 0.0,
                                 0.0
                               ],
@@ -34996,7 +35311,7 @@
                               "controlAddress": "/dancerLookAtMode"
                             },
                             {
-                              "value": 2.755905628204346,
+                              "value": 1.0,
                               "controlAddress": "/count"
                             }
                           ],
@@ -35037,14 +35352,6 @@
                         "ManualDancePattern": {
                           "parameters": [
                             {
-                              "value": "Add",
-                              "controlAddress": "/blendMode"
-                            },
-                            {
-                              "value": 1.0,
-                              "controlAddress": "/weight"
-                            },
-                            {
                               "value": [
                                 0.0,
                                 0.0,
@@ -35059,6 +35366,14 @@
                                 0.0
                               ],
                               "controlAddress": "/pos2"
+                            },
+                            {
+                              "value": "Add",
+                              "controlAddress": "/blendMode"
+                            },
+                            {
+                              "value": 1.0,
+                              "controlAddress": "/weight"
                             }
                           ],
                           "editorIsCollapsed": true,
@@ -35070,9 +35385,18 @@
                       "niceName": "Force Group 1"
                     },
                     "Force_Group_2": {
+                      "editorIsCollapsed": true,
                       "containers": {
                         "Transform": {
                           "parameters": [
+                            {
+                              "value": [
+                                0.0,
+                                6.899999618530273,
+                                0.0
+                              ],
+                              "controlAddress": "/position"
+                            },
                             {
                               "value": [
                                 0.0,
@@ -35097,7 +35421,7 @@
                               "controlAddress": "/forceFactorOutside"
                             },
                             {
-                              "value": 0.1400000154972076,
+                              "value": 0.9399999976158142,
                               "controlAddress": "/radialIntensity"
                             },
                             {
@@ -35105,7 +35429,7 @@
                               "controlAddress": "/radialFrequency"
                             },
                             {
-                              "value": 1.0,
+                              "value": 0.0,
                               "controlAddress": "/radialInOut"
                             },
                             {
@@ -35125,11 +35449,19 @@
                               "controlAddress": "/linearIntensity"
                             },
                             {
-                              "value": 0.0,
+                              "value": 0.3899999856948853,
                               "controlAddress": "/orthoIntensity"
                             },
                             {
-                              "value": 0.4099999964237213,
+                              "value": 1.0,
+                              "controlAddress": "/orthoInnerRadius"
+                            },
+                            {
+                              "value": 1.0,
+                              "controlAddress": "/orthoFactor"
+                            },
+                            {
+                              "value": 0.0,
                               "controlAddress": "/curlIntensity"
                             },
                             {
@@ -35157,12 +35489,20 @@
                               "controlAddress": "/curlTranslation"
                             },
                             {
-                              "value": 0.2800000011920929,
+                              "value": 1.0,
                               "controlAddress": "/perlinIntensity"
                             },
                             {
-                              "value": 1.083333253860474,
+                              "value": 0.4166666269302368,
                               "controlAddress": "/perlinFrequency"
+                            },
+                            {
+                              "value": 0.4000000357627869,
+                              "controlAddress": "/perlinRoughness"
+                            },
+                            {
+                              "value": 0.2083333432674408,
+                              "controlAddress": "/perlinLacunarity"
                             },
                             {
                               "value": 0.0,
@@ -35173,7 +35513,7 @@
                               "controlAddress": "/orthoaxialInnerRadius"
                             },
                             {
-                              "value": 1.400000095367432,
+                              "value": 0.0,
                               "controlAddress": "/patternSize"
                             },
                             {
@@ -35185,7 +35525,7 @@
                               "controlAddress": "/patternAxisSpread"
                             },
                             {
-                              "value": 0.2799999713897705,
+                              "value": 0.0,
                               "controlAddress": "/patternSpeed"
                             },
                             {
@@ -35197,7 +35537,7 @@
                               "controlAddress": "/patternTimeOffset"
                             },
                             {
-                              "value": 0.7603173851966858,
+                              "value": 3.499999523162842,
                               "controlAddress": "/dancerSize"
                             },
                             {
@@ -35205,7 +35545,7 @@
                               "controlAddress": "/dancerSizeSpread"
                             },
                             {
-                              "value": 0.07999996840953827,
+                              "value": 0.1000000238418579,
                               "controlAddress": "/dancerIntensity"
                             },
                             {
@@ -35215,7 +35555,7 @@
                             {
                               "value": [
                                 0.0,
-                                90.0,
+                                0.0,
                                 0.0
                               ],
                               "controlAddress": "/dancerRotation"
@@ -35225,10 +35565,11 @@
                               "controlAddress": "/dancerLookAtMode"
                             },
                             {
-                              "value": 2.0,
+                              "value": 1.0,
                               "controlAddress": "/count"
                             }
                           ],
+                          "editorIsCollapsed": true,
                           "owned": true,
                           "niceName": "StandardForceGroup"
                         },
@@ -35243,6 +35584,7 @@
                               "controlAddress": "/weight"
                             }
                           ],
+                          "editorIsCollapsed": true,
                           "owned": true,
                           "niceName": "LineDancePattern"
                         },
@@ -35253,23 +35595,16 @@
                               "controlAddress": "/blendMode"
                             },
                             {
-                              "value": 0.0,
+                              "value": 1.0,
                               "controlAddress": "/weight"
                             }
                           ],
+                          "editorIsCollapsed": true,
                           "owned": true,
                           "niceName": "CircleDancePattern"
                         },
                         "ManualDancePattern": {
                           "parameters": [
-                            {
-                              "value": "Add",
-                              "controlAddress": "/blendMode"
-                            },
-                            {
-                              "value": 1.0,
-                              "controlAddress": "/weight"
-                            },
                             {
                               "value": [
                                 100.0,
@@ -35285,8 +35620,17 @@
                                 100.0
                               ],
                               "controlAddress": "/pos2"
+                            },
+                            {
+                              "value": "Add",
+                              "controlAddress": "/blendMode"
+                            },
+                            {
+                              "value": 1.0,
+                              "controlAddress": "/weight"
                             }
                           ],
+                          "editorIsCollapsed": true,
                           "owned": true,
                           "niceName": "ManualDancePattern"
                         }
@@ -35524,7 +35868,7 @@
                         "width": {
                           "ACCESS": 3,
                           "VALUE": [
-                            1920
+                            1080
                           ],
                           "TYPE": "i",
                           "RANGE": [
@@ -35536,7 +35880,7 @@
                         "height": {
                           "ACCESS": 3,
                           "VALUE": [
-                            1080
+                            1920
                           ],
                           "TYPE": "i",
                           "RANGE": [
@@ -35693,7 +36037,7 @@
                         "renderMainWindow": {
                           "ACCESS": 3,
                           "VALUE": [
-                            true
+                            false
                           ],
                           "TYPE": "T",
                           "RANGE": [
@@ -35717,7 +36061,7 @@
                         "fov": {
                           "ACCESS": 3,
                           "VALUE": [
-                            82.59649
+                            23.19648
                           ],
                           "TYPE": "f",
                           "RANGE": [
@@ -35729,7 +36073,7 @@
                         "orthoSize": {
                           "ACCESS": 3,
                           "VALUE": [
-                            2
+                            2.9
                           ],
                           "TYPE": "f",
                           "RANGE": [
@@ -35765,7 +36109,7 @@
                         "cameraType": {
                           "ACCESS": 3,
                           "VALUE": [
-                            "Orbital"
+                            "Spaceship"
                           ],
                           "TYPE": "s",
                           "RANGE": [
@@ -35856,7 +36200,7 @@
                               "VALUE": [
                                 0,
                                 0,
-                                -5
+                                -4
                               ],
                               "TYPE": "fff",
                               "RANGE": [
@@ -35887,7 +36231,7 @@
                             "m_Priority": {
                               "ACCESS": 3,
                               "VALUE": [
-                                10
+                                0
                               ],
                               "TYPE": "i",
                               "RANGE": [
@@ -35941,7 +36285,7 @@
                             "Priority": {
                               "ACCESS": 3,
                               "VALUE": [
-                                10
+                                0
                               ],
                               "TYPE": "i",
                               "RANGE": [
@@ -36017,7 +36361,7 @@
                                   "VALUE": [
                                     -5.26477,
                                     0,
-                                    -6.591283
+                                    -5.591283
                                   ],
                                   "TYPE": "fff",
                                   "RANGE": [
@@ -36075,7 +36419,7 @@
                                   "VALUE": [
                                     0,
                                     0,
-                                    -5
+                                    -4
                                   ],
                                   "TYPE": "fff",
                                   "RANGE": [
@@ -36313,9 +36657,9 @@
                             "position": {
                               "ACCESS": 3,
                               "VALUE": [
-                                -1.41,
-                                0,
-                                0
+                                0.02499992,
+                                1.799,
+                                -31.5
                               ],
                               "TYPE": "fff",
                               "RANGE": [
@@ -36346,7 +36690,7 @@
                             "m_Priority": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                10
                               ],
                               "TYPE": "i",
                               "RANGE": [
@@ -36400,7 +36744,7 @@
                             "Priority": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                10
                               ],
                               "TYPE": "i",
                               "RANGE": [
@@ -36474,9 +36818,9 @@
                                 "position": {
                                   "ACCESS": 3,
                                   "VALUE": [
-                                    -1.41,
-                                    0,
-                                    5.5
+                                    0.02499992,
+                                    1.799,
+                                    -26
                                   ],
                                   "TYPE": "fff",
                                   "RANGE": [
@@ -36776,9 +37120,9 @@
                                 "position": {
                                   "ACCESS": 3,
                                   "VALUE": [
-                                    -1.41,
+                                    4.090001,
                                     0,
-                                    5.500001
+                                    -4.768372e-7
                                   ],
                                   "TYPE": "fff",
                                   "RANGE": [
@@ -37353,9 +37697,9 @@
                         "position": {
                           "ACCESS": 3,
                           "VALUE": [
-                            -1.41,
-                            0,
-                            0
+                            0.02499992,
+                            1.799,
+                            -31.5
                           ],
                           "TYPE": "fff",
                           "RANGE": [
@@ -37386,7 +37730,7 @@
                         "manualControl": {
                           "ACCESS": 3,
                           "VALUE": [
-                            false
+                            true
                           ],
                           "TYPE": "T",
                           "RANGE": [
@@ -37398,9 +37742,9 @@
                         "cameraPosition": {
                           "ACCESS": 3,
                           "VALUE": [
-                            0,
-                            0,
-                            0
+                            0.02499992,
+                            1.799,
+                            -31.5
                           ],
                           "TYPE": "fff",
                           "RANGE": [
@@ -37412,8 +37756,8 @@
                         "cameraRotation": {
                           "ACCESS": 3,
                           "VALUE": [
-                            -118.9679,
-                            -11.36354,
+                            0,
+                            0,
                             0
                           ],
                           "TYPE": "fff",
@@ -37719,7 +38063,7 @@
                     "totalParticles": {
                       "ACCESS": 3,
                       "VALUE": [
-                        414823
+                        32667
                       ],
                       "TYPE": "f",
                       "RANGE": [
@@ -37840,7 +38184,7 @@
                             "life": {
                               "ACCESS": 3,
                               "VALUE": [
-                                2.272441
+                                7.072441
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -37855,7 +38199,7 @@
                             "emitterShape": {
                               "ACCESS": 3,
                               "VALUE": [
-                                "Torus"
+                                "Sphere"
                               ],
                               "TYPE": "s",
                               "RANGE": [
@@ -37912,7 +38256,7 @@
                             "emitterPositionNoise": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -37957,7 +38301,7 @@
                             "color": {
                               "ACCESS": 3,
                               "VALUE": [
-                                "FF0000FF"
+                                "FFFFFFFF"
                               ],
                               "TYPE": "r",
                               "RANGE": [
@@ -37969,7 +38313,7 @@
                             "alpha": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1
+                                0.11
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -37999,7 +38343,7 @@
                             "alphaSpeedThreshold": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.1416667
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38029,7 +38373,7 @@
                             "particleSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2502362
+                                0.1002362
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38146,7 +38490,7 @@
                             "patternSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                1.3
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38236,7 +38580,7 @@
                             "dancerSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                2.440945
+                                0.35
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38296,7 +38640,7 @@
                             "dancerIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.57
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38369,7 +38713,7 @@
                             "count": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1.023622
+                                2
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38495,9 +38839,9 @@
                             "pos1": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0,
-                                0,
-                                0
+                                100,
+                                100,
+                                100
                               ],
                               "TYPE": "fff",
                               "RANGE": [
@@ -38509,9 +38853,9 @@
                             "pos2": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0,
-                                0,
-                                0
+                                100,
+                                100,
+                                100
                               ],
                               "TYPE": "fff",
                               "RANGE": [
@@ -38848,7 +39192,7 @@
                             "life": {
                               "ACCESS": 3,
                               "VALUE": [
-                                5.19685
+                                9.448805
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39007,7 +39351,7 @@
                             "alphaSpeedThreshold": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.1166667
+                                0.225
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39037,7 +39381,7 @@
                             "particleSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.05511811
+                                0.09448819
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39067,7 +39411,7 @@
                             "drag": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.03937008
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39097,7 +39441,7 @@
                             "noisyDrag": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.09448819
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39244,7 +39588,7 @@
                             "dancerSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                3.700787
+                                6.771654
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39896,9 +40240,9 @@
                             "rotation": {
                               "ACCESS": 3,
                               "VALUE": [
-                                90,
-                                0,
-                                0
+                                -5.008956e-6,
+                                180,
+                                180
                               ],
                               "TYPE": "fff",
                               "RANGE": [
@@ -40048,7 +40392,7 @@
                             "linearIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.7795275
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40123,7 +40467,7 @@
                             "curlIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.07874016
+                                0.3228346
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40180,7 +40524,7 @@
                             "curlLacunarity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.5716276
+                                0.2
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40210,7 +40554,7 @@
                             "curlTranslation": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.125
+                                0.1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40225,7 +40569,7 @@
                             "perlinIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2755905
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40240,7 +40584,7 @@
                             "perlinFrequency": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1.291667
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40255,7 +40599,7 @@
                             "perlinOctaves": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1.375
+                                2
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40270,7 +40614,7 @@
                             "perlinRoughness": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.25
+                                0.5
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40285,7 +40629,7 @@
                             "perlinLacunarity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2666667
+                                0.2
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40300,7 +40644,7 @@
                             "perlinTranslationSpeed": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.075
+                                0.1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40315,7 +40659,7 @@
                             "orthoaxialIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.749
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40330,7 +40674,7 @@
                             "orthoaxialInnerRadius": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2176442
+                                0.279
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40375,7 +40719,7 @@
                             "patternSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.5511811
+                                1.2
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40420,7 +40764,7 @@
                             "patternSpeed": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.00007250103
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40465,7 +40809,7 @@
                             "dancerSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                10
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40525,7 +40869,7 @@
                             "dancerIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40540,7 +40884,7 @@
                             "dancerWeightIntensityFactor": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40555,7 +40899,7 @@
                             "dancerRotation": {
                               "ACCESS": 3,
                               "VALUE": [
-                                90,
+                                0,
                                 0,
                                 0
                               ],
@@ -40724,7 +41068,7 @@
                             "pos1": {
                               "ACCESS": 3,
                               "VALUE": [
-                                -0.89,
+                                0,
                                 0,
                                 0
                               ],
@@ -40738,7 +41082,7 @@
                             "pos2": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1.19,
+                                0,
                                 0,
                                 0
                               ],
@@ -40826,7 +41170,7 @@
                             "weight": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40868,7 +41212,7 @@
                               "ACCESS": 3,
                               "VALUE": [
                                 0,
-                                0,
+                                7.7,
                                 0
                               ],
                               "TYPE": "fff",
@@ -40930,7 +41274,7 @@
                             "radialIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.14
+                                0.21
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40960,7 +41304,7 @@
                             "radialInOut": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41048,7 +41392,7 @@
                             "orthoIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.39
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41063,7 +41407,7 @@
                             "orthoInnerRadius": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.5
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41210,7 +41554,7 @@
                             "perlinIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.28
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41225,7 +41569,7 @@
                             "perlinFrequency": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1.083333
+                                0.625
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41255,7 +41599,7 @@
                             "perlinRoughness": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.5
+                                0.4
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41270,7 +41614,7 @@
                             "perlinLacunarity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2
+                                0.2083333
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41360,7 +41704,7 @@
                             "patternSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1.5
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41405,7 +41749,7 @@
                             "patternSpeed": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.2804491
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41450,7 +41794,7 @@
                             "dancerSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2603174
+                                3.099999
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41510,7 +41854,7 @@
                             "dancerIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.25
+                                0.2399999
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41541,7 +41885,7 @@
                               "ACCESS": 3,
                               "VALUE": [
                                 0,
-                                90,
+                                0,
                                 0
                               ],
                               "TYPE": "fff",
@@ -41583,7 +41927,7 @@
                             "count": {
                               "ACCESS": 3,
                               "VALUE": [
-                                2
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41709,9 +42053,9 @@
                             "pos1": {
                               "ACCESS": 3,
                               "VALUE": [
-                                -1.4,
-                                0,
-                                0
+                                100,
+                                100,
+                                100
                               ],
                               "TYPE": "fff",
                               "RANGE": [
@@ -41723,9 +42067,9 @@
                             "pos2": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0,
-                                0,
-                                1.8
+                                100,
+                                100,
+                                100
                               ],
                               "TYPE": "fff",
                               "RANGE": [
@@ -41811,7 +42155,7 @@
                             "weight": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42072,7 +42416,7 @@
                 "FB_Over": {
                   "parameters": [
                     {
-                      "value": false,
+                      "value": true,
                       "controlAddress": "/Activateblur"
                     },
                     {
@@ -42086,7 +42430,7 @@
                       "controlAddress": "/Preshrink"
                     },
                     {
-                      "value": 0.9600000381469727,
+                      "value": 0.0,
                       "colorStatusMap": [
                         0.0,
                         [
@@ -42142,16 +42486,16 @@
                 "Radial_Blur": {
                   "parameters": [
                     {
-                      "value": 0.179999977350235,
+                      "value": 0.0,
                       "controlAddress": "/Drywetradialblur"
                     },
                     {
-                      "value": 97,
+                      "value": 100,
                       "hexMode": false,
                       "controlAddress": "/Radialsamples"
                     },
                     {
-                      "value": 0.4833333492279053,
+                      "value": 1.0,
                       "controlAddress": "/Radialstrength"
                     },
                     {
@@ -42173,7 +42517,7 @@
                 "RGB_Delay": {
                   "parameters": [
                     {
-                      "value": 0.6899999976158142,
+                      "value": 0.0,
                       "controlAddress": "/Delayintensity"
                     },
                     {
@@ -42284,15 +42628,15 @@
                       "controlAddress": "/Kick"
                     },
                     {
-                      "value": 0.000930368318222463,
+                      "value": 0.0,
                       "controlAddress": "/Low"
                     },
                     {
-                      "value": 0.04182804375886917,
+                      "value": 0.358223,
                       "controlAddress": "/Mid"
                     },
                     {
-                      "value": 0.3596488237380981,
+                      "value": 0.00852441,
                       "controlAddress": "/High"
                     }
                   ],
@@ -42303,6 +42647,24 @@
               },
               "owned": true,
               "niceName": "Audio_Analysis"
+            },
+            "Kinect_Tracking": {
+              "editorIsCollapsed": true,
+              "containers": {
+                "Skeleton": {
+                  "parameters": [
+                    {
+                      "value": true,
+                      "controlAddress": "/listen"
+                    }
+                  ],
+                  "editorIsCollapsed": true,
+                  "owned": true,
+                  "niceName": "Skeleton"
+                }
+              },
+              "owned": true,
+              "niceName": "Kinect_Tracking"
             }
           }
         },
@@ -42363,7 +42725,7 @@
                       "DESCRIPTION": "Opacity",
                       "FULL_PATH": "/post_process/FB_Over/Opacity",
                       "VALUE": [
-                        0.01999999955296516
+                        0.0
                       ],
                       "RANGE": [
                         {
@@ -42465,7 +42827,7 @@
                       "DESCRIPTION": "Drywetradialblur",
                       "FULL_PATH": "/post_process/Radial_Blur/Drywetradialblur",
                       "VALUE": [
-                        0.179999977350235
+                        0.0
                       ],
                       "RANGE": [
                         {
@@ -42480,7 +42842,7 @@
                       "DESCRIPTION": "Radialsamples",
                       "FULL_PATH": "/post_process/Radial_Blur/Radialsamples",
                       "VALUE": [
-                        97
+                        100
                       ],
                       "RANGE": [
                         {
@@ -42495,7 +42857,7 @@
                       "DESCRIPTION": "Radialstrength",
                       "FULL_PATH": "/post_process/Radial_Blur/Radialstrength",
                       "VALUE": [
-                        0.4833333492279053
+                        1.0
                       ],
                       "RANGE": [
                         {
@@ -42609,7 +42971,7 @@
                       "DESCRIPTION": "Delayintensity",
                       "FULL_PATH": "/post_process/RGB_Delay/Delayintensity",
                       "VALUE": [
-                        0.6899999976158142
+                        0.0
                       ],
                       "RANGE": [
                         {
@@ -42937,7 +43299,7 @@
                       "DESCRIPTION": "Low",
                       "FULL_PATH": "/Audio_Analysis/Custom/Low",
                       "VALUE": [
-                        0.1350928395986557
+                        0.0
                       ],
                       "RANGE": [
                         {
@@ -42952,7 +43314,7 @@
                       "DESCRIPTION": "Mid",
                       "FULL_PATH": "/Audio_Analysis/Custom/Mid",
                       "VALUE": [
-                        0.1515113264322281
+                        0.358223
                       ],
                       "RANGE": [
                         {
@@ -42967,7 +43329,7 @@
                       "DESCRIPTION": "High",
                       "FULL_PATH": "/Audio_Analysis/Custom/High",
                       "VALUE": [
-                        0.1862205862998962
+                        0.00852441
                       ],
                       "RANGE": [
                         {
@@ -42976,6 +43338,64 @@
                         }
                       ],
                       "ACCESS": 3
+                    }
+                  }
+                }
+              }
+            },
+            "Kinect_Tracking": {
+              "CONTENTS": {
+                "Skeleton": {
+                  "CONTENTS": {
+                    "Lefthandposition": {
+                      "TYPE": "fff",
+                      "DESCRIPTION": "Lefthandposition",
+                      "FULL_PATH": "/Kinect_Tracking/Skeleton/Lefthandposition",
+                      "VALUE": [
+                        -0.005844393745064735,
+                        0.6111831665039062,
+                        0.573765754699707
+                      ],
+                      "RANGE": [
+                        {
+                          "MAX": 5.0,
+                          "MIN": -5.0
+                        },
+                        {
+                          "MAX": 5.0,
+                          "MIN": -5.0
+                        },
+                        {
+                          "MAX": 5.0,
+                          "MIN": -5.0
+                        }
+                      ],
+                      "ACCESS": 1
+                    },
+                    "Righthandposition": {
+                      "TYPE": "fff",
+                      "DESCRIPTION": "Righthandposition",
+                      "FULL_PATH": "/Kinect_Tracking/Skeleton/Righthandposition",
+                      "VALUE": [
+                        0.55830317735672,
+                        0.6733942627906799,
+                        0.6342257261276245
+                      ],
+                      "RANGE": [
+                        {
+                          "MAX": 5.0,
+                          "MIN": -5.0
+                        },
+                        {
+                          "MAX": 5.0,
+                          "MIN": -5.0
+                        },
+                        {
+                          "MAX": 5.0,
+                          "MIN": -5.0
+                        }
+                      ],
+                      "ACCESS": 1
                     }
                   }
                 }
@@ -44294,7 +44714,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 127,
+              "value": 0,
               "alwaysNotify": true,
               "minValue": 0,
               "maxValue": 127,
@@ -45957,7 +46377,7 @@
         "values": {
           "parameters": [
             {
-              "value": 0,
+              "value": 10,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -45975,7 +46395,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 127,
+              "value": 68,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -45993,7 +46413,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 122,
+              "value": 127,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -46011,7 +46431,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 15,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -46047,7 +46467,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 10,
+              "value": 0,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -46065,7 +46485,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 35,
+              "value": 127,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -46101,7 +46521,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 22,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -46173,7 +46593,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 35,
+              "value": 13,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -46191,7 +46611,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 7,
+              "value": 0,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -49599,7 +50019,7 @@
             {
               "parameters": [
                 {
-                  "value": 82.59648895263672,
+                  "value": 56.94648742675781,
                   "minValue": 0,
                   "maxValue": 180,
                   "default": 0,
@@ -51497,14 +51917,14 @@
                     {
                       "parameters": [
                         {
-                          "value": 1.023622035980225,
+                          "value": 1.0,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
                           "controlAddress": "/#1"
                         },
                         {
-                          "value": 0.0,
+                          "value": 1.0,
                           "minValue": 0.0,
                           "maxValue": 1.0,
                           "default": 0.0,
@@ -51518,28 +51938,28 @@
                           "controlAddress": "/#3"
                         },
                         {
-                          "value": 2.272440910339355,
+                          "value": 22.07244110107422,
                           "minValue": 0.0,
                           "maxValue": 60.0,
                           "default": 0.0,
                           "controlAddress": "/#4"
                         },
                         {
-                          "value": 0.2502362132072449,
+                          "value": 0.06023625656962395,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#5"
                         },
                         {
-                          "value": 1.0,
+                          "value": 0.1200000047683716,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#6"
                         },
                         {
-                          "value": 0.2440944910049438,
+                          "value": 0.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -51553,28 +51973,28 @@
                           "controlAddress": "/#8"
                         },
                         {
-                          "value": 0.4960629940032959,
+                          "value": 0.2000000029802322,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#9"
                         },
                         {
-                          "value": 0.2666666805744171,
+                          "value": 0.2416666746139526,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#10"
                         },
                         {
-                          "value": 0.1416666805744171,
+                          "value": 0.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#11"
                         },
                         {
-                          "value": 2.440944910049438,
+                          "value": 1.149999856948853,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
@@ -51707,7 +52127,7 @@
                           "controlAddress": "/#30"
                         },
                         {
-                          "value": 0.0,
+                          "value": 1.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -51742,7 +52162,7 @@
                           "controlAddress": "/#1"
                         },
                         {
-                          "value": 1.0,
+                          "value": 0.0,
                           "minValue": 0.0,
                           "maxValue": 1.0,
                           "default": 0.0,
@@ -51805,7 +52225,7 @@
                           "controlAddress": "/#10"
                         },
                         {
-                          "value": 0.2249999940395355,
+                          "value": 0.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -52071,7 +52491,7 @@
                           "controlAddress": "/#26"
                         },
                         {
-                          "value": "/modules/oxipital/parameters/orbGroups/orbGroup1/patterns/nBodyPatternWeight/baseValue",
+                          "value": "/modules/oxipital/parameters/orbGroups/orbGroup1/patterns/manualPatternWeight/baseValue",
                           "controlAddress": "/#27"
                         },
                         {
@@ -52211,7 +52631,7 @@
                           "controlAddress": "/#26"
                         },
                         {
-                          "value": "/modules/oxipital/parameters/orbGroups/orbGroup2/patterns/nBodyPatternWeight/baseValue",
+                          "value": "/modules/oxipital/parameters/orbGroups/orbGroup2/patterns/manualPatternWeight/baseValue",
                           "controlAddress": "/#27"
                         },
                         {
@@ -52351,7 +52771,7 @@
                           "controlAddress": "/#26"
                         },
                         {
-                          "value": "/modules/oxipital/parameters/setup/presets/loadedValues/orbGroups/orbGroup1/patterns/nBodyPatternWeight/baseValue",
+                          "value": "/modules/oxipital/parameters/setup/presets/loadedValues/orbGroups/orbGroup1/patterns/manualPatternWeight/baseValue",
                           "controlAddress": "/#27"
                         },
                         {
@@ -52380,7 +52800,6 @@
                         }
                       ],
                       "niceName": "Orb 1 Preset Values",
-                      "editorIsCollapsed": true,
                       "type": "Input Values",
                       "listSize": 33
                     },
@@ -52491,7 +52910,7 @@
                           "controlAddress": "/#26"
                         },
                         {
-                          "value": "/modules/oxipital/parameters/setup/presets/loadedValues/orbGroups/orbGroup2/patterns/nBodyPatternWeight/baseValue",
+                          "value": "/modules/oxipital/parameters/setup/presets/loadedValues/orbGroups/orbGroup2/patterns/manualPatternWeight/baseValue",
                           "controlAddress": "/#27"
                         },
                         {
@@ -52520,7 +52939,6 @@
                         }
                       ],
                       "niceName": "Orb 2 Preset Values",
-                      "editorIsCollapsed": true,
                       "type": "Input Values",
                       "listSize": 33
                     },
@@ -52759,7 +53177,6 @@
                         }
                       ],
                       "niceName": "Smoothing Factors",
-                      "editorIsCollapsed": true,
                       "type": "Float",
                       "listSize": 33
                     }
@@ -53453,8 +53870,8 @@
                         {
                           "value": [
                             1.0,
-                            0.0,
-                            0.0,
+                            1.0,
+                            1.0,
                             1.0
                           ],
                           "controlAddress": "/#1"
@@ -55045,21 +55462,21 @@
                     {
                       "parameters": [
                         {
-                          "value": 2.755905628204346,
+                          "value": 1.0,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
                           "controlAddress": "/#1"
                         },
                         {
-                          "value": 0.0,
+                          "value": 0.07874015718698502,
                           "minValue": 0.0,
                           "maxValue": 1.0,
                           "default": 0.0,
                           "controlAddress": "/#2"
                         },
                         {
-                          "value": 10.0,
+                          "value": 5.354330539703369,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
@@ -55073,14 +55490,14 @@
                           "controlAddress": "/#4"
                         },
                         {
-                          "value": 0.960629940032959,
+                          "value": 1.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#5"
                         },
                         {
-                          "value": 0.0,
+                          "value": 0.1181102395057678,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -55115,7 +55532,7 @@
                           "controlAddress": "/#10"
                         },
                         {
-                          "value": 0.0,
+                          "value": 0.1732283532619476,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -55178,14 +55595,14 @@
                           "controlAddress": "/#19"
                         },
                         {
-                          "value": 0.07874015718698502,
+                          "value": 0.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#20"
                         },
                         {
-                          "value": 2.791666746139526,
+                          "value": 1.49999988079071,
                           "minValue": 0.0,
                           "maxValue": 5.0,
                           "default": 0.0,
@@ -55234,21 +55651,21 @@
                           "controlAddress": "/#27"
                         },
                         {
-                          "value": 0.2755905389785767,
+                          "value": 1.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#28"
                         },
                         {
-                          "value": 1.291666984558105,
+                          "value": 0.08333325386047363,
                           "minValue": 0.0,
                           "maxValue": 5.0,
                           "default": 0.0,
                           "controlAddress": "/#29"
                         },
                         {
-                          "value": 1.37499988079071,
+                          "value": 0.0,
                           "minValue": 0.0,
                           "maxValue": 5.0,
                           "default": 0.0,
@@ -55269,14 +55686,14 @@
                           "controlAddress": "/#32"
                         },
                         {
-                          "value": 0.07500000298023224,
+                          "value": 0.3333333134651184,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#33"
                         },
                         {
-                          "value": 1.0,
+                          "value": 0.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -55290,7 +55707,7 @@
                           "controlAddress": "/#35"
                         },
                         {
-                          "value": 0.5511810779571533,
+                          "value": 0.0,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
@@ -55374,21 +55791,21 @@
                     {
                       "parameters": [
                         {
-                          "value": 2.0,
+                          "value": 1.0,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
                           "controlAddress": "/#1"
                         },
                         {
-                          "value": 0.07999996840953827,
+                          "value": 0.1000000238418579,
                           "minValue": 0.0,
                           "maxValue": 1.0,
                           "default": 0.0,
                           "controlAddress": "/#2"
                         },
                         {
-                          "value": 0.7603173851966858,
+                          "value": 3.499999523162842,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
@@ -55416,7 +55833,7 @@
                           "controlAddress": "/#6"
                         },
                         {
-                          "value": 0.1400000154972076,
+                          "value": 0.9399999976158142,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -55451,7 +55868,7 @@
                           "controlAddress": "/#11"
                         },
                         {
-                          "value": 0.0,
+                          "value": 0.3899999856948853,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -55465,7 +55882,7 @@
                           "controlAddress": "/#13"
                         },
                         {
-                          "value": 0.1453812420368195,
+                          "value": 0.2120479047298431,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -55507,7 +55924,7 @@
                           "controlAddress": "/#19"
                         },
                         {
-                          "value": 0.4099999964237213,
+                          "value": 0.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -55563,35 +55980,35 @@
                           "controlAddress": "/#27"
                         },
                         {
-                          "value": 0.2800000011920929,
+                          "value": 1.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#28"
                         },
                         {
-                          "value": 1.083333253860474,
+                          "value": 0.4166666269302368,
                           "minValue": 0.0,
                           "maxValue": 5.0,
                           "default": 0.0,
                           "controlAddress": "/#29"
                         },
                         {
-                          "value": 0.9166668653488159,
+                          "value": 0.5416668057441711,
                           "minValue": 0.0,
                           "maxValue": 5.0,
                           "default": 0.0,
                           "controlAddress": "/#30"
                         },
                         {
-                          "value": 0.6000000238418579,
+                          "value": 0.4000000357627869,
                           "minValue": 0.0,
                           "maxValue": 2.0,
                           "default": 0.0,
                           "controlAddress": "/#31"
                         },
                         {
-                          "value": 0.2750000059604645,
+                          "value": 0.2083333432674408,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -55617,13 +56034,6 @@
                           "maxValue": 2.0,
                           "default": 0.0,
                           "controlAddress": "/#35"
-                        },
-                        {
-                          "value": 1.400000095367432,
-                          "minValue": 0.0,
-                          "maxValue": 10.0,
-                          "default": 0.0,
-                          "controlAddress": "/#36"
                         },
                         {
                           "value": 0.0,
@@ -55654,7 +56064,7 @@
                           "controlAddress": "/#40"
                         },
                         {
-                          "value": 0.0,
+                          "value": 1.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -55666,13 +56076,6 @@
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#42"
-                        },
-                        {
-                          "value": 0.2799999713897705,
-                          "minValue": -1,
-                          "maxValue": 1,
-                          "default": 0.0,
-                          "controlAddress": "/#43"
                         },
                         {
                           "value": 0.0,
@@ -55689,7 +56092,7 @@
                           "controlAddress": "/#45"
                         },
                         {
-                          "value": 1.0,
+                          "value": 0.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -55867,7 +56270,7 @@
                           "controlAddress": "/#41"
                         },
                         {
-                          "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/nBodyPatternWeight/baseValue",
+                          "value": "/modules/oxipital/parameters/forceGroups/forceGroup1/patterns/manualPatternWeight/baseValue",
                           "controlAddress": "/#42"
                         },
                         {
@@ -56059,7 +56462,7 @@
                           "controlAddress": "/#41"
                         },
                         {
-                          "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/nBodyPatternWeight/baseValue",
+                          "value": "/modules/oxipital/parameters/forceGroups/forceGroup2/patterns/manualPatternWeight/baseValue",
                           "controlAddress": "/#42"
                         },
                         {
@@ -74571,10 +74974,19 @@
           },
           {
             "value": [
-              374.0,
+              360.59814453125,
               198.9533081054688
             ],
             "controlAddress": "/viewUISize"
+          },
+          {
+            "value": [
+              0.1736509799957275,
+              0.496152937412262,
+              0.425556868314743,
+              1.0
+            ],
+            "controlAddress": "/color"
           },
           {
             "value": true,
@@ -90216,10 +90628,26 @@
         "parameters": [
           {
             "value": [
-              -2048.0,
-              -768.0
+              -2412.0,
+              -587.0
             ],
             "controlAddress": "/viewUIPosition"
+          },
+          {
+            "value": [
+              354.0,
+              164.0
+            ],
+            "controlAddress": "/viewUISize"
+          },
+          {
+            "value": [
+              0.3185842931270599,
+              0.1532431393861771,
+              0.53846275806427,
+              1.0
+            ],
+            "controlAddress": "/color"
           },
           {
             "value": true,
@@ -90628,8 +91056,8 @@
         "parameters": [
           {
             "value": [
-              -1665.30615234375,
-              -974.3673706054688
+              -2048.0,
+              -766.0
             ],
             "controlAddress": "/viewUIPosition"
           },
@@ -90639,6 +91067,15 @@
               198.3673706054688
             ],
             "controlAddress": "/viewUISize"
+          },
+          {
+            "value": [
+              0.1725490242242813,
+              0.4980392158031464,
+              0.4274509847164154,
+              1.0
+            ],
+            "controlAddress": "/color"
           },
           {
             "value": true,
@@ -91308,13 +91745,639 @@
           ],
           "viewZoom": 1.0
         }
+      },
+      {
+        "parameters": [
+          {
+            "value": [
+              -1678.0,
+              -974.0
+            ],
+            "controlAddress": "/viewUIPosition"
+          },
+          {
+            "value": [
+              425.0,
+              212.0
+            ],
+            "controlAddress": "/viewUISize"
+          },
+          {
+            "value": [
+              0.07692941278219223,
+              0.4192313551902771,
+              0.07095294445753098,
+              1.0
+            ],
+            "controlAddress": "/color"
+          },
+          {
+            "value": true,
+            "controlAddress": "/active"
+          }
+        ],
+        "niceName": "Kinect Hand Position",
+        "type": "State",
+        "processors": {
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": false,
+                  "controlAddress": "/enabled"
+                }
+              ],
+              "niceName": "Left Hand Position to orb 1 pos",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "im": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/modules/oSCQuery_TD/values/Kinect_Tracking/Skeleton/Lefthandposition",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "Input Value",
+                    "type": "Input Value"
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "params": {
+                "parameters": [
+                  {
+                    "value": 50,
+                    "hexMode": false,
+                    "controlAddress": "/updateRate"
+                  }
+                ],
+                "editorIsCollapsed": true
+              },
+              "filters": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": false,
+                        "controlAddress": "/enabled"
+                      }
+                    ],
+                    "niceName": "Damping",
+                    "editorIsCollapsed": true,
+                    "type": "Damping",
+                    "filterParams": {
+                      "paramLinks": {
+                      }
+                    }
+                  },
+                  {
+                    "niceName": "Mega Converter",
+                    "type": "Mega Converter",
+                    "filterParams": {
+                      "paramLinks": {
+                      }
+                    },
+                    "convertedParameters": {
+                      "items": [
+                        {
+                          "parameters": [
+                            {
+                              "value": [
+                                0.0,
+                                0.0,
+                                0.0
+                              ],
+                              "controlAddress": "/defaultValue"
+                            }
+                          ],
+                          "niceName": "Point3D",
+                          "type": "Point3D"
+                        }
+                      ],
+                      "viewOffset": [
+                        0,
+                        0
+                      ],
+                      "viewZoom": 1.0
+                    },
+                    "links": [
+                      {
+                        "sourceIndex": 0,
+                        "sourceValueIndex": 0,
+                        "out": "point3D",
+                        "outValueIndex": 0
+                      },
+                      {
+                        "sourceIndex": 0,
+                        "sourceValueIndex": 1,
+                        "out": "point3D",
+                        "outValueIndex": 1
+                      }
+                    ]
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "generic",
+                    "commandPath": "",
+                    "commandType": "Set Parameter Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/modules/oxipital/values/Ballet/Orb_Groups/Orb_Group_1/ManualDancePattern/pos1",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        }
+                      ],
+                      "paramLinks": {
+                        "value": {
+                          "linkType": 1,
+                          "mappingValueIndex": 0
+                        }
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": false,
+                  "controlAddress": "/enabled"
+                }
+              ],
+              "niceName": "Right Hand Position to orb 1 pos",
+              "editorIsCollapsed": true,
+              "type": "Mapping",
+              "im": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/modules/oSCQuery_TD/values/Kinect_Tracking/Skeleton/Righthandposition",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "Input Value",
+                    "type": "Input Value"
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "params": {
+                "parameters": [
+                  {
+                    "value": 50,
+                    "hexMode": false,
+                    "controlAddress": "/updateRate"
+                  }
+                ],
+                "editorIsCollapsed": true
+              },
+              "filters": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": false,
+                        "controlAddress": "/enabled"
+                      }
+                    ],
+                    "niceName": "Damping",
+                    "editorIsCollapsed": true,
+                    "type": "Damping",
+                    "filterParams": {
+                      "paramLinks": {
+                      }
+                    }
+                  },
+                  {
+                    "niceName": "Mega Converter",
+                    "type": "Mega Converter",
+                    "filterParams": {
+                      "paramLinks": {
+                      }
+                    },
+                    "convertedParameters": {
+                      "items": [
+                        {
+                          "parameters": [
+                            {
+                              "value": [
+                                0.0,
+                                0.0,
+                                0.0
+                              ],
+                              "controlAddress": "/defaultValue"
+                            }
+                          ],
+                          "niceName": "Point3D",
+                          "type": "Point3D"
+                        }
+                      ],
+                      "viewOffset": [
+                        0,
+                        0
+                      ],
+                      "viewZoom": 1.0
+                    },
+                    "links": [
+                      {
+                        "sourceIndex": 0,
+                        "sourceValueIndex": 0,
+                        "out": "point3D",
+                        "outValueIndex": 0
+                      },
+                      {
+                        "sourceIndex": 0,
+                        "sourceValueIndex": 1,
+                        "out": "point3D",
+                        "outValueIndex": 1
+                      }
+                    ]
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "outputs": {
+                "items": [
+                  {
+                    "niceName": "MappingOutput",
+                    "type": "BaseItem",
+                    "commandModule": "generic",
+                    "commandPath": "",
+                    "commandType": "Set Parameter Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/modules/oxipital/values/Ballet/Orb_Groups/Orb_Group_1/ManualDancePattern/pos2",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        }
+                      ],
+                      "paramLinks": {
+                        "value": {
+                          "linkType": 1,
+                          "mappingValueIndex": 0
+                        }
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": false,
+                  "controlAddress": "/enabled"
+                }
+              ],
+              "niceName": "LH Pos Toggle",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/modules/oSCQuery_TD/values/Kinect_Tracking/Skeleton/Lefthandposition",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "From Input Value",
+                    "type": "From Input Value",
+                    "comparator": {
+                      "parameters": [
+                        {
+                          "value": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "controlAddress": "/reference"
+                        }
+                      ],
+                      "hideInEditor": true
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "consequences": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlAddress": "/cancelDelaysOnTrigger"
+                  }
+                ],
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "Consequence",
+                    "commandModule": "stateMachine",
+                    "commandPath": "Mapping",
+                    "commandType": "Set Mapping Enabled",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/states/state/processors/leftHandPositionToOrb1Pos",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": false,
+                          "controlAddress": "/value"
+                        }
+                      ],
+                      "paramLinks": {
+                      }
+                    }
+                  },
+                  {
+                    "niceName": "Consequence 1",
+                    "type": "Consequence",
+                    "commandModule": "generic",
+                    "commandPath": "",
+                    "commandType": "Set Parameter Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/modules/oxipital/values/Ballet/Orb_Groups/Orb_Group_1/ManualDancePattern/pos1",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        },
+                        {
+                          "value": [
+                            100.0,
+                            100.0,
+                            100.0
+                          ],
+                          "controlAddress": "/value"
+                        }
+                      ],
+                      "paramLinks": {
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "consequencesOff": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlAddress": "/cancelDelaysOnTrigger"
+                  }
+                ],
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "Consequence",
+                    "commandModule": "stateMachine",
+                    "commandPath": "Mapping",
+                    "commandType": "Set Mapping Enabled",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/states/state/processors/leftHandPositionToOrb1Pos",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": true,
+                          "controlAddress": "/value"
+                        }
+                      ],
+                      "paramLinks": {
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            },
+            {
+              "niceName": "RH Pos Toggle",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/modules/oSCQuery_TD/values/Kinect_Tracking/Skeleton/Righthandposition",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "From Input Value",
+                    "type": "From Input Value",
+                    "comparator": {
+                      "parameters": [
+                        {
+                          "value": [
+                            0.0,
+                            0.0,
+                            0.0
+                          ],
+                          "controlAddress": "/reference"
+                        }
+                      ],
+                      "hideInEditor": true
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "consequences": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlAddress": "/cancelDelaysOnTrigger"
+                  }
+                ],
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "Consequence",
+                    "commandModule": "stateMachine",
+                    "commandPath": "Mapping",
+                    "commandType": "Set Mapping Enabled",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/states/state/processors/rightHandPositionToOrb1Pos",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": false,
+                          "controlAddress": "/value"
+                        }
+                      ],
+                      "paramLinks": {
+                      }
+                    }
+                  },
+                  {
+                    "niceName": "Consequence 1",
+                    "type": "Consequence",
+                    "commandModule": "generic",
+                    "commandPath": "",
+                    "commandType": "Set Parameter Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/modules/oxipital/values/Ballet/Orb_Groups/Orb_Group_1/ManualDancePattern/pos2",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        },
+                        {
+                          "value": [
+                            100.0,
+                            100.0,
+                            100.0
+                          ],
+                          "controlAddress": "/value"
+                        }
+                      ],
+                      "paramLinks": {
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "consequencesOff": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlAddress": "/cancelDelaysOnTrigger"
+                  }
+                ],
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "Consequence",
+                    "commandModule": "stateMachine",
+                    "commandPath": "Mapping",
+                    "commandType": "Set Mapping Enabled",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/states/state/processors/rightHandPositionToOrb1Pos",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": true,
+                          "controlAddress": "/value"
+                        }
+                      ],
+                      "paramLinks": {
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            }
+          ],
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        }
       }
     ],
     "viewOffset": [
-      1190,
-      667
+      -2,
+      -82
     ],
-    "viewZoom": 0.765625,
+    "viewZoom": 1.0,
     "transitions": {
       "hideInEditor": true,
       "viewOffset": [
@@ -91357,10 +92420,10 @@
         }
       ],
       "viewOffset": [
-        1190,
-        667
+        -2,
+        -82
       ],
-      "viewZoom": 0.765625
+      "viewZoom": 1.0
     }
   },
   "sequences": {
