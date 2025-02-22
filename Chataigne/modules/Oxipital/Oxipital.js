@@ -37,7 +37,7 @@ var danceGroupParameters = {
 		"Line Pattern Speed Weight": { "type": "float", "default": 0, "amin": 0, "max": 1, "customComponent": "LineDancePattern/speedWeight" },
 		"Circle Pattern Weight": { "type": "float", "default": 1, "min": 0, "max": 1, "customComponent": "CircleDancePattern/weight" },
 		"Circle Pattern Speed Weight": { "type": "float", "default": 1, "min": 0, "max": 1, "customComponent": "CircleDancePattern/speedWeight" },
-		"Manual Pattern Weight": { "type": "float", "default": 0, "min": 0, "max": 1, "customComponent": "ManualPattern/weight" }
+		"Manual Pattern Weight": { "type": "float", "default": 0, "min": 0, "max": 1, "customComponent": "ManualDancePattern/weight" }
 	},
 	"Animation": {
 		"Pattern Speed": { "type": "float", "default": 0.1, "min": -1, "max": 1 },
