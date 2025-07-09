@@ -10729,8 +10729,8 @@
                 },
                 {
                   "value": [
-                    0.2762410342693329,
-                    0.1002491116523743,
+                    0.001390554942190647,
+                    0.3984911143779755,
                     0.0,
                     1.0
                   ],
@@ -10802,10 +10802,10 @@
             }
           ],
           "viewOffset": [
-            -13,
-            -33
+            -20,
+            -10
           ],
-          "viewZoom": 0.9867187738418579
+          "viewZoom": 0.9847656488418579
         },
         "editing": true
       },
@@ -13501,8 +13501,8 @@
                 },
                 {
                   "value": [
-                    0.2762410342693329,
-                    0.1002491116523743,
+                    0.001390554942190647,
+                    0.3984911143779755,
                     0.0,
                     1.0
                   ],
@@ -23596,7 +23596,7 @@
           ],
           "viewOffset": [
             0,
-            -18
+            0
           ],
           "viewZoom": 0.9476562738418579
         }
@@ -27419,19 +27419,19 @@
             {
               "type": 1,
               "width": 1920,
-              "height": 715,
+              "height": 570,
               "direction": 1,
               "shifters": [
                 {
                   "type": 1,
                   "width": 307,
-                  "height": 715,
+                  "height": 570,
                   "direction": 2,
                   "shifters": [
                     {
                       "type": 0,
                       "width": 307,
-                      "height": 365,
+                      "height": 292,
                       "currentContent": "Modules",
                       "tabs": [
                         {
@@ -27442,7 +27442,7 @@
                     {
                       "type": 0,
                       "width": 307,
-                      "height": 344,
+                      "height": 272,
                       "currentContent": "Custom Variables",
                       "tabs": [
                         {
@@ -27454,8 +27454,8 @@
                 },
                 {
                   "type": 0,
-                  "width": 1110,
-                  "height": 715,
+                  "width": 1173,
+                  "height": 570,
                   "currentContent": "State Machine",
                   "tabs": [
                     {
@@ -27474,8 +27474,8 @@
                 },
                 {
                   "type": 0,
-                  "width": 491,
-                  "height": 715,
+                  "width": 428,
+                  "height": 570,
                   "currentContent": "Inspector",
                   "tabs": [
                     {
@@ -27488,13 +27488,13 @@
             {
               "type": 1,
               "width": 1920,
-              "height": 267,
+              "height": 412,
               "direction": 1,
               "shifters": [
                 {
                   "type": 0,
                   "width": 178,
-                  "height": 267,
+                  "height": 412,
                   "currentContent": "Sequences",
                   "tabs": [
                     {
@@ -27505,7 +27505,7 @@
                 {
                   "type": 0,
                   "width": 1256,
-                  "height": 267,
+                  "height": 412,
                   "currentContent": "Sequence Editor",
                   "tabs": [
                     {
@@ -27516,7 +27516,7 @@
                 {
                   "type": 0,
                   "width": 474,
-                  "height": 267,
+                  "height": 412,
                   "currentContent": "Logger",
                   "tabs": [
                     {
@@ -27627,7 +27627,7 @@
                   "controlAddress": "/enabled"
                 },
                 {
-                  "value": false,
+                  "value": true,
                   "controlAddress": "/local"
                 },
                 {
@@ -31472,28 +31472,28 @@
             "macros": {
               "parameters": [
                 {
-                  "value": 0.0,
+                  "value": 0.07431396096944809,
                   "minValue": 0.0,
                   "maxValue": 1.0,
                   "default": 0.0,
                   "controlAddress": "/macro1"
                 },
                 {
-                  "value": 0.0,
+                  "value": 0.1920340359210968,
                   "minValue": 0.0,
                   "maxValue": 1.0,
                   "default": 0.0,
                   "controlAddress": "/macro2"
                 },
                 {
-                  "value": 0.0,
+                  "value": 0.03237206488847733,
                   "minValue": 0.0,
                   "maxValue": 1.0,
                   "default": 0.0,
                   "controlAddress": "/macro3"
                 },
                 {
-                  "value": 0.0,
+                  "value": 0.108931377530098,
                   "minValue": 0.0,
                   "maxValue": 1.0,
                   "default": 0.0,
@@ -31505,6 +31505,7 @@
               "editorIsCollapsed": true,
               "containers": {
                 "orbGroup1": {
+                  "editorIsCollapsed": true,
                   "containers": {
                     "transform": {
                       "editorIsCollapsed": true,
@@ -31815,7 +31816,7 @@
                         "dancerSize": {
                           "parameters": [
                             {
-                              "value": 2.755905628204346,
+                              "value": 1.023622035980225,
                               "minValue": 0.0,
                               "maxValue": 20.0,
                               "default": 1.0,
@@ -31895,7 +31896,7 @@
                         "dancerIntensity": {
                           "parameters": [
                             {
-                              "value": 1.0,
+                              "value": 0.1338582634925842,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 1.0,
@@ -31960,7 +31961,7 @@
                         "life": {
                           "parameters": [
                             {
-                              "value": 12.75590515136719,
+                              "value": 1.417322874069214,
                               "minValue": 0.0,
                               "maxValue": 40.0,
                               "default": 20.0,
@@ -31983,7 +31984,7 @@
                         "emitterSurfaceFactor": {
                           "parameters": [
                             {
-                              "value": 0.0,
+                              "value": 1.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -32072,7 +32073,7 @@
                         "alpha": {
                           "parameters": [
                             {
-                              "value": 0.3464567065238953,
+                              "value": 1.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.2000000029802322,
@@ -32098,7 +32099,7 @@
                         "alphaSpeedThreshold": {
                           "parameters": [
                             {
-                              "value": 0.1749999970197678,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -32124,7 +32125,7 @@
                         "particleSize": {
                           "parameters": [
                             {
-                              "value": 0.07874015718698502,
+                              "value": 0.06299212574958801,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -32157,7 +32158,7 @@
                         "drag": {
                           "parameters": [
                             {
-                              "value": 0.05511811003088951,
+                              "value": 0.2992126047611237,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.5,
@@ -32260,7 +32261,7 @@
                         "count": {
                           "parameters": [
                             {
-                              "value": 1.889763832092285,
+                              "value": 1.0,
                               "minValue": 1.0,
                               "maxValue": 10.0,
                               "default": 1.0,
@@ -32273,7 +32274,7 @@
                         "patternSize": {
                           "parameters": [
                             {
-                              "value": 5.039370059967041,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 20.0,
                               "default": 1.0,
@@ -32320,7 +32321,7 @@
                         "circlePatternWeight": {
                           "parameters": [
                             {
-                              "value": 1.0,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 1.0,
@@ -32356,7 +32357,7 @@
                         "patternSpeed": {
                           "parameters": [
                             {
-                              "value": 0.003149569034576416,
+                              "value": 0.0,
                               "minValue": -1.0,
                               "maxValue": 1.0,
                               "default": 0.1000000014901161,
@@ -32393,7 +32394,7 @@
                         "dancerSize": {
                           "parameters": [
                             {
-                              "value": 3.77952766418457,
+                              "value": 1.0,
                               "minValue": 0.0,
                               "maxValue": 20.0,
                               "default": 1.0,
@@ -32472,7 +32473,7 @@
                         "life": {
                           "parameters": [
                             {
-                              "value": 10.39370059967041,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 40.0,
                               "default": 20.0,
@@ -32495,7 +32496,7 @@
                         "emitterSurfaceFactor": {
                           "parameters": [
                             {
-                              "value": 0.0,
+                              "value": 1.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -32512,7 +32513,7 @@
                         "emitterPositionNoise": {
                           "parameters": [
                             {
-                              "value": 1.0,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -32572,7 +32573,7 @@
                         "alpha": {
                           "parameters": [
                             {
-                              "value": 0.9527559280395508,
+                              "value": 1.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.2000000029802322,
@@ -32615,7 +32616,7 @@
                         "particleSize": {
                           "parameters": [
                             {
-                              "value": 0.0,
+                              "value": 0.1000000014901161,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -32647,7 +32648,7 @@
                         "drag": {
                           "parameters": [
                             {
-                              "value": 0.0,
+                              "value": 0.300000011920929,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.5,
@@ -32673,7 +32674,7 @@
                         "noisyDrag": {
                           "parameters": [
                             {
-                              "value": 0.5433070659637451,
+                              "value": 0.0,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -32713,6 +32714,7 @@
             "forceGroups": {
               "containers": {
                 "forceGroup1": {
+                  "editorIsCollapsed": true,
                   "containers": {
                     "transform": {
                       "containers": {
@@ -32743,7 +32745,7 @@
                         "count": {
                           "parameters": [
                             {
-                              "value": 1.0,
+                              "value": 10.0,
                               "minValue": 1.0,
                               "maxValue": 10.0,
                               "default": 1.0,
@@ -32756,7 +32758,7 @@
                         "patternSize": {
                           "parameters": [
                             {
-                              "value": 0.0,
+                              "value": 0.07874015718698502,
                               "minValue": 0.0,
                               "maxValue": 20.0,
                               "default": 1.0,
@@ -33529,7 +33531,7 @@
                         "patternSize": {
                           "parameters": [
                             {
-                              "value": 2.901280403137207,
+                              "value": 10.0,
                               "minValue": 0.0,
                               "maxValue": 20.0,
                               "default": 1.0,
@@ -33688,7 +33690,7 @@
                         "dancerSize": {
                           "parameters": [
                             {
-                              "value": 3.000000715255737,
+                              "value": 10.0,
                               "minValue": 0.0,
                               "maxValue": 20.0,
                               "default": 1.0,
@@ -33830,7 +33832,7 @@
                         "radialIntensity": {
                           "parameters": [
                             {
-                              "value": 0.9833333492279053,
+                              "value": 0.9841269850730896,
                               "minValue": 0.0,
                               "maxValue": 1.0,
                               "default": 0.0,
@@ -35012,7 +35014,7 @@
                       "controlAddress": "/sync"
                     },
                     {
-                      "value": 2.997509e6,
+                      "value": 15089.0,
                       "controlAddress": "/totalParticles"
                     }
                   ],
@@ -35078,7 +35080,7 @@
                         "OrbGroup": {
                           "parameters": [
                             {
-                              "value": 12.75590515136719,
+                              "value": 1.417322874069214,
                               "controlAddress": "/life"
                             },
                             {
@@ -35086,7 +35088,7 @@
                               "controlAddress": "/emitterShape"
                             },
                             {
-                              "value": 0.0,
+                              "value": 1.0,
                               "controlAddress": "/emitterSurfaceFactor"
                             },
                             {
@@ -35115,7 +35117,7 @@
                               "controlAddress": "/color"
                             },
                             {
-                              "value": 0.3464567065238953,
+                              "value": 1.0,
                               "controlAddress": "/alpha"
                             },
                             {
@@ -35123,7 +35125,7 @@
                               "controlAddress": "/hdrMultiplier"
                             },
                             {
-                              "value": 0.1749999970197678,
+                              "value": 0.0,
                               "controlAddress": "/alphaSpeedThreshold"
                             },
                             {
@@ -35131,7 +35133,7 @@
                               "controlAddress": "/textureOpacity"
                             },
                             {
-                              "value": 0.07874015718698502,
+                              "value": 0.06299212574958801,
                               "controlAddress": "/particleSize"
                             },
                             {
@@ -35139,7 +35141,7 @@
                               "controlAddress": "/forceWeight"
                             },
                             {
-                              "value": 0.05511811003088951,
+                              "value": 0.2992126047611237,
                               "controlAddress": "/drag"
                             },
                             {
@@ -35167,7 +35169,7 @@
                               "controlAddress": "/patternAxisSpread"
                             },
                             {
-                              "value": 0.08234308388085322,
+                              "value": 0.007874011993408203,
                               "controlAddress": "/patternSpeed"
                             },
                             {
@@ -35179,7 +35181,7 @@
                               "controlAddress": "/patternTimeOffset"
                             },
                             {
-                              "value": 3.73232464000442,
+                              "value": 1.023622035980225,
                               "controlAddress": "/dancerSize"
                             },
                             {
@@ -35195,7 +35197,7 @@
                               "controlAddress": "/dancerWeightSizeFactor"
                             },
                             {
-                              "value": 1.0,
+                              "value": 0.1338582634925842,
                               "controlAddress": "/dancerIntensity"
                             },
                             {
@@ -35335,7 +35337,7 @@
                         "OrbGroup": {
                           "parameters": [
                             {
-                              "value": 10.39370059967041,
+                              "value": 0.0,
                               "controlAddress": "/life"
                             },
                             {
@@ -35343,11 +35345,11 @@
                               "controlAddress": "/emitterShape"
                             },
                             {
-                              "value": 0.0,
+                              "value": 1.0,
                               "controlAddress": "/emitterSurfaceFactor"
                             },
                             {
-                              "value": 1.0,
+                              "value": 0.0,
                               "controlAddress": "/emitterPositionNoise"
                             },
                             {
@@ -35368,7 +35370,7 @@
                               "controlAddress": "/color"
                             },
                             {
-                              "value": 0.9527559280395508,
+                              "value": 1.0,
                               "controlAddress": "/alpha"
                             },
                             {
@@ -35380,7 +35382,7 @@
                               "controlAddress": "/alphaSpeedThreshold"
                             },
                             {
-                              "value": 0.0,
+                              "value": 0.1000000014901161,
                               "controlAddress": "/particleSize"
                             },
                             {
@@ -35388,7 +35390,7 @@
                               "controlAddress": "/forceWeight"
                             },
                             {
-                              "value": 0.0,
+                              "value": 0.300000011920929,
                               "controlAddress": "/drag"
                             },
                             {
@@ -35396,7 +35398,7 @@
                               "controlAddress": "/velocityDrag"
                             },
                             {
-                              "value": 0.5433070659637451,
+                              "value": 0.0,
                               "controlAddress": "/noisyDrag"
                             },
                             {
@@ -35404,7 +35406,7 @@
                               "controlAddress": "/noisyDragFrequency"
                             },
                             {
-                              "value": 5.039370059967041,
+                              "value": 0.0,
                               "controlAddress": "/patternSize"
                             },
                             {
@@ -35412,7 +35414,7 @@
                               "controlAddress": "/patternAxisSpread"
                             },
                             {
-                              "value": 0.003149569034576416,
+                              "value": 0.0,
                               "controlAddress": "/patternSpeed"
                             },
                             {
@@ -35420,7 +35422,7 @@
                               "controlAddress": "/patternTimeOffset"
                             },
                             {
-                              "value": 3.77952766418457,
+                              "value": 1.0,
                               "controlAddress": "/dancerSize"
                             },
                             {
@@ -35440,7 +35442,7 @@
                               "controlAddress": "/dancerRotation"
                             },
                             {
-                              "value": 1.889763832092285,
+                              "value": 1.0,
                               "controlAddress": "/count"
                             }
                           ],
@@ -35470,7 +35472,7 @@
                               "controlAddress": "/blendMode"
                             },
                             {
-                              "value": 1.0,
+                              "value": 0.0,
                               "controlAddress": "/weight"
                             }
                           ],
@@ -35673,7 +35675,7 @@
                               "controlAddress": "/orthoaxialInnerRadius"
                             },
                             {
-                              "value": 0.0,
+                              "value": 0.07874015718698502,
                               "controlAddress": "/patternSize"
                             },
                             {
@@ -35709,7 +35711,7 @@
                               "controlAddress": "/dancerSizeSpread"
                             },
                             {
-                              "value": 0.04753722965649043,
+                              "value": 0.0,
                               "controlAddress": "/dancerIntensity"
                             },
                             {
@@ -35737,7 +35739,7 @@
                               "controlAddress": "/dancerLookAtMode"
                             },
                             {
-                              "value": 1.0,
+                              "value": 10.0,
                               "controlAddress": "/count"
                             }
                           ],
@@ -35967,7 +35969,7 @@
                               "controlAddress": "/forceFactorOutside"
                             },
                             {
-                              "value": 0.9833333492279053,
+                              "value": 0.9841269850730896,
                               "controlAddress": "/radialIntensity"
                             },
                             {
@@ -36063,7 +36065,7 @@
                               "controlAddress": "/orthoaxialInnerRadius"
                             },
                             {
-                              "value": 2.901280403137207,
+                              "value": 10.0,
                               "controlAddress": "/patternSize"
                             },
                             {
@@ -36087,7 +36089,7 @@
                               "controlAddress": "/patternTimeOffset"
                             },
                             {
-                              "value": 3.000000715255737,
+                              "value": 10.0,
                               "controlAddress": "/dancerSize"
                             },
                             {
@@ -36095,7 +36097,7 @@
                               "controlAddress": "/dancerSizeSpread"
                             },
                             {
-                              "value": 0.02565865045731286,
+                              "value": 0.0,
                               "controlAddress": "/dancerIntensity"
                             },
                             {
@@ -36627,7 +36629,7 @@
                         "fov": {
                           "ACCESS": 3,
                           "VALUE": [
-                            61.55
+                            18.55
                           ],
                           "TYPE": "f",
                           "RANGE": [
@@ -36651,7 +36653,7 @@
                         "followZOffset": {
                           "ACCESS": 3,
                           "VALUE": [
-                            8.324944
+                            5
                           ],
                           "TYPE": "f",
                           "RANGE": [
@@ -36764,9 +36766,9 @@
                             "position": {
                               "ACCESS": 3,
                               "VALUE": [
-                                -0.04704926,
-                                -0.07841751,
-                                -8.324441999999999
+                                0,
+                                0,
+                                -5
                               ],
                               "TYPE": "fff",
                               "RANGE": [
@@ -36778,9 +36780,9 @@
                             "rotation": {
                               "ACCESS": 3,
                               "VALUE": [
-                                359.45,
-                                0.33001,
-                                -0.001555143
+                                0,
+                                0,
+                                359.9809
                               ],
                               "TYPE": "fff",
                               "RANGE": [
@@ -36925,9 +36927,9 @@
                                 "position": {
                                   "ACCESS": 3,
                                   "VALUE": [
-                                    -5.320897,
-                                    -0.09354952,
-                                    -9.885303
+                                    -5.26477,
+                                    0.00175157,
+                                    -6.591283
                                   ],
                                   "TYPE": "fff",
                                   "RANGE": [
@@ -36939,9 +36941,9 @@
                                 "rotation": {
                                   "ACCESS": 3,
                                   "VALUE": [
-                                    359.45,
-                                    0.33001,
-                                    -0.001555143
+                                    0,
+                                    0,
+                                    359.9809
                                   ],
                                   "TYPE": "fff",
                                   "RANGE": [
@@ -36985,7 +36987,7 @@
                                   "VALUE": [
                                     0,
                                     0,
-                                    -8.324944
+                                    -5
                                   ],
                                   "TYPE": "fff",
                                   "RANGE": [
@@ -37937,9 +37939,9 @@
                         "rotation": {
                           "ACCESS": 3,
                           "VALUE": [
-                            359.45,
-                            0.33001,
-                            -0.001555143
+                            0,
+                            0,
+                            359.9809
                           ],
                           "TYPE": "fff",
                           "RANGE": [
@@ -37956,7 +37958,7 @@
                         "rotateYSpeed": {
                           "ACCESS": 3,
                           "VALUE": [
-                            0.3
+                            0
                           ],
                           "TYPE": "f",
                           "RANGE": [
@@ -37968,7 +37970,7 @@
                         "rotateXSpeed": {
                           "ACCESS": 3,
                           "VALUE": [
-                            -0.5000000999999999
+                            0
                           ],
                           "TYPE": "f",
                           "RANGE": [
@@ -38004,7 +38006,7 @@
                         "rotateYAngle": {
                           "ACCESS": 3,
                           "VALUE": [
-                            0.33001
+                            0
                           ],
                           "TYPE": "f",
                           "RANGE": [
@@ -38016,7 +38018,7 @@
                         "rotateXAngle": {
                           "ACCESS": 3,
                           "VALUE": [
-                            359.45
+                            0
                           ],
                           "TYPE": "f",
                           "RANGE": [
@@ -38028,7 +38030,7 @@
                         "rotateZAngle": {
                           "ACCESS": 3,
                           "VALUE": [
-                            -0.001555143
+                            359.9809
                           ],
                           "TYPE": "f",
                           "RANGE": [
@@ -38629,7 +38631,7 @@
                     "totalParticles": {
                       "ACCESS": 3,
                       "VALUE": [
-                        2996836
+                        15014
                       ],
                       "TYPE": "f",
                       "RANGE": [
@@ -38750,7 +38752,7 @@
                             "life": {
                               "ACCESS": 3,
                               "VALUE": [
-                                40
+                                1.417323
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38765,7 +38767,7 @@
                             "emitterShape": {
                               "ACCESS": 3,
                               "VALUE": [
-                                "Sphere"
+                                "Plane"
                               ],
                               "TYPE": "s",
                               "RANGE": [
@@ -38792,7 +38794,7 @@
                             "emitterSurfaceFactor": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38837,7 +38839,7 @@
                             "emitterPositionNoiseFrequency": {
                               "ACCESS": 3,
                               "VALUE": [
-                                3.833409
+                                1.583333
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38867,7 +38869,7 @@
                             "color": {
                               "ACCESS": 3,
                               "VALUE": [
-                                "FF5500FF"
+                                "FFFFFFFF"
                               ],
                               "TYPE": "r",
                               "RANGE": [
@@ -38879,7 +38881,7 @@
                             "alpha": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.1574803
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38894,7 +38896,7 @@
                             "hdrMultiplier": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.3749999
+                                0.25
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38939,7 +38941,7 @@
                             "particleSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.1181102
+                                0.06299212999999999
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38969,7 +38971,7 @@
                             "drag": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.1574803
+                                0.2992126
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -38984,7 +38986,7 @@
                             "velocityDrag": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2333333
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39056,7 +39058,7 @@
                             "patternSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                2.375479
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39071,7 +39073,7 @@
                             "patternSizeSpread": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.2068966
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39146,7 +39148,7 @@
                             "dancerSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                5.590551
+                                1.023622
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39206,7 +39208,7 @@
                             "dancerIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.9370077999999999
+                                0.1338583
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39279,7 +39281,7 @@
                             "count": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1.968504
+                                1.023622
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39370,7 +39372,7 @@
                             "weight": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39898,7 +39900,7 @@
                             "life": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.472441
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -39913,7 +39915,7 @@
                             "emitterShape": {
                               "ACCESS": 3,
                               "VALUE": [
-                                "Plane"
+                                "Egg"
                               ],
                               "TYPE": "s",
                               "RANGE": [
@@ -39940,7 +39942,7 @@
                             "emitterSurfaceFactor": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40015,7 +40017,7 @@
                             "color": {
                               "ACCESS": 3,
                               "VALUE": [
-                                "FFC78CFF"
+                                "FF4848FF"
                               ],
                               "TYPE": "r",
                               "RANGE": [
@@ -40027,7 +40029,7 @@
                             "alpha": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40042,7 +40044,7 @@
                             "hdrMultiplier": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.375
+                                0.275
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40057,7 +40059,7 @@
                             "alphaSpeedThreshold": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.2083333
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40087,7 +40089,7 @@
                             "particleSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40117,7 +40119,7 @@
                             "drag": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.3
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40204,7 +40206,7 @@
                             "patternSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.07874016
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40234,7 +40236,7 @@
                             "patternAxisSpread": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40249,7 +40251,7 @@
                             "patternSpeed": {
                               "ACCESS": 3,
                               "VALUE": [
-                                -1
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40294,7 +40296,7 @@
                             "dancerSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.1574803
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40339,7 +40341,7 @@
                             "dancerWeightSizeFactor": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.7
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -40384,9 +40386,9 @@
                             "dancerRotation": {
                               "ACCESS": 3,
                               "VALUE": [
-                                -12.04724,
-                                103.4645,
-                                60.9449
+                                90.11501,
+                                0,
+                                0
                               ],
                               "TYPE": "fff",
                               "RANGE": [
@@ -41105,7 +41107,7 @@
                             "forceFactorInside": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1
+                                0.2047244
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41120,7 +41122,7 @@
                             "forceFactorOutside": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.08661418
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41135,7 +41137,7 @@
                             "radialIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.1023622
+                                0.08661418
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41150,7 +41152,7 @@
                             "radialFrequency": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41180,7 +41182,7 @@
                             "axialIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.1653543
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41253,7 +41255,7 @@
                             "orthoIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.6220472
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41268,7 +41270,7 @@
                             "orthoInnerRadius": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2916667
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41298,7 +41300,7 @@
                             "orthoClockwise": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1
+                                0.8499999
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41313,7 +41315,7 @@
                             "curlIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.06299212999999999
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41328,7 +41330,7 @@
                             "curlFrequency": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1.583333
+                                1.125
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41343,7 +41345,7 @@
                             "curlOctaves": {
                               "ACCESS": 3,
                               "VALUE": [
-                                8
+                                1.583333
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41400,7 +41402,7 @@
                             "curlTranslation": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.1166667
+                                0.1666667
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41430,7 +41432,7 @@
                             "perlinFrequency": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.7916666
+                                1.208333
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41445,7 +41447,7 @@
                             "perlinOctaves": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1.666667
+                                1.291667
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41460,7 +41462,7 @@
                             "perlinRoughness": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.3666667
+                                0.3583333
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41475,7 +41477,7 @@
                             "perlinLacunarity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2666667
+                                0.375
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41565,7 +41567,7 @@
                             "patternSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                5.433071
+                                0.07874016
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41610,7 +41612,7 @@
                             "patternSpeed": {
                               "ACCESS": 3,
                               "VALUE": [
-                                -1
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41655,7 +41657,7 @@
                             "dancerSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                2.125984
+                                10
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41670,7 +41672,7 @@
                             "dancerHyperSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.15
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41715,7 +41717,7 @@
                             "dancerIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.001469225
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41745,7 +41747,7 @@
                             "dancerRotation": {
                               "ACCESS": 3,
                               "VALUE": [
-                                -90,
+                                0,
                                 0,
                                 0
                               ],
@@ -41788,7 +41790,7 @@
                             "count": {
                               "ACCESS": 3,
                               "VALUE": [
-                                9.999981999999999
+                                10
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -41879,7 +41881,7 @@
                             "weight": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42245,7 +42247,7 @@
                             "forceFactorOutside": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42260,7 +42262,7 @@
                             "radialIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.984127
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42378,7 +42380,7 @@
                             "orthoIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                1
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42438,7 +42440,7 @@
                             "curlIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.9047619
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42453,7 +42455,7 @@
                             "curlFrequency": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.2500849
+                                3.458418
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42468,7 +42470,7 @@
                             "curlOctaves": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1
+                                2.75
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42480,7 +42482,7 @@
                             "curlRoughness": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.3583333
+                                0.3520631
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42495,7 +42497,7 @@
                             "curlLacunarity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.4083334
+                                0.4716276
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42525,7 +42527,7 @@
                             "curlTranslation": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.08333333
+                                0.1001608
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42540,7 +42542,7 @@
                             "perlinIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                1
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42690,7 +42692,7 @@
                             "patternSize": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                10
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42735,7 +42737,7 @@
                             "patternSpeed": {
                               "ACCESS": 3,
                               "VALUE": [
-                                -0.9962202999999999
+                                -0.5958763
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42810,7 +42812,7 @@
                             "dancerSizeSpread": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.45
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42840,7 +42842,7 @@
                             "dancerIntensity": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0.01763872
+                                0
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -42855,7 +42857,7 @@
                             "dancerWeightIntensityFactor": {
                               "ACCESS": 3,
                               "VALUE": [
-                                0
+                                0.2071429
                               ],
                               "TYPE": "f",
                               "RANGE": [
@@ -43377,7 +43379,7 @@
             "output": {
               "parameters": [
                 {
-                  "value": false,
+                  "value": true,
                   "controlAddress": "/local"
                 },
                 {
@@ -43535,7 +43537,6 @@
                   "controlAddress": "/listen"
                 }
               ],
-              "editorIsCollapsed": true,
               "containers": {
                 "Custom": {
                   "parameters": [
@@ -43544,19 +43545,26 @@
                       "controlAddress": "/listen"
                     },
                     {
+                      "value": true,
+                      "controlAddress": "/sync"
+                    },
+                    {
                       "value": 0.0,
+                      "controlAddress": "/Kick"
+                    },
+                    {
+                      "value": 0.431951105594635,
                       "controlAddress": "/Low"
                     },
                     {
-                      "value": 0.000018799082681653,
+                      "value": 0.009330133907496929,
                       "controlAddress": "/Mid"
                     },
                     {
-                      "value": 0.000125731676234863,
+                      "value": 0.03426741436123848,
                       "controlAddress": "/High"
                     }
                   ],
-                  "editorIsCollapsed": true,
                   "owned": true,
                   "niceName": "Custom"
                 }
@@ -44209,7 +44217,7 @@
                       "DESCRIPTION": "Low",
                       "FULL_PATH": "/Audio_Analysis/Custom/Low",
                       "VALUE": [
-                        0.0
+                        0.2073703855276108
                       ],
                       "RANGE": [
                         {
@@ -44224,7 +44232,7 @@
                       "DESCRIPTION": "Mid",
                       "FULL_PATH": "/Audio_Analysis/Custom/Mid",
                       "VALUE": [
-                        0.000019236789739807
+                        0.09102736413478851
                       ],
                       "RANGE": [
                         {
@@ -44239,7 +44247,7 @@
                       "DESCRIPTION": "High",
                       "FULL_PATH": "/Audio_Analysis/Custom/High",
                       "VALUE": [
-                        0.000155670844833366
+                        0.2092055529356003
                       ],
                       "RANGE": [
                         {
@@ -44262,9 +44270,9 @@
                       "DESCRIPTION": "Lefthandposition",
                       "FULL_PATH": "/Kinect_Tracking/Skeleton/Lefthandposition",
                       "VALUE": [
-                        0.0,
-                        0.0,
-                        0.0
+                        -0.5826740264892578,
+                        2.505979904e10,
+                        1.454079985618591
                       ],
                       "RANGE": [
                         {
@@ -44287,9 +44295,9 @@
                       "DESCRIPTION": "Righthandposition",
                       "FULL_PATH": "/Kinect_Tracking/Skeleton/Righthandposition",
                       "VALUE": [
-                        0.0,
-                        0.0,
-                        0.0
+                        2.505979904e10,
+                        1.428876042366028,
+                        1.419852018356323
                       ],
                       "RANGE": [
                         {
@@ -44303,1274 +44311,6 @@
                         {
                           "MAX": 5.0,
                           "MIN": -5.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "hasListenExtension": true
-      },
-      {
-        "parameters": [
-          {
-            "value": true,
-            "controlAddress": "/enabled"
-          },
-          {
-            "value": [
-              0.3490196168422699,
-              0.1607843190431595,
-              0.4000000059604645,
-              1.0
-            ],
-            "controlAddress": "/color"
-          },
-          {
-            "value": false,
-            "controlAddress": "/logIncoming"
-          }
-        ],
-        "niceName": "OSCQuery_TD local",
-        "type": "OSCQuery",
-        "scripts": {
-          "viewOffset": [
-            0,
-            0
-          ],
-          "viewZoom": 1.0
-        },
-        "params": {
-          "parameters": [
-            {
-              "value": false,
-              "controlAddress": "/keepValuesOnSync"
-            },
-            {
-              "value": "TD Data",
-              "controlAddress": "/serverName"
-            },
-            {
-              "value": true,
-              "controlAddress": "/onlySyncFromSameName"
-            },
-            {
-              "value": true,
-              "controlAddress": "/isConnected"
-            }
-          ],
-          "containers": {
-            "output": {
-              "parameters": [
-                {
-                  "value": true,
-                  "controlAddress": "/local"
-                },
-                {
-                  "value": "192.168.1.114",
-                  "controlAddress": "/remoteHost"
-                },
-                {
-                  "value": 9015,
-                  "hexMode": false,
-                  "controlAddress": "/remotePort"
-                },
-                {
-                  "value": 9015,
-                  "hexMode": false,
-                  "controlAddress": "/customOSCPort",
-                  "enabled": false
-                },
-                {
-                  "value": 9015,
-                  "hexMode": false,
-                  "controlAddress": "/customWebsocketPort",
-                  "enabled": false
-                }
-              ]
-            }
-          }
-        },
-        "templates": {
-          "viewOffset": [
-            0,
-            0
-          ],
-          "viewZoom": 1.0
-        },
-        "values": {
-          "containers": {
-            "post_process": {
-              "editorIsCollapsed": true,
-              "containers": {
-                "FB_Over": {
-                  "parameters": [
-                    {
-                      "value": 0.933333,
-                      "controlAddress": "/Opacity"
-                    }
-                  ],
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "FB_Over"
-                },
-                "FB_Add": {
-                  "parameters": [
-                    {
-                      "value": 0.0,
-                      "controlAddress": "/Opacityadd"
-                    }
-                  ],
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "FB_Add"
-                },
-                "Light_Tunnel": {
-                  "parameters": [
-                    {
-                      "value": 0.0,
-                      "controlAddress": "/Drywet"
-                    }
-                  ],
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "Light_Tunnel"
-                },
-                "Radial_Blur": {
-                  "parameters": [
-                    {
-                      "value": 1.0,
-                      "controlAddress": "/Drywetradialblur"
-                    },
-                    {
-                      "value": 1.0,
-                      "controlAddress": "/Radialstrength"
-                    },
-                    {
-                      "value": 2.0,
-                      "controlAddress": "/Radialbrightness"
-                    },
-                    {
-                      "value": [
-                        0.5,
-                        0.0
-                      ],
-                      "controlAddress": "/Center"
-                    }
-                  ],
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "Radial_Blur"
-                },
-                "RGB_Delay": {
-                  "parameters": [
-                    {
-                      "value": 0.0,
-                      "controlAddress": "/Rgbdelaydrywet"
-                    }
-                  ],
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "RGB_Delay"
-                },
-                "Invert": {
-                  "parameters": [
-                    {
-                      "value": 0.0,
-                      "controlAddress": "/Invertdrywet"
-                    }
-                  ],
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "Invert"
-                },
-                "Kaleidoscope": {
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "Kaleidoscope"
-                },
-                "Vignette": {
-                  "parameters": [
-                    {
-                      "value": 0.0,
-                      "controlAddress": "/Drywetvignette"
-                    }
-                  ],
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "Vignette"
-                },
-                "Pixel Sorting": {
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "Pixel Sorting"
-                },
-                "Color": {
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "Color"
-                }
-              },
-              "owned": true,
-              "niceName": "post_process"
-            },
-            "Audio_Analysis": {
-              "parameters": [
-                {
-                  "value": false,
-                  "controlAddress": "/listen"
-                }
-              ],
-              "editorIsCollapsed": true,
-              "containers": {
-                "Custom": {
-                  "parameters": [
-                    {
-                      "value": true,
-                      "controlAddress": "/listen"
-                    },
-                    {
-                      "value": true,
-                      "controlAddress": "/sync"
-                    },
-                    {
-                      "value": 0.0,
-                      "controlAddress": "/Kick"
-                    },
-                    {
-                      "value": 0.0,
-                      "controlAddress": "/Low"
-                    },
-                    {
-                      "value": 0.0,
-                      "controlAddress": "/Mid"
-                    },
-                    {
-                      "value": 0.000048016336222644,
-                      "controlAddress": "/High"
-                    }
-                  ],
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "Custom"
-                }
-              },
-              "owned": true,
-              "niceName": "Audio_Analysis"
-            },
-            "Augmenta2": {
-              "editorIsCollapsed": true,
-              "containers": {
-                "Custom": {
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "Custom"
-                }
-              },
-              "owned": true,
-              "niceName": "Augmenta2"
-            }
-          }
-        },
-        "treeData": {
-          "DESCRIPTION": "TD Data",
-          "CONTENTS": {
-            "post_process": {
-              "CONTENTS": {
-                "FB_Over": {
-                  "CONTENTS": {
-                    "Activateblur": {
-                      "TYPE": "T",
-                      "DESCRIPTION": "Activateblur",
-                      "FULL_PATH": "/post_process/FB_Over/Activateblur",
-                      "VALUE": [
-                        true
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1,
-                          "MIN": 0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Filtersize": {
-                      "TYPE": "i",
-                      "DESCRIPTION": "Filtersize",
-                      "FULL_PATH": "/post_process/FB_Over/Filtersize",
-                      "VALUE": [
-                        1
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 8.0,
-                          "MIN": 1.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Preshrink": {
-                      "TYPE": "i",
-                      "DESCRIPTION": "Preshrink",
-                      "FULL_PATH": "/post_process/FB_Over/Preshrink",
-                      "VALUE": [
-                        1
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 32.0,
-                          "MIN": 1.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Opacity": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Opacity",
-                      "FULL_PATH": "/post_process/FB_Over/Opacity",
-                      "VALUE": [
-                        0.933333
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    }
-                  }
-                },
-                "FB_Add": {
-                  "CONTENTS": {
-                    "Filtersizeadd": {
-                      "TYPE": "i",
-                      "DESCRIPTION": "Filtersizeadd",
-                      "FULL_PATH": "/post_process/FB_Add/Filtersizeadd",
-                      "VALUE": [
-                        1
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 8.0,
-                          "MIN": 1.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Opacityadd": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Opacityadd",
-                      "FULL_PATH": "/post_process/FB_Add/Opacityadd",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Preshrinkadd": {
-                      "TYPE": "i",
-                      "DESCRIPTION": "Preshrinkadd",
-                      "FULL_PATH": "/post_process/FB_Add/Preshrinkadd",
-                      "VALUE": [
-                        1
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 32.0,
-                          "MIN": 1.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    }
-                  }
-                },
-                "Light_Tunnel": {
-                  "CONTENTS": {
-                    "Radius": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Radius",
-                      "FULL_PATH": "/post_process/Light_Tunnel/Radius",
-                      "VALUE": [
-                        0.99
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Drywet": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Drywet",
-                      "FULL_PATH": "/post_process/Light_Tunnel/Drywet",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    }
-                  }
-                },
-                "Radial_Blur": {
-                  "CONTENTS": {
-                    "Drywetradialblur": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Drywetradialblur",
-                      "FULL_PATH": "/post_process/Radial_Blur/Drywetradialblur",
-                      "VALUE": [
-                        1.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Radialsamples": {
-                      "TYPE": "i",
-                      "DESCRIPTION": "Radialsamples",
-                      "FULL_PATH": "/post_process/Radial_Blur/Radialsamples",
-                      "VALUE": [
-                        100
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": 1.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Radialstrength": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Radialstrength",
-                      "FULL_PATH": "/post_process/Radial_Blur/Radialstrength",
-                      "VALUE": [
-                        1.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Radialbrightness": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Radialbrightness",
-                      "FULL_PATH": "/post_process/Radial_Blur/Radialbrightness",
-                      "VALUE": [
-                        2.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 2.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Center": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Center",
-                      "FULL_PATH": "/post_process/Radial_Blur/Center",
-                      "VALUE": [
-                        0.5,
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 2.0,
-                          "MIN": -1.0
-                        },
-                        {
-                          "MAX": 2.0,
-                          "MIN": -1.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Ampx": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Ampx",
-                      "FULL_PATH": "/post_process/Radial_Blur/Ampx",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Frequencyx": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Frequencyx",
-                      "FULL_PATH": "/post_process/Radial_Blur/Frequencyx",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 8.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Ampy": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Ampy",
-                      "FULL_PATH": "/post_process/Radial_Blur/Ampy",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Frequencyy": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Frequencyy",
-                      "FULL_PATH": "/post_process/Radial_Blur/Frequencyy",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 8.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    }
-                  }
-                },
-                "RGB_Delay": {
-                  "CONTENTS": {
-                    "Delayintensity": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Delayintensity",
-                      "FULL_PATH": "/post_process/RGB_Delay/Delayintensity",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Rgbdelaydrywet": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Rgbdelaydrywet",
-                      "FULL_PATH": "/post_process/RGB_Delay/Rgbdelaydrywet",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    }
-                  }
-                },
-                "Invert": {
-                  "CONTENTS": {
-                    "Invertdrywet": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Invertdrywet",
-                      "FULL_PATH": "/post_process/Invert/Invertdrywet",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    }
-                  }
-                },
-                "Kaleidoscope": {
-                  "CONTENTS": {
-                    "Drywetkal": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Drywetkal",
-                      "FULL_PATH": "/post_process/Kaleidoscope/Drywetkal",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    }
-                  }
-                },
-                "Vignette": {
-                  "CONTENTS": {
-                    "Drywetvignette": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Drywetvignette",
-                      "FULL_PATH": "/post_process/Vignette/Drywetvignette",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    }
-                  }
-                },
-                "Pixel Sorting": {
-                  "CONTENTS": {
-                    "Pixelsort": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Pixelsort",
-                      "FULL_PATH": "/post_process/Pixel Sorting/Pixelsort",
-                      "VALUE": [
-                        ""
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Psdrywet": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Psdrywet",
-                      "FULL_PATH": "/post_process/Pixel Sorting/Psdrywet",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Psactivate": {
-                      "TYPE": "F",
-                      "DESCRIPTION": "Psactivate",
-                      "FULL_PATH": "/post_process/Pixel Sorting/Psactivate",
-                      "VALUE": [
-                        false
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1,
-                          "MIN": 0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Psdisplace": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Psdisplace",
-                      "FULL_PATH": "/post_process/Pixel Sorting/Psdisplace",
-                      "VALUE": [
-                        0.0333333
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Direction": {
-                      "TYPE": "T",
-                      "DESCRIPTION": "Direction",
-                      "FULL_PATH": "/post_process/Pixel Sorting/Direction",
-                      "VALUE": [
-                        true
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1,
-                          "MIN": 0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Side": {
-                      "TYPE": "F",
-                      "DESCRIPTION": "Side",
-                      "FULL_PATH": "/post_process/Pixel Sorting/Side",
-                      "VALUE": [
-                        false
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1,
-                          "MIN": 0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Psfadeoutduration": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Psfadeoutduration",
-                      "FULL_PATH": "/post_process/Pixel Sorting/Psfadeoutduration",
-                      "VALUE": [
-                        0.303333
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Notopixelsort": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Notopixelsort",
-                      "FULL_PATH": "/post_process/Pixel Sorting/Notopixelsort",
-                      "VALUE": [
-                        ""
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Notodrywet": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Notodrywet",
-                      "FULL_PATH": "/post_process/Pixel Sorting/Notodrywet",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Notothreshold": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Notothreshold",
-                      "FULL_PATH": "/post_process/Pixel Sorting/Notothreshold",
-                      "VALUE": [
-                        1.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Notodirection": {
-                      "TYPE": "F",
-                      "DESCRIPTION": "Notodirection",
-                      "FULL_PATH": "/post_process/Pixel Sorting/Notodirection",
-                      "VALUE": [
-                        false
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1,
-                          "MIN": 0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Notoside": {
-                      "TYPE": "T",
-                      "DESCRIPTION": "Notoside",
-                      "FULL_PATH": "/post_process/Pixel Sorting/Notoside",
-                      "VALUE": [
-                        true
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1,
-                          "MIN": 0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Notofadeoutamount": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Notofadeoutamount",
-                      "FULL_PATH": "/post_process/Pixel Sorting/Notofadeoutamount",
-                      "VALUE": [
-                        2.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 2.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    }
-                  }
-                },
-                "Color": {
-                  "CONTENTS": {
-                    "Index": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Index",
-                      "FULL_PATH": "/post_process/Color/Index",
-                      "VALUE": [
-                        1.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 10.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    }
-                  }
-                }
-              }
-            },
-            "Audio_Analysis": {
-              "CONTENTS": {
-                "Custom": {
-                  "CONTENTS": {
-                    "Kick": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Kick",
-                      "FULL_PATH": "/Audio_Analysis/Custom/Kick",
-                      "VALUE": [
-                        1.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Low": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Low",
-                      "FULL_PATH": "/Audio_Analysis/Custom/Low",
-                      "VALUE": [
-                        0.4257745146751404
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Mid": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Mid",
-                      "FULL_PATH": "/Audio_Analysis/Custom/Mid",
-                      "VALUE": [
-                        0.213872566819191
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "High": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "High",
-                      "FULL_PATH": "/Audio_Analysis/Custom/High",
-                      "VALUE": [
-                        0.1137623488903046
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    }
-                  }
-                }
-              }
-            },
-            "Augmenta2": {
-              "CONTENTS": {
-                "Custom": {
-                  "CONTENTS": {
-                    "Position1": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position1",
-                      "FULL_PATH": "/Augmenta2/Custom/Position1",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    },
-                    "Position2": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position2",
-                      "FULL_PATH": "/Augmenta2/Custom/Position2",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    },
-                    "Position3": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position3",
-                      "FULL_PATH": "/Augmenta2/Custom/Position3",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    },
-                    "Position4": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position4",
-                      "FULL_PATH": "/Augmenta2/Custom/Position4",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    },
-                    "Position5": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position5",
-                      "FULL_PATH": "/Augmenta2/Custom/Position5",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    },
-                    "Position6": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position6",
-                      "FULL_PATH": "/Augmenta2/Custom/Position6",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    },
-                    "Position7": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position7",
-                      "FULL_PATH": "/Augmenta2/Custom/Position7",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    },
-                    "Position8": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position8",
-                      "FULL_PATH": "/Augmenta2/Custom/Position8",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    },
-                    "Position9": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position9",
-                      "FULL_PATH": "/Augmenta2/Custom/Position9",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    },
-                    "Position10": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position10",
-                      "FULL_PATH": "/Augmenta2/Custom/Position10",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    },
-                    "Position11": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position11",
-                      "FULL_PATH": "/Augmenta2/Custom/Position11",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    },
-                    "Position12": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position12",
-                      "FULL_PATH": "/Augmenta2/Custom/Position12",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    },
-                    "Position13": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position13",
-                      "FULL_PATH": "/Augmenta2/Custom/Position13",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    },
-                    "Position14": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position14",
-                      "FULL_PATH": "/Augmenta2/Custom/Position14",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    },
-                    "Position15": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position15",
-                      "FULL_PATH": "/Augmenta2/Custom/Position15",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        }
-                      ],
-                      "ACCESS": 1
-                    },
-                    "Position16": {
-                      "TYPE": "ff",
-                      "DESCRIPTION": "Position16",
-                      "FULL_PATH": "/Augmenta2/Custom/Position16",
-                      "VALUE": [
-                        100.0,
-                        100.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
-                        },
-                        {
-                          "MAX": 100.0,
-                          "MIN": -100.0
                         }
                       ],
                       "ACCESS": 1
@@ -46908,8 +45648,8 @@
           "parameters": [
             {
               "value": [
-                "",
-                ""
+                "\\\\?\\usb#vid_09e8&pid_0034&mi_00#6&5206b0f&0&0000#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global",
+                "\\\\?\\usb#vid_09e8&pid_0034&mi_00#6&5206b0f&0&0000#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global"
               ],
               "inputName": "MPD218",
               "outputName": "MPD218",
@@ -47800,12 +46540,12 @@
                   "controlAddress": "/lastChannel"
                 },
                 {
-                  "value": 49,
+                  "value": 36,
                   "hexMode": false,
                   "controlAddress": "/lastPitch"
                 },
                 {
-                  "value": 83,
+                  "value": 88,
                   "hexMode": false,
                   "controlAddress": "/lastVelocity"
                 }
@@ -47834,7 +46574,7 @@
             "controlAddress": "/color"
           },
           {
-            "value": true,
+            "value": false,
             "controlAddress": "/logIncoming"
           }
         ],
@@ -47855,8 +46595,8 @@
             },
             {
               "value": [
-                "",
-                ""
+                "\\\\?\\usb#vid_2580&pid_0007&mi_00#8&35923d50&0&0000#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global",
+                "\\\\?\\usb#vid_2580&pid_0007&mi_00#8&35923d50&0&0000#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global"
               ],
               "inputName": "Midi Fighter Twister-2",
               "outputName": "Midi Fighter Twister-2",
@@ -48184,7 +46924,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 127,
+              "value": 17,
               "alwaysNotify": true,
               "minValue": 0,
               "maxValue": 127,
@@ -48203,7 +46943,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 27,
+              "value": 3,
               "alwaysNotify": true,
               "minValue": 0,
               "maxValue": 127,
@@ -48222,7 +46962,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 35,
+              "value": 13,
               "alwaysNotify": true,
               "minValue": 0,
               "maxValue": 127,
@@ -48241,7 +46981,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 10,
+              "value": 8,
               "alwaysNotify": true,
               "minValue": 0,
               "maxValue": 127,
@@ -48260,7 +47000,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 44,
+              "value": 127,
               "alwaysNotify": true,
               "minValue": 0,
               "maxValue": 127,
@@ -48279,7 +47019,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 127,
               "alwaysNotify": true,
               "minValue": 0,
               "maxValue": 127,
@@ -48317,7 +47057,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 7,
+              "value": 38,
               "alwaysNotify": true,
               "minValue": 0,
               "maxValue": 127,
@@ -49904,7 +48644,7 @@
             "controlAddress": "/color"
           },
           {
-            "value": false,
+            "value": true,
             "controlAddress": "/logIncoming"
           }
         ],
@@ -49925,11 +48665,11 @@
             },
             {
               "value": [
-                "",
-                ""
+                "\\\\?\\usb#vid_2580&pid_0007&mi_00#8&22d88cab&0&0000#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global",
+                "\\\\?\\usb#vid_2580&pid_0007&mi_00#8&22d88cab&0&0000#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global"
               ],
-              "inputName": "Midi Fighter Twister-2",
-              "outputName": "Midi Fighter Twister-2",
+              "inputName": "Midi Fighter Twister",
+              "outputName": "Midi Fighter Twister",
               "controlAddress": "/devices"
             }
           ],
@@ -50182,7 +48922,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 10,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -50272,7 +49012,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 18,
+              "value": 1,
               "alwaysNotify": true,
               "minValue": 0,
               "maxValue": 127,
@@ -54467,8 +53207,8 @@
               "parameters": [
                 {
                   "value": [
-                    0.2762410342693329,
-                    0.1002491116523743,
+                    0.001390554942190647,
+                    0.3984911143779755,
                     0.0,
                     1.0
                   ],
@@ -54489,7 +53229,7 @@
             {
               "parameters": [
                 {
-                  "value": 2997.509033203125,
+                  "value": 15.08899974822998,
                   "minValue": 0.0,
                   "maxValue": 7000.0,
                   "default": 0.0,
@@ -55340,7 +54080,7 @@
                           "controlAddress": "/#1"
                         },
                         {
-                          "value": 1.0,
+                          "value": 0.1338582634925842,
                           "minValue": 0.0,
                           "maxValue": 1.0,
                           "default": 0.0,
@@ -55354,28 +54094,28 @@
                           "controlAddress": "/#3"
                         },
                         {
-                          "value": 12.75590515136719,
+                          "value": 1.417322874069214,
                           "minValue": 0.0,
                           "maxValue": 60.0,
                           "default": 0.0,
                           "controlAddress": "/#4"
                         },
                         {
-                          "value": 0.07874015718698502,
+                          "value": 0.06299212574958801,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#5"
                         },
                         {
-                          "value": 0.3464567065238953,
+                          "value": 1.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#6"
                         },
                         {
-                          "value": 0.05511811003088951,
+                          "value": 0.2992126047611237,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -55403,14 +54143,14 @@
                           "controlAddress": "/#10"
                         },
                         {
-                          "value": 0.1749999970197678,
+                          "value": 0.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#11"
                         },
                         {
-                          "value": 2.755905628204346,
+                          "value": 1.023622035980225,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
@@ -55452,7 +54192,7 @@
                           "controlAddress": "/#17"
                         },
                         {
-                          "value": 0.0,
+                          "value": 1.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -55571,7 +54311,7 @@
                     {
                       "parameters": [
                         {
-                          "value": 1.889763832092285,
+                          "value": 1.0,
                           "controlAddress": "/#1"
                         },
                         {
@@ -55589,28 +54329,28 @@
                           "controlAddress": "/#3"
                         },
                         {
-                          "value": 10.39370059967041,
+                          "value": 0.0,
                           "minValue": 0.0,
                           "maxValue": 60.0,
                           "default": 0.0,
                           "controlAddress": "/#4"
                         },
                         {
-                          "value": 0.0,
+                          "value": 0.1,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#5"
                         },
                         {
-                          "value": 0.9527559280395508,
+                          "value": 1.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
                           "controlAddress": "/#6"
                         },
                         {
-                          "value": 0.0,
+                          "value": 0.3,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -55624,7 +54364,7 @@
                           "controlAddress": "/#8"
                         },
                         {
-                          "value": 0.5433070659637451,
+                          "value": 0.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -55645,7 +54385,7 @@
                           "controlAddress": "/#11"
                         },
                         {
-                          "value": 3.77952766418457,
+                          "value": 1.0,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
@@ -55715,7 +54455,7 @@
                           "controlAddress": "/#21"
                         },
                         {
-                          "value": 5.039370059967041,
+                          "value": 0.0,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
@@ -55743,7 +54483,7 @@
                           "controlAddress": "/#25"
                         },
                         {
-                          "value": 1.0,
+                          "value": 0.0,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -55757,7 +54497,7 @@
                           "controlAddress": "/#27"
                         },
                         {
-                          "value": 0.003149569034576416,
+                          "value": 0.0,
                           "controlAddress": "/#28"
                         },
                         {
@@ -58805,7 +57545,7 @@
                     {
                       "parameters": [
                         {
-                          "value": 1.0,
+                          "value": 10.0,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
@@ -59050,7 +57790,7 @@
                           "controlAddress": "/#35"
                         },
                         {
-                          "value": 0.0,
+                          "value": 0.07874015718698502,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
@@ -59148,7 +57888,7 @@
                           "controlAddress": "/#2"
                         },
                         {
-                          "value": 3.000000715255737,
+                          "value": 10.0,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
@@ -59176,7 +57916,7 @@
                           "controlAddress": "/#6"
                         },
                         {
-                          "value": 0.9833333492279053,
+                          "value": 0.9841269850730896,
                           "minValue": 0,
                           "maxValue": 1,
                           "default": 0.0,
@@ -59365,7 +58105,7 @@
                           "controlAddress": "/#35"
                         },
                         {
-                          "value": 2.901280403137207,
+                          "value": 10.0,
                           "minValue": 0.0,
                           "maxValue": 10.0,
                           "default": 0.0,
@@ -80909,7 +79649,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "/modules/oSCQuery_TDLocal/values/Audio_Analysis/Custom/Kick",
+                        "value": "/modules/oSCQuery_TD/values/Audio_Analysis/Custom/Kick",
                         "controlAddress": "/inputValue"
                       }
                     ],
@@ -81055,7 +79795,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "/modules/oSCQuery_TDLocal/values/Audio_Analysis/Custom/Low",
+                        "value": "/modules/oSCQuery_TD/values/Audio_Analysis/Custom/Low",
                         "controlAddress": "/inputValue"
                       }
                     ],
@@ -81173,7 +79913,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "/modules/oSCQuery_TDLocal/values/Audio_Analysis/Custom/Mid",
+                        "value": "/modules/oSCQuery_TD/values/Audio_Analysis/Custom/Mid",
                         "controlAddress": "/inputValue"
                       }
                     ],
@@ -81287,7 +80027,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "/modules/oSCQuery_TDLocal/values/Audio_Analysis/Custom/High",
+                        "value": "/modules/oSCQuery_TD/values/Audio_Analysis/Custom/High",
                         "controlAddress": "/inputValue"
                       }
                     ],
@@ -99944,8 +98684,8 @@
       }
     ],
     "viewOffset": [
-      86,
-      -569
+      32,
+      -624
     ],
     "viewZoom": 0.53125,
     "transitions": {
@@ -99990,8 +98730,8 @@
         }
       ],
       "viewOffset": [
-        86,
-        -569
+        32,
+        -624
       ],
       "viewZoom": 0.53125
     }
