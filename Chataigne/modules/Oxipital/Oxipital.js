@@ -174,6 +174,8 @@ function moduleParameterChanged(param) {
 		updateCurrentPreset();
 	} else if (param.is(local.parameters.setup.presets.refresh)) {
 		refreshPresets();
+	} else if (param.is(local.parameters.setup.presets.refreshNow)) {
+		refreshPresets();
 	} else if (param.is(local.parameters.setup.presets.asyncLoading)) {
 		if (param.get()) setup(true);
 		else {
@@ -181,7 +183,11 @@ function moduleParameterChanged(param) {
 			local.parameters.setup.presets.loadedValues.orbGroups.clear();
 			local.parameters.setup.presets.loadedValues.macros.clear();
 		}
-	} else {
+	} 
+	else if (param.is(local.parameters.setup.resetAllMacro)) {
+		resetGroupMacro(orbGroups);
+		resetGroupMacro(forces);
+	}else {
 		var p4 = param.getParent(4);
 		if (p4 == forceGroupsGroup) {
 			var forceIndex = parseInt(param.getParent(3).niceName.split(" ")[2]) - 1;
@@ -495,6 +501,31 @@ function getPropForParam(param) {
 	return items[paramGroupName][paramName];
 }
 
+function resetGroupMacro(groups) {
+	script.log("Resetting all macros");
+
+	for (var i = 0; i < groups.length; i++) { // Orb or Force Groups
+		var group = groups[i];
+		var groupContainers = group.getContainers();
+
+		for (var j = 0; j < groupContainers.length; j++) { // Parameter containers
+			var groupContainer = groupContainers[j];
+			var groupChildren = groupContainer.getContainers();
+
+			for( var k = 0; k < groupChildren.length; k++) { // Item in each parameter container
+				var itemParamGroup = groupChildren[k];
+				var itemParamChildren = itemParamGroup.getControllables();
+
+				if (itemParamChildren.length <= 1) continue; // no macro param	
+
+				for( var l = 1; l < itemParamChildren.length; l++) { // Macro weight params
+					var macroWeightParam = itemParamChildren[l];
+					if (macroWeightParam) macroWeightParam.set(0);
+				}
+			}
+		}
+	}
+}
 
 
 
