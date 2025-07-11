@@ -1,4 +1,3 @@
-
 var numForceGroupsParam = local.parameters.setup.numForceGroups;
 var numOrbGroupsParam = local.parameters.setup.numOrbGroups;
 var numMacrosParam = local.parameters.setup.numMacros;
@@ -66,13 +65,17 @@ var forceGroupParameters = {
 	"Radial": {
 		"Radial Intensity": { "type": "float", "default": 0, "min": 0, "max": 1 },
 		"Radial Frequency": { "type": "float", "default": 0, "min": 0, "max": 1 },
-		"Radial InOut": { "type": "float", "default": 0, "min": 0, "max": 1 }
+		"Radial InOut": { "type": "float", "default": 0, "min": 0, "max": 1 },
+		"Radial Speed Wave": { "type": "float", "default": 0, "min": 0, "max": 1 },
+		"Radial Amplitude Wave": { "type": "float", "default": 0, "min": 0, "max": 1 }
 	},
 	"Axial": {
 		"Axial Intensity": { "type": "float", "default": 0, "min": 0, "max": 1 },
 		"Axis Multiplier": { "type": "p3d", "default": [0, 1, 0] },
 		"Axial Factor": { "type": "float", "default": 1, "min": 1, "max": 3 },
-		"Axial Frequency": { "type": "p3d", "default": [0, 0, 0] }
+		"Axial Frequency": { "type": "p3d", "default": [0, 0, 0] },
+		"Axial Speed Wave": { "type": "float", "default": 0, "min": 0, "max": 1 },
+		"Axial Amplitude Wave": { "type": "float", "default": 0, "min": 0, "max": 1 }
 	},
 	"Linear": {
 		"Linear Intensity": { "type": "float", "default": 0, "min": 0, "max": 1 }
