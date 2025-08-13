@@ -20,6 +20,7 @@ var unityForcesManager = null;
 var unityOrbsManager = null;
 var unityForceGroupsParam = null;
 var unityOrbGroupsParam = null;
+var macroUpdateTimestamp = null; // Used to update macro when they stop moving 
 
 var danceGroupParameters = {
 	"Transform":
@@ -149,6 +150,14 @@ function init() {
 	setup();
 	if (local.parameters.setup.presets.asyncLoading.get()) setup(true);
 	refreshPresets();
+
+
+	macroUpdateTimestamp = util.getTimestamp();
+}
+
+function update(deltaTime)
+{
+
 }
 
 
@@ -169,6 +178,8 @@ function moduleParameterChanged(param) {
 		if (local.parameters.setup.presets.asyncLoading.get()) setup(true);
 	} else if (param.getParent().is(macrosGroup)) {
 		updateAllParametersForMacro(param);
+		script.log("Update Macro : " + param.get());
+		macroUpdateTimestamp = util.getTimestamp();
 	} else if (param.is(local.parameters.setup.presets.saveNew)) {
 		savePreset();
 	} else if (param.is(local.parameters.setup.presets.load)) {
@@ -242,18 +253,18 @@ function updateAllParameters(index, items, parameters) {
 }
 
 function updateParam(index, groupName, paramName, sourceParam, parameters, items) {
-	if (sourceParam != null) {
+	/*if (sourceParam != null) {
 		var macroIndex = sourceParam.getParent().getControllables().indexOf(sourceParam);
 		if (macroIndex > 0 && macros[macroIndex - 1].get() == 0) {
 			return;
 		}
-	}
+	}*/
 
 	var targetParams = danceGroupParameters[groupName] ? danceGroupParameters : parameters;
 
 	var paramProps = targetParams[groupName][paramName];
 
-	// script.log("Updating " + groupName + " " + paramName + " for " + items + "," + index);
+	
 
 	var item = items[index];
 	var itemGroup = item.getChild(groupName);
@@ -261,6 +272,8 @@ function updateParam(index, groupName, paramName, sourceParam, parameters, items
 	var itemParam = itemParamGroup.getChild("baseValue");
 	var paramMin = paramProps.min;
 	var paramMax = paramProps.max;
+
+	//script.log("Updating " + groupName + "/" + paramName + " for " + item.niceName + "," + index);
 
 	var managerName = item.getParent().niceName;
 
