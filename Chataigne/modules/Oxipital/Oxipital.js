@@ -178,7 +178,6 @@ function moduleParameterChanged(param) {
 		if (local.parameters.setup.presets.asyncLoading.get()) setup(true);
 	} else if (param.getParent().is(macrosGroup)) {
 		updateAllParametersForMacro(param);
-		script.log("Update Macro : " + param.get());
 		macroUpdateTimestamp = util.getTimestamp();
 	} else if (param.is(local.parameters.setup.presets.saveNew)) {
 		savePreset();
