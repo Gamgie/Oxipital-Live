@@ -109,7 +109,7 @@ var forceGroupParameters = {
 		"Orthoaxial Intensity": { "type": "float", "default": 0, "min": 0, "max": 1 },
 		"Orthoaxial Inner Radius": { "type": "float", "default": 0, "min": 0, "max": 1 },
 		"Orthoaxial Factor": { "type": "float", "default": 1, "min": 1, "max": 3 },
-		"Orthoaxial Clockwise": { "type": "float", "default": 0, "min": 0, "max": 1 }
+		"Orthoaxial Clockwise": { "type": "float", "default": 0, "min": -1, "max": 1 }
 	}
 };
 
@@ -123,7 +123,7 @@ var orbGroupParameters = {
 		"Emitter Position Noise": { "type": "float", "default": 0, "min": 0, "max": 1 },
 		"Emitter Position Noise Frequency": { "type": "float", "default": 1, "min": 0, "max": 5 },
 		"Emitter Position Noise Radius": { "type": "float", "default": 0.1, "min": 0, "max": 1 },
-
+		"Custom Mesh Name":{"type":"string", "default":"sphere"},
 	},
 	"Appearance": {
 		"Color": { "type": "color", "default": [.8, 2, .05] },
@@ -469,6 +469,8 @@ function addParametersToItem(item, parameters) {
 				}
 			} else if (paramType == "bool") {
 				paramContainer.addBoolParameter("Base Value", "Base value for this parameter", paramDefault);
+			} else if (paramType == "string") {
+				paramContainer.addStringParameter("Base Value", "Base value for this parameter", paramDefault);
 			}
 		}
 	}
