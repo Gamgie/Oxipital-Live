@@ -118,6 +118,7 @@ var orbGroupParameters = {
 	"General": {
 		"Life": { "type": "float", "default": 20, "min": 0, "max": 40 },
 		"Emitter Shape": { "type": "enum", "default": "Sphere", "values": ["Sphere", "Plane", "Torus", "Cube", "Pipe", "Egg", "Line", "Circle", "Merkaba", "Pyramid", "Custom", "Augmenta"] },
+		"Render Type": {"type": "enum", "default" : "UnlitAdditive", "values":["UnlitOpaque", "UnlitAdditive", "LitQuad", "LitMesh"]},
 		"Emitter Surface Factor": { "type": "float", "default": 0, "min": 0, "max": 1 },
 		"Emitter Volume Factor": { "type": "float", "default": 0, "min": 0, "max": 1 },
 		"Emitter Position Noise": { "type": "float", "default": 0, "min": 0, "max": 1 },
