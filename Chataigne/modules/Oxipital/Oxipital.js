@@ -51,7 +51,6 @@ var danceGroupParameters = {
 		"Dancer Size Spread": { "type": "float", "default": 0, "min": 0, "max": 1 },
 		"Dancer Weight Size Factor": { "type": "float", "default": 0, "min": 0, "max": 1 },
 		"Dancer Intensity": { "type": "float", "default": 1, "min": 0, "max": 1 },
-		"Dancer Weight Intensity Factor": { "type": "float", "default": 0, "min": 0, "max": 1 },
 		"Dancer Rotation": { "type": "p3d", "default": [0, 0, 0] },
 		"Dancer Look At": { "type": "p3d", "default": [0, 1, 0] },
 		"Dancer Look At Mode": { "type": "float", "default": 0, "min": 0, "max": 2 }
@@ -128,6 +127,13 @@ var orbGroupParameters = {
 	},
 	"Appearance": {
 		"Color": { "type": "color", "default": [.8, 2, .05] },
+		"Color Life": { "type": "color", "default": [0, 0, 0] },
+		"Color Life Range": { "type": "float", "default": 1, "min": 0, "max": 1 },
+		"Color Life Blend": { "type": "float", "default": 0, "min": 0, "max": 1 },
+		"Color Speed": { "type": "color", "default": [0, 0, 0] },
+		"Color Speed Range": { "type": "float", "default": 1, "min": 0, "max": 1 },
+		"Color Speed Blend": { "type": "float", "default": 0, "min": 0, "max": 1 },
+		"Color Max Speed": { "type": "float", "default": 1	, "min": 0, "max": 1 },
 		"Alpha": { "type": "float", "default": 0.2, "min": 0, "max": 1 },
 		"HDR Multiplier": { "type": "float", "default": 0, "min": 0, "max": 1 },
 		"Alpha Speed Threshold": { "type": "float", "default": 0, "min": 0, "max": 1 },
