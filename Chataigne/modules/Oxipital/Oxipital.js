@@ -109,6 +109,12 @@ var forceGroupParameters = {
 		"Orthoaxial Inner Radius": { "type": "float", "default": 0, "min": 0, "max": 1 },
 		"Orthoaxial Factor": { "type": "float", "default": 1, "min": 1, "max": 3 },
 		"Orthoaxial Clockwise": { "type": "float", "default": 0, "min": -1, "max": 1 }
+	},
+	"Spiral": {
+		"Spiral Intensity": { "type": "float", "default": 0, "min": 0, "max": 1 },
+		"Spiral Frequency": { "type": "float", "default": 1, "min": 0, "max": 3 },
+		"Spiral Vertical Force": { "type": "float", "default": 0.5, "min": 0, "max": 1 },
+		"Spiral Direction": { "type": "float", "default": 0, "min": 0, "max": 1 }		
 	}
 };
 
