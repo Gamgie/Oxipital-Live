@@ -86,6 +86,10 @@
 			"Reset All Macro": {
 				"type": "Trigger"
 			}
+			,
+			"Send Data to Unity": {
+				"type": "Trigger"
+			}
 		},
 		"Macros": {
 			"type": "Container"

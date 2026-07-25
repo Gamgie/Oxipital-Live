@@ -47,6 +47,7 @@ var danceGroupParameters = {
 	},
 	"Dancer": {
 		"Dancer Size": { "type": "float", "default": 1, "min": 0, "max": 20 },
+		"Emitter Scale": { "type": "p3d", "default": [1, 1, 1] },
 		"Dancer Hyper Size": { "type": "float", "default": 0, "min": 0, "max": 1 },
 		"Dancer Size Spread": { "type": "float", "default": 0, "min": 0, "max": 1 },
 		"Dancer Weight Size Factor": { "type": "float", "default": 0, "min": 0, "max": 1 },
@@ -121,7 +122,7 @@ var forceGroupParameters = {
 
 var orbGroupParameters = {
 	"General": {
-		"Life": { "type": "float", "default": 20, "min": 0, "max": 40 },
+		"Life": { "type": "float", "default": 20, "min": 0, "max": 120 },
 		"Emitter Shape": { "type": "enum", "default": "Sphere", "values": ["Sphere", "Plane", "Torus", "Cube", "Pipe", "Egg", "Line", "Circle", "Merkaba", "Pyramid", "Custom", "Augmenta"] },
 		"Render Type": {"type": "enum", "default" : "UnlitAdditive", "values":["UnlitOpaque", "UnlitAdditive", "LitQuad", "LitMesh"]},
 		"Emitter Surface Factor": { "type": "float", "default": 0, "min": 0, "max": 1 },
@@ -213,6 +214,9 @@ function moduleParameterChanged(param) {
 	else if (param.is(local.parameters.setup.resetAllMacro)) {
 		resetGroupMacro(orbGroups);
 		resetGroupMacro(forces);
+	}
+	else if (param.is(local.parameters.setup.sendDataToUnity)) {
+		linkUnity();
 	}else {
 		var p4 = param.getParent(4);
 		if (p4 == forceGroupsGroup) {
