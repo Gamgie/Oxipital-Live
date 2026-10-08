@@ -19,52 +19,6 @@
 	"parameters": {
 		"Setup": {
 			"type": "Container",
-			"Presets": {
-				"type": "Container",
-				"Preset Name" : {
-					"type": "String",
-					"default": "OxiPreset"
-				},
-				"Preset": {
-					"type": "Enum"
-				},
-				"Save New":
-				{
-					"type": "Trigger"
-				},
-				"Update Current": {
-					"type": "Trigger"
-				},
-				"Load": {
-					"type": "Trigger"
-				},
-				"Refresh":
-				{
-					"type": "Trigger"
-				},
-				"Delete": {
-					"type": "Trigger"
-				},
-				"Async Loading":
-				{
-					"type": "Boolean",
-					"default": true
-				},
-				"Loaded Values":
-				{
-					"type": "Container",
-					"collapsed":true,
-					"Macros": {
-						"type": "Container"
-					},
-					"Orb Groups": {
-						"type": "Container"
-					},
-					"Force Groups": {
-						"type": "Container"
-					}
-				}
-			},
 			"Num Orb Groups": {
 				"type": "Integer",
 				"min": 0,
