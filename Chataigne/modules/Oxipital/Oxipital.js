@@ -1,6 +1,8 @@
 var numForceGroupsParam = local.parameters.setup.numForceGroups;
 var numOrbGroupsParam = local.parameters.setup.numOrbGroups;
 var numMacrosParam = local.parameters.setup.numMacros;
+var isConnectedParam = local.parameters.isConnected;
+var syncDataTrigger = local.parameters.syncData;
 
 var macrosGroup = local.parameters.macros;
 var forceGroupsGroup = local.parameters.forceGroups;
@@ -10,17 +12,42 @@ var forces = [];
 var orbGroups = [];
 var macros = [];
 
-//Unity links
+//Unity links, taken from the OSCQuery structure after each sync
 var unityBallet = null;
 var unityForceGroupsParam = null;
 var unityOrbGroupsParam = null;
-var macroUpdateTimestamp = null; // Used to update macro when they stop moving
 
-//Sync state : data is pushed to Unity only on connection and when Sync Data is pressed
-var pushOnNextStructure = false; // Set when Sync Data is pressed, data is pushed once the new structure is received
-var structureReceived = false; // Set when a structure is received, consumed by the websocket connection that follows it
-var countResyncRequested = false; // Avoids looping if Unity doesn't apply the group counts
-var syncRequestTime = -1; // Time at which a delayed Sync Data should be triggered, -1 if none
+// One entry per orb / force group parameter, rebuilt when the groups or macros change : a value change no longer
+// walks the whole module tree nor searches the Unity parameter by name again.
+var entries = [];        // every entry, for macro changes and full pushes
+var entriesByKey = {};   // "<group>/<category>/<parameter>" -> entry
+var unityTargets = {};   // same key -> { param : Unity parameter in local.values }, emptied after each sync
+
+// LINK WITH UNITY
+// A sync ("Sync Data") is heavy on both sides : Unity describes its whole scene on its main thread (about 44 ms and
+// 2.5 MB of garbage for the show scene), Chataigne rebuilds its tree and sends every value back. Chataigne's OSCQuery
+// module reconnects its websocket alone every 5 s, but only once a sync has succeeded. A sync is only requested when
+// needed :
+// - Unity not reachable yet (or after a failed sync) : one attempt every RETRY_DELAY seconds, cheap while Unity is off
+// - the websocket came back without a sync (Unity restarted) : one sync, to get the structure and push the values
+// - Unity is creating new groups (Num Orb / Force Groups raised) : one sync, GROUP_SYNC_DELAY seconds later
+// Every sync is noticed through the "Sync Data" trigger, whoever pressed it, so these rules never start a second one.
+// The decisions rely on time, not on the order of Chataigne's events : after a sync, the websocket can reconnect
+// before or after the new structure arrives (they come from two threads). Reacting to that order used to restart a
+// sync in a loop, every ~6 s, each one freezing Unity for 110-145 ms.
+// Do not add an action that syncs when "Is Connected" turns on : a sync disconnects and reconnects, it would loop.
+var RETRY_DELAY = 10;
+var SYNC_TIMEOUT = 8;        // no structure received this long after a sync : Unity was not reachable
+var RECONNECT_GRACE = 20;    // a reconnection this soon after a sync comes from that sync
+var GROUP_SYNC_DELAY = 1.5;  // leaves Unity the time to create the new groups
+
+var clock = 0;               // seconds, advanced by update()
+var lastSyncTime = 0;
+var syncPending = false;
+var unityReachable = false;
+var wasConnected = false;
+var groupSyncTime = -1;
+var retryLogged = false;
 
 var danceGroupParameters = {
 	"Transform":
@@ -161,121 +188,132 @@ var orbGroupParameters = {
 
 //CALLBACKS
 function init() {
-	linkUnity();
-	setup();
+	// update() only drives the link with Unity : no need for the default 50 calls per second
+	script.setUpdateRate(4);
 
-	macroUpdateTimestamp = util.getTimestamp();
+	setup();
+	linkUnity();
+	wasConnected = isConnectedParam.get();
+	unityReachable = wasConnected;
 }
 
+// Runs on the script's own thread : keep it to the link with Unity, nothing that rebuilds containers
 function update(deltaTime)
 {
-	if (syncRequestTime >= 0 && util.getTime() >= syncRequestTime) {
-		syncRequestTime = -1;
-		local.parameters.syncData.trigger();
+	clock += deltaTime;
+	var connected = isConnectedParam.get();
+
+	if (syncPending && clock - lastSyncTime > SYNC_TIMEOUT) {
+		syncPending = false;
+		unityReachable = false; // the module only reconnects alone after a successful sync
 	}
+
+	if (!syncPending) {
+		if (connected && !wasConnected && clock - lastSyncTime > RECONNECT_GRACE) {
+			requestSync("Unity is back, syncing once");
+		} else if (!connected && !unityReachable && clock - lastSyncTime > RETRY_DELAY) {
+			if (!retryLogged) script.log("Unity not reachable, trying again every " + RETRY_DELAY + " s");
+			retryLogged = true;
+			requestSync(null);
+		} else if (groupSyncTime >= 0 && clock >= groupSyncTime && (connected || unityReachable)) {
+			requestSync("Syncing once to reach the new groups");
+		}
+	}
+
+	wasConnected = connected;
+}
+
+function requestSync(reason) {
+	if (reason != null) script.log(reason);
+	// Also recorded by moduleParameterChanged (like a sync from the button or an action), set here in case
+	// Chataigne delivers that call later
+	lastSyncTime = clock;
+	syncPending = true;
+	groupSyncTime = -1;
+	syncDataTrigger.trigger();
+}
+
+function scheduleGroupSync() {
+	groupSyncTime = clock + GROUP_SYNC_DELAY;
 }
 
 
 function moduleParameterChanged(param) {
 
-	if (param.is(local.parameters.syncData)) {
-		pushOnNextStructure = true;
-	} else if (param.is(local.parameters.isConnected)) {
-		if (param.get()) onConnected();
-	} else if (param.is(numForceGroupsParam)) {
-		if (unityForceGroupsParam) unityForceGroupsParam.set(numForceGroupsParam.get());
+	if (param.is(isConnectedParam)) return; // read by update()
+
+	if (param.is(syncDataTrigger)) {
+		lastSyncTime = clock;
+		syncPending = true;
+		groupSyncTime = -1;
+		return;
+	}
+
+	if (param.is(numForceGroupsParam)) {
 		setupForces();
 		linkArrays();
+		if (setUnityCount(unityForceGroupsParam, numForceGroupsParam.get())) scheduleGroupSync();
 	} else if (param.is(numOrbGroupsParam)) {
-		if (unityOrbGroupsParam) unityOrbGroupsParam.set(numOrbGroupsParam.get());
 		setupOrbs();
 		linkArrays();
+		if (setUnityCount(unityOrbGroupsParam, numOrbGroupsParam.get())) scheduleGroupSync();
 	} else if (param.is(numMacrosParam)) {
 		setup();
 	} else if (param.getParent().is(macrosGroup)) {
-		updateAllParametersForMacro(param);
-		macroUpdateTimestamp = util.getTimestamp();
+		updateEntriesForMacro(macrosGroup.getControllables().indexOf(param));
 	} else if (param.is(local.parameters.setup.resetAllMacro)) {
 		resetGroupMacro(orbGroups);
 		resetGroupMacro(forces);
 	} else if (param.is(local.parameters.setup.sendDataToUnity)) {
-		requestSync(0); // Same as pressing Sync Data
+		requestSync("Send Data to Unity"); // Same as pressing Sync Data
 	} else {
+		// Base value or macro weight of an orb / force group parameter
 		var p4 = param.getParent(4);
-		if (p4 == forceGroupsGroup) {
-			var forceIndex = parseInt(param.getParent(3).niceName.split(" ")[2]) - 1;
-			var groupName = param.getParent(2).niceName;
-			var paramName = param.getParent().niceName;
-			updateParam(forceIndex, groupName, paramName, param, forceGroupParameters, forces);
-		} else if (p4 == orbGroupsGroup) {
-			var orbGroupIndex = parseInt(param.getParent(3).niceName.split(" ")[2]) - 1;
-			var groupName = param.getParent(2).niceName;
-			var paramName = param.getParent().niceName;
-			updateParam(orbGroupIndex, groupName, paramName, param, orbGroupParameters, orbGroups);
+		if (p4 == forceGroupsGroup || p4 == orbGroupsGroup) {
+			var entry = entriesByKey[param.getParent(3).niceName + "/" + param.getParent(2).niceName + "/" + param.getParent().niceName];
+			if (entry != null) updateEntry(entry);
 		}
 	}
 }
 
+// Called by Chataigne once the structure received from Unity is in place (after every successful sync)
 function dataStructureEvent() {
-	structureReceived = true;
-	var countsChanged = linkUnity();
-
-	if (countsChanged && !countResyncRequested) {
-		// Unity creates or removes groups on its next frame, sync again to get them before pushing
-		countResyncRequested = true;
-		requestSync(0.5);
-		return;
-	}
-	countResyncRequested = false;
-
-	if (pushOnNextStructure) {
-		pushOnNextStructure = false;
-		pushAllToUnity();
-	}
-}
-
-function onConnected() {
-	if (structureReceived) {
-		// Connection following a sync, the values tree is up to date
-		structureReceived = false;
-		pushAllToUnity();
-	} else {
-		// Reconnection without sync (e.g. Unity restarted), the values tree may be outdated
-		requestSync(0);
-	}
-}
-
-function requestSync(delay) {
-	syncRequestTime = util.getTime() + delay;
+	syncPending = false;
+	unityReachable = true;
+	retryLogged = false;
+	linkUnity();
 }
 
 
 //UPDATE
-function updateAllParametersForMacro(macroParam) {
-	var index = macrosGroup.getControllables().indexOf(macroParam);
-
-	updateAllParameters(index, forces, forceGroupParameters);
-	updateAllParameters(index, orbGroups, orbGroupParameters);
+function updateEntriesForMacro(index) {
+	if (index < 0) return;
+	for (var i = 0; i < entries.length; i++) {
+		var weight = entries[i].weights[index];
+		if (weight != null && weight.get() != 0) updateEntry(entries[i]);
+	}
 }
 
-function updateAllParameters(index, items, parameters) {
-	for (var i = 0; i < items.length; i++) {
-		var item = items[i];
-		var itemGroups = item.getContainers();
+// Base value + macro influences (relative to the range), clamped, sent to the Unity parameter.
+// Chataigne only sends it if it differs from the value Unity already has.
+function updateEntry(entry) {
+	var props = entry.props;
+	var value = entry.base.get();
 
-		for (var j = 0; j < itemGroups.length; j++) {
-			var itemGroup = itemGroups[j];
-			var itemParams = itemGroup.getContainers();
-			for (var k = 0; k < itemParams.length; k++) {
-				var itemParamGroup = itemParams[k];
-
-				var macroParam = findControllable(itemParamGroup, "macroWeight" + (index + 1));
-				if (macroParam == null || macroParam.get() == 0) continue;
-
-				updateParam(i, itemGroup.niceName, itemParamGroup.niceName, macroParam, parameters, items);
+	if (props.min != null && props.max != null) {
+		if (!props.noMacro) {
+			var range = props.max - props.min;
+			for (var i = 0; i < entry.weights.length && i < macros.length; i++) {
+				if (entry.weights[i] == null) continue;
+				var weight = entry.weights[i].get();
+				if (weight != 0) value += macros[i].get() * weight * range;
 			}
 		}
+		value = Math.min(props.max, Math.max(props.min, value));
 	}
+
+	var target = getUnityTarget(entry);
+	if (target != null && value != null) target.set(value);
 }
 
 function pushAllToUnity() {
@@ -285,102 +323,76 @@ function pushAllToUnity() {
 	}
 
 	script.log("Pushing all data to Unity");
-	linkArrays();
-	pushAllParameters(forces, forceGroupParameters);
-	pushAllParameters(orbGroups, orbGroupParameters);
+	for (var i = 0; i < entries.length; i++) updateEntry(entries[i]);
 }
 
-function pushAllParameters(items, parameters) {
+function getUnityTarget(entry) {
+	var cached = unityTargets[entry.key];
+	if (cached == null) {
+		cached = { "param": findUnityParam(entry) };
+		unityTargets[entry.key] = cached;
+	}
+	return cached.param;
+}
+
+function findUnityParam(entry) {
+	if (unityBallet == null) return null;
+	var manager = unityBallet.getChild(entry.manager);
+	if (manager == null) return null;
+	var item = manager.getChild(entry.item);
+	if (item == null) return null;
+	return item.getChild(entry.path);
+}
+
+function buildEntries() {
+	entries = [];
+	entriesByKey = {};
+	unityTargets = {};
+	addEntries(forces, forceGroupParameters, "StandardForceGroup");
+	addEntries(orbGroups, orbGroupParameters, "OrbGroup");
+}
+
+function addEntries(items, parameters, unityComponentName) {
 	for (var i = 0; i < items.length; i++) {
-		var itemGroups = items[i].getContainers();
+		var item = items[i];
+		var categories = item.getContainers();
+		for (var j = 0; j < categories.length; j++) {
+			var category = categories[j];
+			var definitions = danceGroupParameters[category.niceName] ? danceGroupParameters : parameters;
+			var categoryProps = definitions[category.niceName];
+			if (categoryProps == null) continue;
 
-		for (var j = 0; j < itemGroups.length; j++) {
-			var itemGroup = itemGroups[j];
-			var itemParams = itemGroup.getContainers();
+			var paramContainers = category.getContainers();
+			for (var k = 0; k < paramContainers.length; k++) {
+				var paramContainer = paramContainers[k];
+				var props = categoryProps[paramContainer.niceName];
+				if (props == null) continue;
 
-			for (var k = 0; k < itemParams.length; k++) {
-				updateParam(i, itemGroup.niceName, itemParams[k].niceName, null, parameters, items);
+				var base = findControllable(paramContainer, "baseValue");
+				if (base == null) {
+					script.logWarning("No Base Value for " + item.niceName + " > " + category.niceName + " > " + paramContainer.niceName);
+					continue;
+				}
+
+				var entry = {
+					"key": item.niceName + "/" + category.niceName + "/" + paramContainer.niceName,
+					"manager": item.getParent().niceName,
+					"item": item.niceName,
+					"path": props.customComponent != null ? props.customComponent : unityComponentName + "/" + paramContainer.name,
+					"props": props,
+					"base": base,
+					"weights": []
+				};
+				// Weights by name (index = macro index), a missing one is skipped
+				if (!props.noMacro && props.min != null && props.max != null) {
+					for (var m = 0; m < numMacrosParam.get(); m++) entry.weights.push(findControllable(paramContainer, "macroWeight" + (m + 1)));
+				}
+
+				entries.push(entry);
+				entriesByKey[entry.key] = entry;
 			}
 		}
 	}
-}
-
-function updateParam(index, groupName, paramName, sourceParam, parameters, items) {
-	/*if (sourceParam != null) {
-		var macroIndex = sourceParam.getParent().getControllables().indexOf(sourceParam);
-		if (macroIndex > 0 && macros[macroIndex - 1].get() == 0) {
-			return;
-		}
-	}*/
-
-	var targetParams = danceGroupParameters[groupName] ? danceGroupParameters : parameters;
-	if (targetParams[groupName] == null) return;
-
-	var paramProps = targetParams[groupName][paramName];
-	if (paramProps == null) return;
-
-	var item = items[index];
-	if (item == null) return;
-	var itemGroup = item.getChild(groupName);
-	if (itemGroup == null) return;
-	var itemParamGroup = itemGroup.getChild(paramName);
-	if (itemParamGroup == null) return;
-	var itemParam = findControllable(itemParamGroup, "baseValue");
-	if (itemParam == null) {
-		script.logWarning("No Base Value for " + item.niceName + " > " + groupName + " > " + paramName);
-		return;
-	}
-	var paramMin = paramProps.min;
-	var paramMax = paramProps.max;
-
-	//script.log("Updating " + groupName + "/" + paramName + " for " + item.niceName + "," + index);
-
-	var managerName = item.getParent().niceName;
-
-	var finalValue = itemParam.get();
-
-	if (!paramProps.noMacro) {
-		if (paramMin != null && paramMax != null) {
-			for (var i = 0; i < numMacrosParam.get(); i++) {
-				var macroWeightParam = findControllable(itemParamGroup, "macroWeight" + (i + 1));
-				if (macroWeightParam == null || macros[i] == null) continue;
-				var macroWeight = macroWeightParam.get();
-				var macroValue = macros[i].get();
-				var macroInfluence = macroValue * macroWeight * (paramMax - paramMin);
-				finalValue += macroInfluence;
-			}
-		}
-	}
-
-	if (paramMin != null && paramMax != null) finalValue = Math.min(paramMax, Math.max(paramMin, finalValue));
-
-
-	var paramPath = "";
-	if (paramProps.customComponent != null) {
-		// script.log("Using custom component : " + paramProps.customComponent);
-		paramPath = paramProps.customComponent;
-	} else {
-		var unityComponentName = parameters == forceGroupParameters ? "StandardForceGroup" : "OrbGroup";
-		paramPath = unityComponentName + "/" + itemParamGroup.name;
-	}
-
-
-	updateUnityParam(managerName, item.niceName, paramPath, finalValue);
-}
-
-function updateUnityParam(managerName, itemName, paramPath, value) {
-	if (unityBallet == null) return;
-
-	var manager = unityBallet.getChild(managerName);
-	if (manager == null) return;
-
-	var item = manager.getChild(itemName);
-	if (item == null) return;
-
-	var param = item.getChild(paramPath);
-	if (param == null) return;
-
-	if (value != null) param.set(value);
 }
 
 // SETUP
@@ -391,44 +403,44 @@ function setup() {
 	linkArrays();
 }
 
-function clearItems(group) {
-	group.clear();
-}
-
 function linkArrays() {
 	macros = macrosGroup.getControllables();
 	forces = forceGroupsGroup.getContainers();
 	orbGroups = orbGroupsGroup.getContainers();
+	buildEntries();
 }
 
-// Returns true if Unity's group counts had to be changed
 function linkUnity() {
+	unityTargets = {};
 	unityBallet = local.values.getChild("ballet");
 	unityOrbGroupsParam = null;
 	unityForceGroupsParam = null;
 
 	if (unityBallet == null) {
 		script.log("No ballet found");
-		return false;
+		return;
 	}
 
 	var unityOrbs = unityBallet.getChild(orbGroupsGroup.niceName);
 	var unityForces = unityBallet.getChild(forceGroupsGroup.niceName);
+	if (unityOrbs != null) unityOrbGroupsParam = unityOrbs.getChild("OrbManager/count");
+	if (unityForces != null) unityForceGroupsParam = unityForces.getChild("StandardForceManager/count");
 
-	if (unityOrbs != null) unityOrbGroupsParam = unityOrbs.OrbManager.count;
-	if (unityForces != null) unityForceGroupsParam = unityForces.StandardForceManager.count;
+	var newOrbs = setUnityCount(unityOrbGroupsParam, numOrbGroupsParam.get());
+	var newForces = setUnityCount(unityForceGroupsParam, numForceGroupsParam.get());
 
-	var countsChanged = false;
-	if (unityOrbGroupsParam && unityOrbGroupsParam.get() != numOrbGroupsParam.get()) {
-		unityOrbGroupsParam.set(numOrbGroupsParam.get());
-		countsChanged = true;
-	}
-	if (unityForceGroupsParam && unityForceGroupsParam.get() != numForceGroupsParam.get()) {
-		unityForceGroupsParam.set(numForceGroupsParam.get());
-		countsChanged = true;
-	}
+	// New groups only appear in the structure after a sync : their values are pushed after it
+	if (newOrbs || newForces) scheduleGroupSync();
+	else pushAllToUnity();
+}
 
-	return countsChanged;
+// Sets a group count in Unity. Returns true when Unity is going to create new groups.
+function setUnityCount(unityParam, count) {
+	if (unityParam == null) return false;
+	var current = unityParam.get();
+	if (current == count) return false;
+	unityParam.set(count);
+	return count > current;
 }
 
 function setupMacros() {
@@ -557,7 +569,7 @@ function setupMacrosToItem(item) {
 			var paramProp = getPropForParam(paramContainer);
 			if (paramProp == null) continue;
 
-			// Macros only apply to numeric parameters with a range, see updateParam
+			// Macros only apply to numeric parameters with a range, see updateEntry
 			var hasMacros = !paramProp.noMacro && (paramProp.type == "float" || paramProp.type == "int") && paramProp.min != null && paramProp.max != null;
 			var numMacros = hasMacros ? numMacrosParam.get() : 0;
 
